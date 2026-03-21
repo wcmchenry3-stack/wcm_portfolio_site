@@ -1,5 +1,53 @@
 # Git Workflow
 
+## Starting a Work Session (do this every time)
+
+Before touching any code, always pull the latest `dev` from remote and branch off it.
+This ensures your feature starts from the most up-to-date integration state.
+
+```bash
+# 1. Switch to dev and pull the latest from remote
+git checkout dev
+git pull origin dev
+
+# 2. Create your feature or bug branch
+git checkout -b feature/<name>
+# or
+git checkout -b bug/<name>
+
+# 3. Start the dev server
+npm run dev
+```
+
+That's it — you're ready to work.
+
+---
+
+## Finishing a Work Session
+
+When your work is done and ready for review:
+
+```bash
+# 1. Verify the build is clean
+npm run build
+
+# 2. Verify all tests pass
+npm run test:run
+
+# 3. Stage and commit your changes
+git add <specific files>   # prefer naming files over "git add ."
+git commit -m "feat(scope): short description of what changed"
+
+# 4. Push the feature branch to remote
+git push -u origin feature/<name>
+
+# 5. Open a PR on GitHub: base branch = dev
+```
+
+**Never push directly to `dev` or `main`** — the repo requires a PR for both.
+
+---
+
 ## Branch Strategy
 
 | Branch | Role | Notes |
