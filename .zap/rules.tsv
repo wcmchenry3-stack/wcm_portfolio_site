@@ -1,0 +1,3 @@
+10027	IGNORE	(Information Disclosure - Suspicious Comments) - false positive in minified React/Vite bundle
+90003	IGNORE	(Sub Resource Integrity Attribute Missing) - self-hosted assets with content-hashed filenames; Google Fonts does not support SRI
+10109	IGNORE	(Modern Web Application) - expected for React SPA
