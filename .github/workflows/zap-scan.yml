@@ -1,4 +1,4 @@
-name: OWASP ZAP Security Scan
+name: ZAP Weekly Scan
 
 on:
   schedule:
@@ -8,26 +8,8 @@ on:
 
 jobs:
   zap-scan:
-    name: ZAP Baseline Scan
-    runs-on: ubuntu-latest
-    permissions:
-      issues: write
-      contents: read
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v6
-
-      - name: Run ZAP Baseline Scan
-        uses: zaproxy/action-baseline@v0.15.0
-        with:
-          target: ${{ secrets.SITE_URL }}
-          rules_file_name: .zap/rules.tsv
-          fail_action: false
-
-      - name: Upload ZAP Report
-        uses: actions/upload-artifact@v7
-        if: always()
-        with:
-          name: zap-report-${{ github.run_id }}
-          path: report_html.html
-          retention-days: 30
+    uses: wcmchenry3-stack/.github/.github/workflows/called-zap-scheduled.yml@main
+    with:
+      target-url: ${{ secrets.SITE_URL }}
+      artifact-name: 'zap-weekly-portfolio'
+    secrets: inherit

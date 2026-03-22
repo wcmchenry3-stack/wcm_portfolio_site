@@ -1,0 +1,19 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  ci:
+    uses: wcmchenry3-stack/wcm_portfolio_site/.github/workflows/ci.yml@main
+    secrets: inherit
+
+  deploy:
+    needs: ci
+    uses: wcmchenry3-stack/.github/.github/workflows/called-deploy-render.yml@main
+    with:
+      service-name: 'wcm-portfolio-site'
+      service-id: 'srv-d6uvamndiees73coifh0'
+      zap-target-url: 'https://wcm-portfolio-site.onrender.com'
+    secrets: inherit
