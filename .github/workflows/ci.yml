@@ -1,32 +1,43 @@
 name: CI
 
 on:
-  pull_request:
-    branches: [main]
   push:
-    branches: [main]
+    branches: ['**']
+  pull_request:
+    branches: [dev, main]
 
 jobs:
+  gate-main-source:
+    uses: wcmchenry3-stack/.github/.github/workflows/called-gate-main-source.yml@main
+    secrets: inherit
+
   secret-scan:
     uses: wcmchenry3-stack/.github/.github/workflows/called-secret-scan.yml@main
     secrets: inherit
 
-  lint-frontend:
+  lint:
     uses: wcmchenry3-stack/.github/.github/workflows/called-lint-frontend.yml@main
     with:
+      working-directory: .
       run-a11y: true
     secrets: inherit
 
-  test-frontend:
+  test:
     uses: wcmchenry3-stack/.github/.github/workflows/called-test-frontend.yml@main
     with:
+      working-directory: .
       coverage-threshold: 80
     secrets: inherit
 
-  build-frontend:
+  build:
     uses: wcmchenry3-stack/.github/.github/workflows/called-build-frontend.yml@main
+    with:
+      working-directory: .
     secrets: inherit
 
-  cve-frontend:
+  cve:
     uses: wcmchenry3-stack/.github/.github/workflows/called-cve-frontend.yml@main
+    with:
+      working-directory: .
+      audit-level: high
     secrets: inherit
