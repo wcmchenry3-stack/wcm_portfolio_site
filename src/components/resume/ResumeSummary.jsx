@@ -8,10 +8,11 @@ export function ResumeSummary() {
         Professional Summary
       </h2>
       <p className="text-brand-dark leading-relaxed">
-        As a proven product leader and people manager, I have a talent for engaging engineers and
-        customers. I quickly tackle complex problems to find effective solutions and excel in
-        communicating with diverse audiences.
+        As a proven product leader and people manager, I have a talent for
+        engaging engineers and customers. I quickly tackle complex problems to
+        find effective solutions and excel in communicating with diverse
+        audiences.
       </p>
     </section>
-  )
+  );
 }

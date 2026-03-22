@@ -1,8 +1,11 @@
-import { softSkills, technicalSkills } from '../../data/skills.js'
+import { softSkills, technicalSkills } from '../../data/skills.js';
 
 export function SkillsSection() {
   return (
-    <section aria-labelledby="skills-heading" className="bg-brand-light py-14 sm:py-20">
+    <section
+      aria-labelledby="skills-heading"
+      className="bg-brand-light py-14 sm:py-20"
+    >
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2
           id="skills-heading"
@@ -14,7 +17,9 @@ export function SkillsSection() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           {/* Soft Skills */}
           <div className="bg-white rounded-xl p-6 shadow-sm border border-slate-200">
-            <h3 className="text-lg font-semibold text-brand-navy mb-4">Soft Skills</h3>
+            <h3 className="text-lg font-semibold text-brand-navy mb-4">
+              Soft Skills
+            </h3>
             <ul className="flex flex-wrap gap-2" role="list">
               {softSkills.map((skill) => (
                 <li key={skill}>
@@ -28,7 +33,9 @@ export function SkillsSection() {
 
           {/* Technical Skills */}
           <div className="bg-white rounded-xl p-6 shadow-sm border border-slate-200">
-            <h3 className="text-lg font-semibold text-brand-navy mb-4">Technical Skills</h3>
+            <h3 className="text-lg font-semibold text-brand-navy mb-4">
+              Technical Skills
+            </h3>
             <ul className="flex flex-wrap gap-2" role="list">
               {technicalSkills.map((skill) => (
                 <li key={skill}>
@@ -42,5 +49,5 @@ export function SkillsSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

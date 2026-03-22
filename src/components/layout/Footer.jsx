@@ -3,7 +3,8 @@ export function Footer() {
     <footer className="bg-brand-dark border-t border-brand-navy mt-auto">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="text-brand-muted text-sm">
-          &copy; {new Date().getFullYear()} Bill McHenry &mdash; Calgary, Alberta
+          &copy; {new Date().getFullYear()} Bill McHenry &mdash; Calgary,
+          Alberta
         </p>
 
         <a
@@ -25,5 +26,5 @@ export function Footer() {
         </a>
       </div>
     </footer>
-  )
+  );
 }

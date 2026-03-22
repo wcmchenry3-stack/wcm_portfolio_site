@@ -1,12 +1,18 @@
-import { ResumeSummary } from '../components/resume/ResumeSummary.jsx'
-import { ExperienceList } from '../components/resume/ExperienceList.jsx'
+import { ResumeSummary } from '../components/resume/ResumeSummary.jsx';
+import { ExperienceList } from '../components/resume/ExperienceList.jsx';
 
 export default function Resume() {
   return (
-    <main id="main-content" tabIndex={-1} className="scroll-mt-20 flex-1 bg-brand-light">
+    <main
+      id="main-content"
+      tabIndex={-1}
+      className="scroll-mt-20 flex-1 bg-brand-light"
+    >
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-10">
-          <h1 className="text-3xl sm:text-4xl font-bold text-brand-dark">Resume</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold text-brand-dark">
+            Resume
+          </h1>
           <a
             href="https://www.linkedin.com/in/bill-mchenry/"
             target="_blank"
@@ -24,5 +30,5 @@ export default function Resume() {
         </div>
       </div>
     </main>
-  )
+  );
 }
