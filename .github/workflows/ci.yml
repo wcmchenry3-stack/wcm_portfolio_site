@@ -7,50 +7,37 @@ on:
     branches: [dev, main]
 
 jobs:
+  gate-main-source:
+    uses: wcmchenry3-stack/.github/.github/workflows/called-gate-main-source.yml@main
+    secrets: inherit
+
+  secret-scan:
+    uses: wcmchenry3-stack/.github/.github/workflows/called-secret-scan.yml@main
+    secrets: inherit
+
   lint:
-    name: Lint
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-      - uses: actions/setup-node@v6
-        with:
-          node-version: 20
-          cache: npm
-      - run: npm ci
-      - run: npm run lint
+    uses: wcmchenry3-stack/.github/.github/workflows/called-lint-frontend.yml@main
+    with:
+      working-directory: .
+      run-a11y: true
+    secrets: inherit
 
   test:
-    name: Test
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-      - uses: actions/setup-node@v6
-        with:
-          node-version: 20
-          cache: npm
-      - run: npm ci
-      - run: npm run test:run
+    uses: wcmchenry3-stack/.github/.github/workflows/called-test-frontend.yml@main
+    with:
+      working-directory: .
+      coverage-threshold: 80
+    secrets: inherit
 
   build:
-    name: Build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-      - uses: actions/setup-node@v6
-        with:
-          node-version: 20
-          cache: npm
-      - run: npm ci
-      - run: npm run build
+    uses: wcmchenry3-stack/.github/.github/workflows/called-build-frontend.yml@main
+    with:
+      working-directory: .
+    secrets: inherit
 
-  audit:
-    name: Security Audit
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-      - uses: actions/setup-node@v6
-        with:
-          node-version: 20
-          cache: npm
-      - run: npm ci
-      - run: npm audit --audit-level=high
+  cve:
+    uses: wcmchenry3-stack/.github/.github/workflows/called-cve-frontend.yml@main
+    with:
+      working-directory: .
+      audit-level: high
+    secrets: inherit
