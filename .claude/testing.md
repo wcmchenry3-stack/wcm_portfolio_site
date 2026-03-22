@@ -1,112 +1,52 @@
-# Testing Standards
+# Testing — Portfolio Component Cases
+
+See [~/.claude/standards/testing.md](~/.claude/standards/testing.md) for universal conventions (coverage thresholds, accessible query priority, what not to test).
 
 ## Framework
 
-- **Test runner:** Vitest
-- **Component testing:** React Testing Library (`@testing-library/react`)
-- **DOM matchers:** `@testing-library/jest-dom`
+- **Test runner:** Vitest (globals: true, environment: jsdom)
 - **Setup file:** `src/test/setup.js` — imports `@testing-library/jest-dom`
+- **Run:** `npm run test:run` (CI), `npm test` (watch), `npm run test:coverage`
 
-## Setup in `vite.config.js`
+## Component Test Cases
 
-```js
-test: {
-  globals: true,
-  environment: 'jsdom',
-  setupFiles: './src/test/setup.js',
-}
-```
-
-## File Naming
-
-- Test files: `ComponentName.test.jsx` (co-located with source or in `__tests__/`)
-- Data tests: `filename.test.js`
-
-## Coverage Targets
-
-- Logic-heavy components and data files: aim 80%+
-- Pure presentational components: smoke test (renders without crash) is sufficient
-- Data files (`skills.js`, `experience.js`): test shape, required fields, no empty strings
-
-## What to Test
-
-### Data files
-```js
-// skills.js
-- softSkills is an array of strings, length > 0
-- technicalSkills is an array of strings, length > 0
-- No empty strings in either array
-
-// experience.js
-- Array with length > 0
-- Each entry has `company` (string)
-- Each entry has either flat `title`/`period`/`bullets` OR `roles` array
-- Each role has `title`, `period`, `bullets` (array of strings)
-- No empty bullet strings
-```
-
-### Components
-
-**Navbar**
-- Renders skip-to-content link as first focusable element
-- Skip link href is `#main-content`
-- Skip link is visually hidden by default (has `sr-only` class)
-- Hamburger button has `aria-expanded="false"` by default
-- Hamburger button has `aria-controls="mobile-menu"`
+### Navbar
+- Renders skip-to-content link as first focusable element with `href="#main-content"`
+- Skip link has `sr-only` class by default
+- Hamburger has `aria-expanded="false"` by default, `aria-controls="mobile-menu"`
 - Clicking hamburger sets `aria-expanded="true"`
 - Mobile menu closes on Escape key
-- Nav links render with correct `href` values
 
-**Footer**
-- Renders LinkedIn link with `target="_blank"`
-- LinkedIn link has `rel="noopener noreferrer"`
-- LinkedIn link has descriptive `aria-label`
+### Footer
+- LinkedIn link has `target="_blank"`, `rel="noopener noreferrer"`, descriptive `aria-label`
 
-**HeroSection**
-- Renders the main headline
-- Headshot `<img>` has non-empty `alt` attribute
+### HeroSection
+- Renders main headline
+- Headshot `<img>` has non-empty `alt`
 - "View Resume" link navigates to `/resume`
 
-**SkillsSection**
-- Renders an `<h2>` heading
-- Soft skills are in a `<ul>` element
-- Technical skills are in a `<ul>` element
-- Correct number of skill items rendered
+### SkillsSection
+- Renders `<h2>` heading
+- Soft skills and technical skills each in a `<ul>`
+- Correct number of items rendered
 
-**ExperienceItem**
-- Renders company name
-- Renders all role titles
-- Renders bullet points as `<li>` elements
-- Handles both single-role and multi-role company formats
+### ExperienceItem
+- Renders company name, all role titles, bullets as `<li>` elements
+- Handles both single-role and multi-role formats
 
-**ResumeSummary**
+### ResumeSummary
 - Renders summary text
 
-**Home page**
+### Home / Resume pages
 - Renders without crash
 - Contains `<main>` landmark with `id="main-content"`
 
-**Resume page**
-- Renders without crash
-- Contains `<main>` landmark with `id="main-content"`
+## Data File Tests
 
-## What NOT to Test
+### skills.js
+- `softSkills` and `technicalSkills` are non-empty string arrays with no empty strings
 
-- Implementation details (component state variable names, internal function names)
-- CSS class names (test behavior, not styling)
-- Third-party library internals (React Router, Tailwind)
-
-## Running Tests
-
-```bash
-npm test              # run all tests (watch mode)
-npm run test:run      # single run (CI mode)
-npm run test:coverage # with coverage report
-```
-
-Add to `package.json` scripts:
-```json
-"test": "vitest",
-"test:run": "vitest run",
-"test:coverage": "vitest run --coverage"
-```
+### experience.js
+- Array with length > 0; each entry has `company`
+- Each entry has flat `title/period/bullets` OR `roles` array
+- No empty bullet strings
