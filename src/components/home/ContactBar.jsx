@@ -1,9 +1,6 @@
 export function ContactBar() {
   return (
-    <section
-      aria-label="Contact information"
-      className="bg-brand-navy py-10"
-    >
+    <section aria-label="Contact information" className="bg-brand-navy py-10">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <p className="text-brand-light text-lg font-medium mb-4">
           Interested in working together?
@@ -27,5 +24,5 @@ export function ContactBar() {
         </a>
       </div>
     </section>
-  )
+  );
 }

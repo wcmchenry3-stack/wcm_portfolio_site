@@ -1,8 +1,8 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Navbar } from './components/layout/Navbar.jsx'
-import { Footer } from './components/layout/Footer.jsx'
-import Home from './pages/Home.jsx'
-import Resume from './pages/Resume.jsx'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Navbar } from './components/layout/Navbar.jsx';
+import { Footer } from './components/layout/Footer.jsx';
+import Home from './pages/Home.jsx';
+import Resume from './pages/Resume.jsx';
 
 export default function App() {
   return (
@@ -16,5 +16,5 @@ export default function App() {
         <Footer />
       </div>
     </BrowserRouter>
-  )
+  );
 }

@@ -75,13 +75,13 @@ git push -u origin feature/<name>
 
 ## Branch Strategy
 
-| Branch | Role | Notes |
-|--------|------|-------|
-| `main` | Production | Auto-deploys to Render on push; never push directly |
-| `dev` | Integration | Default branch in GitHub; never push directly |
-| `feature/<name>` | Feature work | Branch from `dev`; PR back into `dev` |
-| `fix/<name>` | Bug fixes | Branch from `dev`; PR back into `dev` |
-| `chore/<name>` | Maintenance | Branch from `dev`; PR back into `dev` |
+| Branch           | Role         | Notes                                               |
+| ---------------- | ------------ | --------------------------------------------------- |
+| `main`           | Production   | Auto-deploys to Render on push; never push directly |
+| `dev`            | Integration  | Default branch in GitHub; never push directly       |
+| `feature/<name>` | Feature work | Branch from `dev`; PR back into `dev`               |
+| `fix/<name>`     | Bug fixes    | Branch from `dev`; PR back into `dev`               |
+| `chore/<name>`   | Maintenance  | Branch from `dev`; PR back into `dev`               |
 
 ## Branch Naming Examples
 
@@ -105,6 +105,7 @@ a11y/focus-ring-audit
 ```
 
 ### Types
+
 - `feat:` — new feature or component
 - `fix:` — bug fix
 - `chore:` — tooling, config, dependencies
@@ -116,6 +117,7 @@ a11y/focus-ring-audit
 - `security:` — security hardening, header config, audit fixes
 
 ### Examples
+
 ```
 feat(navbar): add skip-to-content link and mobile hamburger
 fix(resume): correct heading hierarchy h3→h4 for role titles
@@ -138,15 +140,18 @@ chore: configure Vitest and React Testing Library
 
 ```markdown
 ## Changes
+
 - [ ] Describe what changed
 
 ## Pre-Commit Checks
+
 - [ ] `npm run lint` — zero errors
 - [ ] `npm run test:run` — zero failures
 - [ ] `npm run build` — no errors
 - [ ] `npm audit --audit-level=high` — no high/critical CVEs
 
 ## Accessibility
+
 - [ ] axe DevTools — no violations on affected pages
 - [ ] Keyboard-only navigation tested
 - [ ] Tested at 320px viewport width
@@ -154,6 +159,7 @@ chore: configure Vitest and React Testing Library
 - [ ] Mobile tested at 375px
 
 ## Merge Readiness
+
 - [ ] No merge conflicts with dev
 - [ ] All GitHub Actions CI jobs are green
 ```
@@ -161,6 +167,7 @@ chore: configure Vitest and React Testing Library
 ### Releasing to Production
 
 When `dev` is stable and ready to release:
+
 1. Open PR: `dev` → `main`
 2. PR title: `release: v<semver>` or `release: <feature summary>`
 3. All CI checks must pass on the `dev` → `main` PR

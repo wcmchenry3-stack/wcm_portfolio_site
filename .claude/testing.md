@@ -31,6 +31,7 @@ test: {
 ## What to Test
 
 ### Data files
+
 ```js
 // skills.js
 - softSkills is an array of strings, length > 0
@@ -48,6 +49,7 @@ test: {
 ### Components
 
 **Navbar**
+
 - Renders skip-to-content link as first focusable element
 - Skip link href is `#main-content`
 - Skip link is visually hidden by default (has `sr-only` class)
@@ -58,35 +60,42 @@ test: {
 - Nav links render with correct `href` values
 
 **Footer**
+
 - Renders LinkedIn link with `target="_blank"`
 - LinkedIn link has `rel="noopener noreferrer"`
 - LinkedIn link has descriptive `aria-label`
 
 **HeroSection**
+
 - Renders the main headline
 - Headshot `<img>` has non-empty `alt` attribute
 - "View Resume" link navigates to `/resume`
 
 **SkillsSection**
+
 - Renders an `<h2>` heading
 - Soft skills are in a `<ul>` element
 - Technical skills are in a `<ul>` element
 - Correct number of skill items rendered
 
 **ExperienceItem**
+
 - Renders company name
 - Renders all role titles
 - Renders bullet points as `<li>` elements
 - Handles both single-role and multi-role company formats
 
 **ResumeSummary**
+
 - Renders summary text
 
 **Home page**
+
 - Renders without crash
 - Contains `<main>` landmark with `id="main-content"`
 
 **Resume page**
+
 - Renders without crash
 - Contains `<main>` landmark with `id="main-content"`
 
@@ -105,6 +114,7 @@ npm run test:coverage # with coverage report
 ```
 
 Add to `package.json` scripts:
+
 ```json
 "test": "vitest",
 "test:run": "vitest run",

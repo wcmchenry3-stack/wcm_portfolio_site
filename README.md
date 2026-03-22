@@ -13,11 +13,11 @@ Personal portfolio site for Bill McHenry, Product Management Leader based in Cal
 
 ## Branching Strategy
 
-| Branch | Purpose |
-|--------|---------|
-| `main` | Production — auto-deploys to Render |
-| `dev` | Integration branch (default) |
-| `feature/*` | Feature work — PR into `dev` |
+| Branch      | Purpose                             |
+| ----------- | ----------------------------------- |
+| `main`      | Production — auto-deploys to Render |
+| `dev`       | Integration branch (default)        |
+| `feature/*` | Feature work — PR into `dev`        |
 
 Release flow: `feature/*` → `dev` → `main`
 
