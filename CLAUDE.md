@@ -1,21 +1,34 @@
 # Bill McHenry Portfolio — Claude Standards
-<!-- Global standards: ~/.claude/CLAUDE.md and ~/.claude/standards/ -->
 
 ## Stack
+
 React + Vite | Tailwind CSS | React Router v6
 
 ## Branching
+
 - `main` → production (Render auto-deploy)
 - `dev` → default branch (integration)
-- `feat/*`, `fix/*`, `a11y/*` → local work, PR into `dev`; `dev` → `main` to release
+- `feature/*` → local work, PR into `dev`; `dev` → `main` to release
 
 ## Standards
-- [Git workflow](~/.claude/standards/git.md) — branch strategy, commits, PR process
-- [Accessibility](~/.claude/standards/accessibility.md) + [.claude/accessibility.md](.claude/accessibility.md) — WCAG 2.2 AA + portfolio colour palette
-- [Testing](~/.claude/standards/testing.md) + [.claude/testing.md](.claude/testing.md) — universal patterns + component-specific cases
-- [Code style](~/.claude/standards/code-style.md) — React/JS/Tailwind conventions
+
+- [Accessibility](.claude/accessibility.md) — WCAG 2.2 AA required on all UI
+- [Testing](.claude/testing.md) — unit tests required for all components
+- [Code style](.claude/code-style.md) — React/JS conventions
+- [Git workflow](.claude/git-workflow.md) — branch strategy, commit format, pre-commit checklist, PR process
+
+## Key Rules (non-negotiable)
+
+- No `div` for interactive elements — use semantic HTML (`button`, `a`, `nav`, etc.)
+- All images must have descriptive `alt` text; decorative images use `alt=""`
+- Every interactive element must have a visible focus ring (Tailwind `focus:ring-2`)
+- Touch targets minimum 44×44px
+- Contrast ratio ≥ 4.5:1 for text, ≥ 3:1 for UI components
+- `<html lang="en">` must be present in index.html
+- No inline styles — Tailwind utility classes only
 
 ## Pre-Commit Checklist (required before every commit)
+
 Run all of the following — **do not commit if any step fails**:
 
 ```bash
@@ -26,17 +39,19 @@ npm audit --audit-level=high  # No high or critical vulnerabilities
 ```
 
 ## Merge Rules (non-negotiable)
+
 - **No merge conflicts** — resolve all conflicts before opening a PR
 - **All CI checks must pass** — lint, test, build, and audit jobs must be green
+- **No broken builds merge** — `npm run build` must succeed on the PR branch
 - PRs target `dev`; only `dev` → `main` for releases
-- Merging `dev` → `main` triggers Render auto-deploy to billmchenry.org
 
 ## Commands
+
 - Dev server: `npm run dev`
 - Build: `npm run build`
-- Preview: `npm run preview`
+- Preview prod build: `npm run preview`
 - Tests (watch): `npm test`
-- Tests (CI): `npm run test:run`
-- Tests (coverage): `npm run test:coverage`
+- Tests (CI/single run): `npm run test:run`
+- Tests (with coverage): `npm run test:coverage`
 - Lint: `npm run lint`
-- Audit: `npm audit --audit-level=high`
+- Dependency audit: `npm audit --audit-level=high`

@@ -7,7 +7,7 @@ export const softSkills = [
   'Leadership',
   'People Management',
   'Problem-Solving',
-]
+];
 
 export const technicalSkills = [
   'Alteryx',
@@ -18,4 +18,4 @@ export const technicalSkills = [
   'Splunk',
   'SQL',
   'Tableau',
-]
+];

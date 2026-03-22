@@ -1,6 +1,6 @@
-import { HeroSection } from '../components/home/HeroSection.jsx'
-import { SkillsSection } from '../components/home/SkillsSection.jsx'
-import { ContactBar } from '../components/home/ContactBar.jsx'
+import { HeroSection } from '../components/home/HeroSection.jsx';
+import { SkillsSection } from '../components/home/SkillsSection.jsx';
+import { ContactBar } from '../components/home/ContactBar.jsx';
 
 export default function Home() {
   return (
@@ -9,5 +9,5 @@ export default function Home() {
       <SkillsSection />
       <ContactBar />
     </main>
-  )
+  );
 }

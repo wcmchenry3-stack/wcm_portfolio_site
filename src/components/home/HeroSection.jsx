@@ -1,8 +1,11 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 export function HeroSection() {
   return (
-    <section aria-labelledby="hero-heading" className="bg-brand-dark py-16 sm:py-24">
+    <section
+      aria-labelledby="hero-heading"
+      className="bg-brand-dark py-16 sm:py-24"
+    >
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col-reverse sm:flex-row items-center gap-10 sm:gap-16">
           {/* Text content */}
@@ -14,8 +17,8 @@ export function HeroSection() {
               id="hero-heading"
               className="text-3xl sm:text-4xl lg:text-5xl font-bold text-brand-light leading-tight mb-6"
             >
-              Crafting Innovative Solutions as a Data-Driven, Problem-Solving Product Management
-              Leader
+              Crafting Innovative Solutions as a Data-Driven, Problem-Solving
+              Product Management Leader
             </h1>
             <div className="flex flex-col sm:flex-row gap-3 justify-center sm:justify-start">
               <Link
@@ -43,12 +46,12 @@ export function HeroSection() {
               alt="Bill McHenry, Product Manager"
               className="w-40 h-40 sm:w-52 sm:h-52 rounded-full object-cover border-4 border-brand-teal shadow-lg"
               onError={(e) => {
-                e.currentTarget.style.display = 'none'
+                e.currentTarget.style.display = 'none';
               }}
             />
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
