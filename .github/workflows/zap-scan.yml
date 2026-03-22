@@ -1,0 +1,26 @@
+name: OWASP ZAP Security Scan
+
+on:
+  schedule:
+    # Weekly Sunday at 06:00 UTC (midnight Mountain Time)
+    - cron: '0 6 * * 0'
+  workflow_dispatch:
+
+jobs:
+  zap-scan:
+    name: ZAP Baseline Scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run ZAP Baseline Scan
+        uses: zaproxy/action-baseline@v0.12.0
+        with:
+          target: ${{ secrets.SITE_URL }}
+          fail_action: false
+
+      - name: Upload ZAP Report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: zap-report-${{ github.run_id }}
+          path: report_html.html
+          retention-days: 30
