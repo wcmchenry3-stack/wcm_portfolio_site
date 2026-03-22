@@ -33,6 +33,7 @@ Separate each group with a blank line.
 ## Tailwind Class Ordering Convention
 
 Apply Tailwind classes in this order within a `className`:
+
 1. Layout (`flex`, `grid`, `block`, `hidden`)
 2. Position (`relative`, `absolute`, `fixed`, `sticky`, `top-*`, `z-*`)
 3. Sizing (`w-*`, `h-*`, `max-w-*`, `min-h-*`)
@@ -52,6 +53,7 @@ Never use the `style` prop. Use Tailwind utilities. If a value isn't in Tailwind
 ## Props Documentation
 
 For components with non-obvious props, add a JSDoc comment:
+
 ```js
 /**
  * @param {{ company: string, roles: Array<{ title: string, period: string, bullets: string[] }> }} props

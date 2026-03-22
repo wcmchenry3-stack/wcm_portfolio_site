@@ -1,23 +1,23 @@
-import { useState, useEffect } from 'react'
-import { NavLink } from 'react-router-dom'
+import { useState, useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 
 export function Navbar() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const handleKeyDown = (e) => {
-      if (e.key === 'Escape') setIsOpen(false)
-    }
-    document.addEventListener('keydown', handleKeyDown)
-    return () => document.removeEventListener('keydown', handleKeyDown)
-  }, [])
+      if (e.key === 'Escape') setIsOpen(false);
+    };
+    document.addEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, []);
 
   const navLinkClass = ({ isActive }) =>
     `text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark rounded px-2 py-1 min-h-[44px] inline-flex items-center ${
       isActive
         ? 'text-brand-teal underline underline-offset-4'
         : 'text-brand-light hover:text-brand-teal'
-    }`
+    }`;
 
   return (
     <>
@@ -44,7 +44,10 @@ export function Navbar() {
           </NavLink>
 
           {/* Desktop nav links */}
-          <ul className="hidden sm:flex items-center gap-2 list-none m-0 p-0" role="list">
+          <ul
+            className="hidden sm:flex items-center gap-2 list-none m-0 p-0"
+            role="list"
+          >
             <li>
               <NavLink to="/" end className={navLinkClass}>
                 Home
@@ -61,7 +64,9 @@ export function Navbar() {
           <button
             aria-expanded={isOpen}
             aria-controls="mobile-menu"
-            aria-label={isOpen ? 'Close navigation menu' : 'Open navigation menu'}
+            aria-label={
+              isOpen ? 'Close navigation menu' : 'Open navigation menu'
+            }
             onClick={() => setIsOpen(!isOpen)}
             className="sm:hidden flex items-center justify-center min-h-[44px] min-w-[44px] rounded text-brand-light hover:text-brand-teal transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
           >
@@ -99,7 +104,10 @@ export function Navbar() {
             aria-label="Mobile navigation"
             className="sm:hidden border-t border-brand-navy bg-brand-dark"
           >
-            <ul className="flex flex-col px-4 py-3 gap-1 list-none m-0 p-0" role="list">
+            <ul
+              className="flex flex-col px-4 py-3 gap-1 list-none m-0 p-0"
+              role="list"
+            >
               <li>
                 <NavLink
                   to="/"
@@ -124,5 +132,5 @@ export function Navbar() {
         )}
       </header>
     </>
-  )
+  );
 }

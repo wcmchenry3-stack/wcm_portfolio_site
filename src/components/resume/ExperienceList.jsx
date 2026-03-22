@@ -1,5 +1,5 @@
-import { experience } from '../../data/experience.js'
-import { ExperienceItem } from './ExperienceItem.jsx'
+import { experience } from '../../data/experience.js';
+import { ExperienceItem } from './ExperienceItem.jsx';
 
 export function ExperienceList() {
   return (
@@ -16,5 +16,5 @@ export function ExperienceList() {
         ))}
       </div>
     </section>
-  )
+  );
 }
