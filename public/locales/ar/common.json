@@ -1,0 +1,16 @@
+{
+  "navbar.skipLink": "تخطي إلى المحتوى الرئيسي",
+  "navbar.brand": "Bill McHenry",
+  "navbar.brandAriaLabel": "Bill McHenry – الصفحة الرئيسية",
+  "navbar.navAriaLabel": "التنقل الرئيسي",
+  "navbar.home": "الرئيسية",
+  "navbar.resume": "السيرة الذاتية",
+  "navbar.openMenu": "افتح قائمة التنقل",
+  "navbar.closeMenu": "أغلق قائمة التنقل",
+  "navbar.mobileAriaLabel": "التنقل للجوال",
+  "navbar.languageSwitcher": "اختر اللغة",
+  "footer.copyright": "© {{year}} Bill McHenry — Calgary, Alberta",
+  "footer.linkedin": "LinkedIn",
+  "footer.linkedinAriaLabel": "Bill McHenry على LinkedIn (يفتح في تبويب جديد)",
+  "dates.present": "الحالي"
+}

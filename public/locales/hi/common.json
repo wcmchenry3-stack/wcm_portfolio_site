@@ -1,0 +1,16 @@
+{
+  "navbar.skipLink": "मुख्य सामग्री पर जाएं",
+  "navbar.brand": "Bill McHenry",
+  "navbar.brandAriaLabel": "Bill McHenry – होम",
+  "navbar.navAriaLabel": "मुख्य नेविगेशन",
+  "navbar.home": "होम",
+  "navbar.resume": "रिज़्यूमे",
+  "navbar.openMenu": "नेविगेशन मेनू खोलें",
+  "navbar.closeMenu": "नेविगेशन मेनू बंद करें",
+  "navbar.mobileAriaLabel": "मोबाइल नेविगेशन",
+  "navbar.languageSwitcher": "भाषा चुनें",
+  "footer.copyright": "© {{year}} Bill McHenry — Calgary, Alberta",
+  "footer.linkedin": "LinkedIn",
+  "footer.linkedinAriaLabel": "Bill McHenry का LinkedIn (नए टैब में खुलता है)",
+  "dates.present": "वर्तमान"
+}
