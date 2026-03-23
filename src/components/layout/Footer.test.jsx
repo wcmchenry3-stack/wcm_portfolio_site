@@ -36,7 +36,7 @@ describe('Footer', () => {
     render(<Footer />, { wrapper });
     const year = String(new Date().getFullYear());
     expect(
-      screen.getByText((content) => content.includes(year)),
+      screen.getByText((content) => content.includes(year))
     ).toBeInTheDocument();
   });
 });
