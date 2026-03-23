@@ -18,6 +18,7 @@ React + Vite | Tailwind CSS | React Router v6
 - [Testing](.claude/testing.md) — portfolio component test cases
 - [Code style](.claude/code-style.md) — portfolio-specific React/Tailwind conventions
 - [Git workflow](.claude/git-workflow.md) — portfolio pre-commit commands and accessibility PR checklist
+- [Localization](.claude/i18n.md) — supported locales, translation script, marketing-first philosophy, adding new languages
 
 ## Key Rules (non-negotiable)
 

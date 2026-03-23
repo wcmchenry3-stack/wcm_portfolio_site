@@ -1,0 +1,16 @@
+{
+  "navbar.skipLink": "Ga naar hoofdinhoud",
+  "navbar.brand": "Bill McHenry",
+  "navbar.brandAriaLabel": "Bill McHenry – startpagina",
+  "navbar.navAriaLabel": "Hoofdmenu",
+  "navbar.home": "Home",
+  "navbar.resume": "CV",
+  "navbar.openMenu": "Open navigatiemenu",
+  "navbar.closeMenu": "Sluit navigatiemenu",
+  "navbar.mobileAriaLabel": "Mobiele navigatie",
+  "navbar.languageSwitcher": "Taal selecteren",
+  "footer.copyright": "© {{year}} Bill McHenry — Calgary, Alberta",
+  "footer.linkedin": "LinkedIn",
+  "footer.linkedinAriaLabel": "Bill McHenry op LinkedIn (opent in nieuw tabblad)",
+  "dates.present": "Heden"
+}

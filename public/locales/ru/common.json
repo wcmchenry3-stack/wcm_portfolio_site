@@ -1,0 +1,16 @@
+{
+  "navbar.skipLink": "К содержимому",
+  "navbar.brand": "Bill McHenry",
+  "navbar.brandAriaLabel": "Bill McHenry – на главную",
+  "navbar.navAriaLabel": "Основная навигация",
+  "navbar.home": "Главная",
+  "navbar.resume": "Резюме",
+  "navbar.openMenu": "Открыть меню навигации",
+  "navbar.closeMenu": "Закрыть меню навигации",
+  "navbar.mobileAriaLabel": "Мобильная навигация",
+  "navbar.languageSwitcher": "Выбор языка",
+  "footer.copyright": "© {{year}} Bill McHenry — Calgary, Alberta",
+  "footer.linkedin": "LinkedIn",
+  "footer.linkedinAriaLabel": "Bill McHenry на LinkedIn (откроется в новой вкладке)",
+  "dates.present": "По настоящее время"
+}

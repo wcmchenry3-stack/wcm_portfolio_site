@@ -11,6 +11,6 @@
   "navbar.languageSwitcher": "Choisir la langue",
   "footer.copyright": "© {{year}} Bill McHenry — Calgary, Alberta",
   "footer.linkedin": "LinkedIn",
-  "footer.linkedinAriaLabel": "Bill McHenry sur LinkedIn (ouvre dans un nouvel onglet)",
+  "footer.linkedinAriaLabel": "Bill McHenry sur LinkedIn (ouvre un nouvel onglet)",
   "dates.present": "Actuel"
 }
