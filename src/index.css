@@ -13,3 +13,14 @@
 html {
   scroll-padding-top: 5rem;
 }
+
+/* Arabic — system fonts with strong Naskh/Arabic coverage */
+:lang(ar) {
+  font-family: 'Segoe UI', 'Tahoma', Arial, ui-sans-serif, sans-serif;
+}
+
+/* Hindi — system fonts with Devanagari coverage */
+:lang(hi) {
+  font-family:
+    'Noto Sans Devanagari', 'Mangal', 'Kokila', ui-sans-serif, sans-serif;
+}
