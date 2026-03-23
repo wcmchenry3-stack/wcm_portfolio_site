@@ -1,0 +1,402 @@
+{
+  "page.title": {
+    "page": "resume",
+    "component": "Resume",
+    "description": "H1 heading on the Resume page.",
+    "tone": "professional, neutral",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Use the most natural term for a professional CV in the target language."
+  },
+  "page.linkedinText": {
+    "page": "resume",
+    "component": "Resume",
+    "description": "Link text for the LinkedIn profile link on the Resume page.",
+    "tone": "professional",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": ["LinkedIn"],
+    "notes": "Platform name — do not translate."
+  },
+  "page.linkedinAriaLabel": {
+    "page": "resume",
+    "component": "Resume",
+    "description": "Accessible label for the LinkedIn link on the Resume page.",
+    "tone": "functional",
+    "characterLimit": 70,
+    "placeholders": [],
+    "doNotTranslate": ["LinkedIn"],
+    "notes": "Must indicate it opens in a new tab."
+  },
+  "summary.heading": {
+    "page": "resume",
+    "component": "ResumeSummary",
+    "description": "Section heading for the professional summary.",
+    "tone": "professional, formal",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "summary.body": {
+    "page": "resume",
+    "component": "ResumeSummary",
+    "description": "The professional summary paragraph — a brief narrative about the portfolio owner's strengths.",
+    "tone": "professional, confident, first-person",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Written in first person. Emphasizes leadership, problem-solving, and communication across diverse audiences."
+  },
+  "experience.heading": {
+    "page": "resume",
+    "component": "ExperienceList",
+    "description": "Section heading for the work experience list.",
+    "tone": "professional, formal",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "experience.virbela.title": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Job title for the Virbela role.",
+    "tone": "professional, neutral",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": ["Virbela"],
+    "notes": "Translate the title; the company name Virbela must not be translated."
+  },
+  "experience.virbela.location": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Work location for the Virbela role.",
+    "tone": "neutral",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Translate 'Remote' naturally into the target language."
+  },
+  "experience.virbela.bullet_1": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "First achievement bullet for Lead PM role at Virbela.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["Virbela"],
+    "notes": "Preserve '40+' exactly. Do not translate Virbela."
+  },
+  "experience.virbela.bullet_2": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Second achievement bullet for Lead PM role at Virbela.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "experience.virbela.bullet_3": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Third achievement bullet for Lead PM role at Virbela.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Preserve '30%' exactly."
+  },
+  "experience.virbela.bullet_4": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Fourth achievement bullet for Lead PM role at Virbela.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["OKR"],
+    "notes": "OKR is an acronym — do not translate. Preserve as 'OKR' or 'OKRs'."
+  },
+  "experience.virbela.bullet_5": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Fifth achievement bullet for Lead PM role at Virbela.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Preserve '200' exactly."
+  },
+  "experience.virbela.bullet_6": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Sixth achievement bullet for Lead PM role at Virbela.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Preserve '25%' exactly."
+  },
+  "experience.virbela.bullet_7": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Seventh achievement bullet for Lead PM role at Virbela.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "experience.project44.title": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Job title for the project44 role.",
+    "tone": "professional, neutral",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": ["project44"],
+    "notes": "project44 has an intentional lowercase 'p' — preserve exactly."
+  },
+  "experience.project44.location": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Work location for the project44 role.",
+    "tone": "neutral",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "experience.project44.bullet_1": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "First achievement bullet for PM role at project44.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["project44"],
+    "notes": "Fortune 500 is a proper noun — keep as-is."
+  },
+  "experience.project44.bullet_2": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Second achievement bullet for PM role at project44.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["EDI", "API"],
+    "notes": "Preserve '40%' exactly. EDI and API are acronyms — do not translate."
+  },
+  "experience.omnitracs.location": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Work location for the Omnitracs roles.",
+    "tone": "neutral",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Translate 'Various' naturally — meaning multiple office locations."
+  },
+  "experience.omnitracs.role_1.title": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Job title for the first Omnitracs role (Strategic Initiatives).",
+    "tone": "professional, neutral",
+    "characterLimit": 50,
+    "placeholders": [],
+    "doNotTranslate": ["SaaS"],
+    "notes": "SaaS is an acronym — do not expand or translate."
+  },
+  "experience.omnitracs.role_1.bullet_1": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "First bullet for Omnitracs Strategic Initiatives role.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["SaaS"],
+    "notes": null
+  },
+  "experience.omnitracs.role_1.bullet_2": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Second bullet for Omnitracs Strategic Initiatives role.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Preserve '$2M' exactly — currency format must not change."
+  },
+  "experience.omnitracs.role_1.bullet_3": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Third bullet for Omnitracs Strategic Initiatives role.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "experience.omnitracs.role_2.title": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Job title for the second Omnitracs role (Canadian Market).",
+    "tone": "professional, neutral",
+    "characterLimit": 50,
+    "placeholders": [],
+    "doNotTranslate": ["SaaS"],
+    "notes": null
+  },
+  "experience.omnitracs.role_2.bullet_1": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "First bullet for Omnitracs Canadian Market role.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["ELD"],
+    "notes": "ELD is a regulatory acronym — do not translate."
+  },
+  "experience.omnitracs.role_2.bullet_2": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Second bullet for Omnitracs Canadian Market role.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["ARR", "YoY"],
+    "notes": "Preserve '18%' exactly. ARR and YoY are finance acronyms — do not translate."
+  },
+  "experience.omnitracs.role_2.bullet_3": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Third bullet for Omnitracs Canadian Market role.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "experience.omnitracs.role_3.title": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Job title for the third Omnitracs role (Product Manager).",
+    "tone": "professional, neutral",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "experience.omnitracs.role_3.bullet_1": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "First bullet for Omnitracs Product Manager role.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Preserve '50,000+' exactly."
+  },
+  "experience.omnitracs.role_3.bullet_2": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Second bullet for Omnitracs Product Manager role.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Preserve '4.2-star' exactly."
+  },
+  "experience.omnitracs.role_3.bullet_3": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Third bullet for Omnitracs Product Manager role.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["PRD", "QA"],
+    "notes": "PRD and QA are product management acronyms — do not translate."
+  },
+  "experience.crossmark.location": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Work location for the CROSSMARK roles.",
+    "tone": "neutral",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "experience.crossmark.role_1.title": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Job title for the first CROSSMARK role (Product Owner / Business Analyst).",
+    "tone": "professional, neutral",
+    "characterLimit": 50,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "experience.crossmark.role_1.bullet_1": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "First bullet for CROSSMARK Product Owner role.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["CROSSMARK"],
+    "notes": "Preserve '3,000+' exactly. CROSSMARK must appear in all-caps."
+  },
+  "experience.crossmark.role_1.bullet_2": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Second bullet for CROSSMARK Product Owner role.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "experience.crossmark.role_1.bullet_3": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Third bullet for CROSSMARK Product Owner role.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Agile/Scrum refers to the software development methodology — translate the surrounding text but the methodology names may be kept."
+  },
+  "experience.crossmark.role_2.title": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Job title for the second CROSSMARK role (Management Trainee).",
+    "tone": "professional, neutral",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "experience.crossmark.role_2.bullet_1": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "First bullet for CROSSMARK Management Trainee role.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "experience.crossmark.role_2.bullet_2": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Second bullet for CROSSMARK Management Trainee role.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["CPG"],
+    "notes": "CPG is an industry acronym — do not translate."
+  }
+}
