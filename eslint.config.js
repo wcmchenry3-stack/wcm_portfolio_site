@@ -37,4 +37,17 @@ export default defineConfig([
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
     },
   },
+  {
+    // Node.js CLI scripts — paths are developer-controlled, not user input.
+    files: ['scripts/**/*.js'],
+    languageOptions: {
+      globals: {
+        ...globals.node,
+      },
+    },
+    rules: {
+      'security/detect-non-literal-fs-filename': 'off',
+      'security/detect-object-injection': 'off',
+    },
+  },
 ]);

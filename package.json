@@ -10,7 +10,9 @@
     "preview": "vite preview",
     "test": "vitest",
     "test:run": "vitest run",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "i18n:check": "node scripts/check-i18n-strings.js",
+    "i18n:translate": "node scripts/translate.js"
   },
   "dependencies": {
     "i18next": "^25.10.4",
