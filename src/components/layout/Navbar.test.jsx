@@ -85,4 +85,11 @@ describe('Navbar', () => {
       screen.getAllByRole('link', { name: /resume/i })[0]
     ).toBeInTheDocument();
   });
+
+  it('renders the language switcher button', () => {
+    renderNavbar();
+    expect(
+      screen.getAllByRole('button', { name: /select language/i })[0]
+    ).toBeInTheDocument();
+  });
 });

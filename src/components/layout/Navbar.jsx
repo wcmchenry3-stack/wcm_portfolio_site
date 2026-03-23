@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { LanguageSwitcher } from './LanguageSwitcher.jsx';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -59,6 +60,9 @@ export function Navbar() {
               <NavLink to="/resume" className={navLinkClass}>
                 {t('navbar.resume')}
               </NavLink>
+            </li>
+            <li>
+              <LanguageSwitcher />
             </li>
           </ul>
 
@@ -126,6 +130,9 @@ export function Navbar() {
                 >
                   {t('navbar.resume')}
                 </NavLink>
+              </li>
+              <li className="pt-1">
+                <LanguageSwitcher />
               </li>
             </ul>
           </div>
