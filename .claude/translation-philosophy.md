@@ -5,11 +5,12 @@ Translations on this site are **not literal** — they are marketing-first adapt
 ## Who We're Marketing
 
 **Bill McHenry** is a Principal Product Manager. His professional brand centers on:
+
 - Delivering products that create real value for end users — not just shipping code
 - Data-driven, problem-solving leadership
 - Strategic, credible, and forward-thinking positioning
 
-Every translated string should reinforce this image. When in doubt, ask: *does this make Bill sound like a credible senior PM to a native speaker in this market?*
+Every translated string should reinforce this image. When in doubt, ask: _does this make Bill sound like a credible senior PM to a native speaker in this market?_
 
 ## Core Principles
 
@@ -21,6 +22,7 @@ Use the language and vocabulary a native speaker would encounter in that country
 
 **Hybrid terms are encouraged**
 Where a borrowed English term is genuinely how native speakers talk, use it. Examples:
+
 - Hindi: `डेटा-ड्रिवन`, `प्रोडक्ट लीडर`
 - French: `data-driven`, `roadmap`
 - Japanese: `プロダクトマネージャー`
