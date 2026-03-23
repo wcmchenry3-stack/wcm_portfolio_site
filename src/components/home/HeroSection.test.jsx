@@ -1,13 +1,17 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
+import { I18nextProvider } from 'react-i18next';
+import i18n from '../../test/i18nTestInstance.js';
 import { HeroSection } from './HeroSection.jsx';
 
 function renderHero() {
   return render(
-    <MemoryRouter>
-      <HeroSection />
-    </MemoryRouter>
+    <I18nextProvider i18n={i18n}>
+      <MemoryRouter>
+        <HeroSection />
+      </MemoryRouter>
+    </I18nextProvider>
   );
 }
 
