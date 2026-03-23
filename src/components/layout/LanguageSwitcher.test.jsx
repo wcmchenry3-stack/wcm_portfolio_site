@@ -3,6 +3,7 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import { I18nextProvider } from 'react-i18next';
 import i18n from '../../test/i18nTestInstance.js';
 import { LanguageSwitcher } from './LanguageSwitcher.jsx';
+import { LOCALES } from '../../i18n/locales.js';
 
 const wrapper = ({ children }) => (
   <I18nextProvider i18n={i18n}>{children}</I18nextProvider>
@@ -36,10 +37,10 @@ describe('LanguageSwitcher', () => {
     expect(screen.getByRole('listbox')).toBeInTheDocument();
   });
 
-  it('renders all 5 locale options when open', () => {
+  it('renders all locale options when open', () => {
     render(<LanguageSwitcher />, { wrapper });
     fireEvent.click(screen.getByRole('button', { name: /select language/i }));
-    expect(screen.getAllByRole('option')).toHaveLength(5);
+    expect(screen.getAllByRole('option')).toHaveLength(LOCALES.length);
   });
 
   it('marks the current locale as aria-selected', () => {

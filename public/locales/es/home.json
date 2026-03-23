@@ -3,8 +3,8 @@
   "hero.headline": "Creando soluciones innovadoras como líder en gestión de productos, impulsado por datos y resolución de problemas",
   "hero.viewResume": "Ver Currículum",
   "hero.connectLinkedIn": "Conectar en LinkedIn",
-  "hero.linkedinAriaLabel": "Conectar en LinkedIn (se abre en una nueva pestaña)",
-  "hero.headshotAlt": "Bill McHenry, Gerente de Producto",
+  "hero.linkedinAriaLabel": "Conectar en LinkedIn (se abre en nueva pestaña)",
+  "hero.headshotAlt": "Bill McHenry, Product Manager",
   "skills.heading": "Habilidades y Experiencia",
   "skills.softHeading": "Habilidades Blandas",
   "skills.technicalHeading": "Habilidades Técnicas",
@@ -24,7 +24,7 @@
   "skills.tech.splunk": "Splunk",
   "skills.tech.sql": "SQL",
   "skills.tech.tableau": "Tableau",
-  "contact.cta": "¿Interesado en colaborar juntos?",
+  "contact.cta": "¿Te gustaría colaborar?",
   "contact.button": "Conéctate en LinkedIn",
-  "contact.ariaLabel": "Enviar un mensaje en LinkedIn (se abre en una nueva pestaña)"
+  "contact.ariaLabel": "Enviar mensaje en LinkedIn (abre en nueva pestaña)"
 }

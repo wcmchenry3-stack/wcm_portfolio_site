@@ -1,0 +1,16 @@
+{
+  "navbar.skipLink": "주요 콘텐츠로 이동",
+  "navbar.brand": "Bill McHenry",
+  "navbar.brandAriaLabel": "Bill McHenry – 홈페이지",
+  "navbar.navAriaLabel": "주요 내비게이션",
+  "navbar.home": "홈",
+  "navbar.resume": "이력서",
+  "navbar.openMenu": "내비게이션 메뉴 열기",
+  "navbar.closeMenu": "내비게이션 메뉴 닫기",
+  "navbar.mobileAriaLabel": "모바일 내비게이션",
+  "navbar.languageSwitcher": "언어 선택",
+  "footer.copyright": "© {{year}} Bill McHenry — Calgary, Alberta",
+  "footer.linkedin": "LinkedIn",
+  "footer.linkedinAriaLabel": "Bill McHenry의 LinkedIn (새 탭에서 열림)",
+  "dates.present": "현재"
+}
