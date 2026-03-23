@@ -17,7 +17,14 @@
       "Bash(npx tailwindcss:*)",
       "Bash(./node_modules/.bin/tailwindcss init:*)",
       "Bash(npm run:*)",
-      "Bash(echo \"EXIT: $?\")"
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(find C:/Users/wcmch/claude_projects/wcm_portfolio_site -maxdepth 3 -type f -name *analytics* -o -name *tracking*)",
+      "WebSearch",
+      "WebFetch(domain:developers.cloudflare.com)",
+      "Bash(git push:*)",
+      "Bash(gh pr:*)",
+      "Bash(gh run:*)",
+      "Bash(npx prettier:*)"
     ]
   }
 }
