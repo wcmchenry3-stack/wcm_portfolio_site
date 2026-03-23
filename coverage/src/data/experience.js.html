@@ -3,15 +3,15 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for data/experience.js</title>
+    <title>Code coverage report for src/data/experience.js</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../prettify.css" />
-    <link rel="stylesheet" href="../base.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style type='text/css'>
         .coverage-summary .sorter {
-            background-image: url(../sort-arrow-sprite.png);
+            background-image: url(../../sort-arrow-sprite.png);
         }
     </style>
 </head>
@@ -19,7 +19,7 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../index.html">All files</a> / <a href="index.html">data</a> experience.js</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">src/data</a> experience.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
@@ -146,7 +146,29 @@
 <a name='L81'></a><a href='#L81'>81</a>
 <a name='L82'></a><a href='#L82'>82</a>
 <a name='L83'></a><a href='#L83'>83</a>
-<a name='L84'></a><a href='#L84'>84</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">3x</span>
+<a name='L84'></a><a href='#L84'>84</a>
+<a name='L85'></a><a href='#L85'>85</a>
+<a name='L86'></a><a href='#L86'>86</a>
+<a name='L87'></a><a href='#L87'>87</a>
+<a name='L88'></a><a href='#L88'>88</a>
+<a name='L89'></a><a href='#L89'>89</a>
+<a name='L90'></a><a href='#L90'>90</a>
+<a name='L91'></a><a href='#L91'>91</a>
+<a name='L92'></a><a href='#L92'>92</a>
+<a name='L93'></a><a href='#L93'>93</a>
+<a name='L94'></a><a href='#L94'>94</a>
+<a name='L95'></a><a href='#L95'>95</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -232,9 +254,11 @@
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">export const experience = [
   {
     company: 'Virbela',
+    i18nKey: 'virbela',
     location: 'Remote',
     title: 'Lead Product Manager',
-    period: 'March 2021 – Present',
+    startDate: { year: 2021, month: 3 },
+    endDate: null,
     bullets: [
       'Led product strategy and roadmap for a virtual 3D workspace platform used by enterprise clients across 40+ countries.',
       'Partnered with engineering, design, and customer success to deliver bi-weekly releases with measurable retention improvements.',
@@ -247,9 +271,11 @@
   },
   {
     company: 'project44',
+    i18nKey: 'project44',
     location: 'Remote',
     title: 'Product Manager',
-    period: 'August 2020 – February 2021',
+    startDate: { year: 2020, month: 8 },
+    endDate: { year: 2021, month: 2 },
     bullets: [
       'Managed the carrier connectivity product, enabling real-time freight visibility for Fortune 500 shippers.',
       'Worked closely with integration engineering to streamline EDI and API onboarding, reducing carrier activation time by 40%.',
@@ -257,11 +283,13 @@
   },
   {
     company: 'Omnitracs',
+    i18nKey: 'omnitracs',
     location: 'Various',
     roles: [
       {
         title: 'SaaS Sr PM – Strategic Initiatives',
-        period: 'May 2019 – June 2020',
+        startDate: { year: 2019, month: 5 },
+        endDate: { year: 2020, month: 6 },
         bullets: [
           'Spearheaded a cross-platform initiative to unify three legacy SaaS products onto a single cloud architecture.',
           'Built business cases and executive presentations that secured $2M in product investment funding.',
@@ -270,7 +298,8 @@
       },
       {
         title: 'SaaS Sr PM – Canadian Market',
-        period: 'February 2017 – May 2019',
+        startDate: { year: 2017, month: 2 },
+        endDate: { year: 2019, month: 5 },
         bullets: [
           'Owned the Canadian product roadmap, adapting core fleet management features to meet Canadian ELD mandate requirements.',
           'Grew Canadian ARR by 18% YoY by identifying and closing product gaps that were causing churn among mid-market accounts.',
@@ -279,7 +308,8 @@
       },
       {
         title: 'Product Manager',
-        period: 'June 2015 – February 2017',
+        startDate: { year: 2015, month: 6 },
+        endDate: { year: 2017, month: 2 },
         bullets: [
           'Managed the Hours of Service compliance product used by 50,000+ commercial drivers across North America.',
           'Launched a mobile companion app that achieved a 4.2-star rating within three months of release.',
@@ -290,11 +320,13 @@
   },
   {
     company: 'CROSSMARK',
+    i18nKey: 'crossmark',
     location: 'Various',
     roles: [
       {
         title: 'Product Owner / Business Analyst',
-        period: 'August 2013 – June 2015',
+        startDate: { year: 2013, month: 8 },
+        endDate: { year: 2015, month: 6 },
         bullets: [
           'Served as product owner for an internal field merchandising platform used by 3,000+ field reps across the US.',
           'Translated business requirements from retail operations into user stories, acceptance criteria, and sprint-ready backlog items.',
@@ -303,7 +335,8 @@
       },
       {
         title: 'Management Trainee',
-        period: 'June 2011 – August 2013',
+        startDate: { year: 2011, month: 6 },
+        endDate: { year: 2013, month: 8 },
         bullets: [
           'Completed a rotational management program covering field operations, client services, and business analytics.',
           'Analyzed sales performance data for CPG clients, producing weekly reports that informed territory prioritization decisions.',
@@ -311,7 +344,7 @@
       },
     ],
   },
-]
+];
 &nbsp;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
@@ -319,16 +352,16 @@
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2026-03-22T16:31:41.330Z
+                at 2026-03-23T03:06:06.044Z
             </div>
-        <script src="../prettify.js"></script>
+        <script src="../../prettify.js"></script>
         <script>
             window.onload = function () {
                 prettyPrint();
             };
         </script>
-        <script src="../sorter.js"></script>
-        <script src="../block-navigation.js"></script>
+        <script src="../../sorter.js"></script>
+        <script src="../../block-navigation.js"></script>
     </body>
 </html>
     

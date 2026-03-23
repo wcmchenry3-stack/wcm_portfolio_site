@@ -3,15 +3,15 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for components/layout/Navbar.jsx</title>
+    <title>Code coverage report for src/components/layout/Navbar.jsx</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../../prettify.css" />
-    <link rel="stylesheet" href="../../base.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.png" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style type='text/css'>
         .coverage-summary .sorter {
-            background-image: url(../../sort-arrow-sprite.png);
+            background-image: url(../../../sort-arrow-sprite.png);
         }
     </style>
 </head>
@@ -19,7 +19,7 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">components/layout</a> Navbar.jsx</h1>
+        <h1><a href="../../../index.html">All files</a> / <a href="index.html">src/components/layout</a> Navbar.jsx</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
@@ -191,7 +191,15 @@
 <a name='L126'></a><a href='#L126'>126</a>
 <a name='L127'></a><a href='#L127'>127</a>
 <a name='L128'></a><a href='#L128'>128</a>
-<a name='L129'></a><a href='#L129'>129</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L129'></a><a href='#L129'>129</a>
+<a name='L130'></a><a href='#L130'>130</a>
+<a name='L131'></a><a href='#L131'>131</a>
+<a name='L132'></a><a href='#L132'>132</a>
+<a name='L133'></a><a href='#L133'>133</a>
+<a name='L134'></a><a href='#L134'>134</a>
+<a name='L135'></a><a href='#L135'>135</a>
+<a name='L136'></a><a href='#L136'>136</a>
+<a name='L137'></a><a href='#L137'>137</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -213,6 +221,11 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -298,12 +311,6 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -316,29 +323,38 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { useState, useEffect } from 'react'
-import { NavLink } from 'react-router-dom'
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { useState, useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 &nbsp;
 export function Navbar() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 &nbsp;
   useEffect(() =&gt; {
     const handleKeyDown = (e) =&gt; {
-      <span class="missing-if-branch" title="else path not taken" >E</span>if (e.key === 'Escape') setIsOpen(false)
-    }
-    document.addEventListener('keydown', handleKeyDown)
-    return () =&gt; document.removeEventListener('keydown', handleKeyDown)
-  }, [])
+      <span class="missing-if-branch" title="else path not taken" >E</span>if (e.key === 'Escape') setIsOpen(false);
+    };
+    document.addEventListener('keydown', handleKeyDown);
+    return () =&gt; document.removeEventListener('keydown', handleKeyDown);
+  }, []);
 &nbsp;
   const navLinkClass = ({ isActive }) =&gt;
     `text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark rounded px-2 py-1 min-h-[44px] inline-flex items-center ${
       isActive
         ? 'text-brand-teal underline underline-offset-4'
         : 'text-brand-light hover:text-brand-teal'
-    }`
+    }`;
 &nbsp;
   return (
     &lt;&gt;
@@ -365,7 +381,10 @@ export function Navbar() {
           &lt;/NavLink&gt;
 &nbsp;
           {/* Desktop nav links */}
-          &lt;ul className="hidden sm:flex items-center gap-2 list-none m-0 p-0" role="list"&gt;
+          &lt;ul
+            className="hidden sm:flex items-center gap-2 list-none m-0 p-0"
+            role="list"
+          &gt;
             &lt;li&gt;
               &lt;NavLink to="/" end className={navLinkClass}&gt;
                 Home
@@ -382,7 +401,9 @@ export function Navbar() {
           &lt;button
             aria-expanded={isOpen}
             aria-controls="mobile-menu"
-            aria-label={isOpen ? 'Close navigation menu' : 'Open navigation menu'}
+            aria-label={
+              isOpen ? 'Close navigation menu' : 'Open navigation menu'
+            }
             onClick={() =&gt; setIsOpen(!isOpen)}
             className="sm:hidden flex items-center justify-center min-h-[44px] min-w-[44px] rounded text-brand-light hover:text-brand-teal transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
           &gt;
@@ -420,7 +441,10 @@ export function Navbar() {
             aria-label="Mobile navigation"
             className="sm:hidden border-t border-brand-navy bg-brand-dark"
           &gt;
-            &lt;ul className="flex flex-col px-4 py-3 gap-1 list-none m-0 p-0" role="list"&gt;
+            &lt;ul
+              className="flex flex-col px-4 py-3 gap-1 list-none m-0 p-0"
+              role="list"
+            &gt;
               &lt;li&gt;
                 &lt;NavLink
                   to="/"
@@ -445,7 +469,7 @@ export function Navbar() {
         )}
       &lt;/header&gt;
     &lt;/&gt;
-  )
+  );
 }
 &nbsp;</pre></td></tr></table></pre>
 
@@ -454,16 +478,16 @@ export function Navbar() {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2026-03-22T16:31:41.330Z
+                at 2026-03-23T03:06:06.044Z
             </div>
-        <script src="../../prettify.js"></script>
+        <script src="../../../prettify.js"></script>
         <script>
             window.onload = function () {
                 prettyPrint();
             };
         </script>
-        <script src="../../sorter.js"></script>
-        <script src="../../block-navigation.js"></script>
+        <script src="../../../sorter.js"></script>
+        <script src="../../../block-navigation.js"></script>
     </body>
 </html>
     
