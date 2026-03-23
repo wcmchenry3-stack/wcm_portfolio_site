@@ -24,7 +24,10 @@
       "Bash(git push:*)",
       "Bash(gh pr:*)",
       "Bash(gh run:*)",
-      "Bash(npx prettier:*)"
+      "Bash(npx prettier:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm audit:*)",
+      "Bash(grep -v \"^$\")"
     ]
   }
 }

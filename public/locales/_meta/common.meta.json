@@ -1,0 +1,142 @@
+{
+  "navbar.skipLink": {
+    "page": "global",
+    "component": "Navbar",
+    "description": "Accessibility skip link — keyboard-only, visible on focus, allows users to bypass navigation.",
+    "tone": "functional, imperative",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Must convey 'jump past navigation to main content'. Keep very short."
+  },
+  "navbar.brand": {
+    "page": "global",
+    "component": "Navbar",
+    "description": "The portfolio owner's name used as the navbar logo/home link.",
+    "tone": "neutral",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["Bill McHenry"],
+    "notes": "This is a proper name — do not translate or transliterate."
+  },
+  "navbar.brandAriaLabel": {
+    "page": "global",
+    "component": "Navbar",
+    "description": "Accessible label for the navbar logo link. Describes the destination.",
+    "tone": "functional",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": ["Bill McHenry"],
+    "notes": "Conveys 'click to go to homepage'. The name must not be translated."
+  },
+  "navbar.navAriaLabel": {
+    "page": "global",
+    "component": "Navbar",
+    "description": "ARIA label for the main <nav> landmark.",
+    "tone": "functional",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Screen readers announce this when the user navigates to the nav landmark."
+  },
+  "navbar.home": {
+    "page": "global",
+    "component": "Navbar",
+    "description": "Navigation link label for the home page.",
+    "tone": "neutral",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "navbar.resume": {
+    "page": "global",
+    "component": "Navbar",
+    "description": "Navigation link label for the resume/CV page.",
+    "tone": "neutral",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Use the most natural term for a professional CV/résumé in the target language."
+  },
+  "navbar.openMenu": {
+    "page": "global",
+    "component": "Navbar",
+    "description": "ARIA label for the mobile hamburger button when the menu is closed.",
+    "tone": "functional, imperative",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "navbar.closeMenu": {
+    "page": "global",
+    "component": "Navbar",
+    "description": "ARIA label for the mobile hamburger button when the menu is open.",
+    "tone": "functional, imperative",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "navbar.mobileAriaLabel": {
+    "page": "global",
+    "component": "Navbar",
+    "description": "ARIA label for the mobile navigation menu container.",
+    "tone": "functional",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "navbar.languageSwitcher": {
+    "page": "global",
+    "component": "LanguageSwitcher",
+    "description": "ARIA label for the language switcher control.",
+    "tone": "functional",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "footer.copyright": {
+    "page": "global",
+    "component": "Footer",
+    "description": "Copyright notice in the page footer. Includes the current year, owner name, and location.",
+    "tone": "neutral, formal",
+    "characterLimit": 60,
+    "placeholders": ["{{year}}"],
+    "doNotTranslate": ["Bill McHenry", "Calgary", "Alberta"],
+    "notes": "{{year}} is injected at runtime. The name and location must not be translated."
+  },
+  "footer.linkedin": {
+    "page": "global",
+    "component": "Footer",
+    "description": "Link text for the LinkedIn icon link in the footer.",
+    "tone": "neutral",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": ["LinkedIn"],
+    "notes": "Platform name — do not translate."
+  },
+  "footer.linkedinAriaLabel": {
+    "page": "global",
+    "component": "Footer",
+    "description": "Accessible label for the LinkedIn footer link. Describes destination and behavior.",
+    "tone": "functional",
+    "characterLimit": 60,
+    "placeholders": [],
+    "doNotTranslate": ["Bill McHenry", "LinkedIn"],
+    "notes": "Must indicate it opens in a new tab."
+  },
+  "dates.present": {
+    "page": "global",
+    "component": "ExperienceItem",
+    "description": "The word 'Present' used in employment date ranges to indicate a current role (e.g. 'March 2021 – Present').",
+    "tone": "neutral",
+    "characterLimit": 15,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Use the most natural word for 'current / ongoing' in employment context."
+  }
+}

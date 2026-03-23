@@ -1,0 +1,282 @@
+{
+  "hero.location": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "Location tag displayed beneath the hero headline. Shows where the portfolio owner is based.",
+    "tone": "neutral",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": ["Calgary", "Alberta"],
+    "notes": "For hi and ar, transliterated city/province names are preferred but optional."
+  },
+  "hero.headline": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "Primary H1 headline — the first and most prominent text a visitor reads.",
+    "tone": "professional, confident, aspirational",
+    "characterLimit": 140,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Avoid passive voice. Emphasizes data-driven problem solving and leadership. This is the most impactful string on the site — quality matters."
+  },
+  "hero.viewResume": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "CTA button that navigates to the Resume page.",
+    "tone": "imperative, professional",
+    "characterLimit": 25,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "hero.connectLinkedIn": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "CTA button that opens the LinkedIn profile in a new tab.",
+    "tone": "imperative, professional",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": ["LinkedIn"],
+    "notes": "LinkedIn is a platform name — do not translate."
+  },
+  "hero.linkedinAriaLabel": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "Accessible label for the LinkedIn hero CTA button. Must convey destination and new-tab behavior.",
+    "tone": "functional",
+    "characterLimit": 60,
+    "placeholders": [],
+    "doNotTranslate": ["LinkedIn"],
+    "notes": "Must indicate it opens in a new tab."
+  },
+  "hero.headshotAlt": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "Alt text for the profile photo of Bill McHenry.",
+    "tone": "neutral, descriptive",
+    "characterLimit": 60,
+    "placeholders": [],
+    "doNotTranslate": ["Bill McHenry"],
+    "notes": "Describes who is in the photo and their role. Name must not be translated."
+  },
+  "skills.heading": {
+    "page": "home",
+    "component": "SkillsSection",
+    "description": "Section heading for the skills area of the home page.",
+    "tone": "professional",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "skills.softHeading": {
+    "page": "home",
+    "component": "SkillsSection",
+    "description": "Sub-heading for the soft skills category.",
+    "tone": "professional",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "skills.technicalHeading": {
+    "page": "home",
+    "component": "SkillsSection",
+    "description": "Sub-heading for the technical skills category.",
+    "tone": "professional",
+    "characterLimit": 25,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "skills.soft.adaptive": {
+    "page": "home",
+    "component": "SkillsSection",
+    "description": "Soft skill tag — ability to adjust to changing circumstances.",
+    "tone": "professional, concise",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Single word or short phrase preferred."
+  },
+  "skills.soft.agile": {
+    "page": "home",
+    "component": "SkillsSection",
+    "description": "Soft skill tag — refers to Agile methodology mindset and flexible working style.",
+    "tone": "professional, concise",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "In this context it refers to the Agile software development methodology mindset, not just 'quick'."
+  },
+  "skills.soft.communicative": {
+    "page": "home",
+    "component": "SkillsSection",
+    "description": "Soft skill tag — strong communication ability.",
+    "tone": "professional, concise",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "skills.soft.conflictResolution": {
+    "page": "home",
+    "component": "SkillsSection",
+    "description": "Soft skill tag — ability to mediate and resolve workplace disagreements.",
+    "tone": "professional, concise",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "skills.soft.flexible": {
+    "page": "home",
+    "component": "SkillsSection",
+    "description": "Soft skill tag — willingness and ability to adapt.",
+    "tone": "professional, concise",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "skills.soft.leadership": {
+    "page": "home",
+    "component": "SkillsSection",
+    "description": "Soft skill tag — leadership ability.",
+    "tone": "professional, concise",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "skills.soft.peopleManagement": {
+    "page": "home",
+    "component": "SkillsSection",
+    "description": "Soft skill tag — managing and developing direct reports.",
+    "tone": "professional, concise",
+    "characterLimit": 25,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "skills.soft.problemSolving": {
+    "page": "home",
+    "component": "SkillsSection",
+    "description": "Soft skill tag — systematic approach to identifying and solving problems.",
+    "tone": "professional, concise",
+    "characterLimit": 25,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "skills.tech.alteryx": {
+    "page": "home",
+    "component": "SkillsSection",
+    "description": "Technical skill tag — data analytics platform.",
+    "tone": "neutral",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["Alteryx"],
+    "notes": "Product name — do not translate."
+  },
+  "skills.tech.generativeAI": {
+    "page": "home",
+    "component": "SkillsSection",
+    "description": "Technical skill tag — proficiency with generative AI tools and concepts.",
+    "tone": "neutral",
+    "characterLimit": 25,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Translate the concept naturally; 'AI' acronym may be kept as-is."
+  },
+  "skills.tech.jira": {
+    "page": "home",
+    "component": "SkillsSection",
+    "description": "Technical skill tag — Atlassian Jira project tracking tool.",
+    "tone": "neutral",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["Jira"],
+    "notes": "Product name — do not translate."
+  },
+  "skills.tech.excelPowerQuery": {
+    "page": "home",
+    "component": "SkillsSection",
+    "description": "Technical skill tag — Microsoft Excel and Power Query data tools.",
+    "tone": "neutral",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["Microsoft Excel / PowerQuery"],
+    "notes": "Product names — do not translate."
+  },
+  "skills.tech.python": {
+    "page": "home",
+    "component": "SkillsSection",
+    "description": "Technical skill tag — Python programming language.",
+    "tone": "neutral",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["Python"],
+    "notes": "Programming language name — do not translate."
+  },
+  "skills.tech.splunk": {
+    "page": "home",
+    "component": "SkillsSection",
+    "description": "Technical skill tag — Splunk data platform.",
+    "tone": "neutral",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["Splunk"],
+    "notes": "Product name — do not translate."
+  },
+  "skills.tech.sql": {
+    "page": "home",
+    "component": "SkillsSection",
+    "description": "Technical skill tag — SQL database query language.",
+    "tone": "neutral",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["SQL"],
+    "notes": "Technology acronym — do not translate."
+  },
+  "skills.tech.tableau": {
+    "page": "home",
+    "component": "SkillsSection",
+    "description": "Technical skill tag — Tableau data visualization tool.",
+    "tone": "neutral",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["Tableau"],
+    "notes": "Product name — do not translate."
+  },
+  "contact.cta": {
+    "page": "home",
+    "component": "ContactBar",
+    "description": "Call-to-action heading in the contact bar at the bottom of the home page.",
+    "tone": "warm, inviting, professional",
+    "characterLimit": 50,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "This is a soft invitation to reach out — not a hard sell."
+  },
+  "contact.button": {
+    "page": "home",
+    "component": "ContactBar",
+    "description": "Button text in the contact bar that opens the LinkedIn profile.",
+    "tone": "imperative, professional",
+    "characterLimit": 35,
+    "placeholders": [],
+    "doNotTranslate": ["LinkedIn"],
+    "notes": "LinkedIn is a platform name — do not translate."
+  },
+  "contact.ariaLabel": {
+    "page": "home",
+    "component": "ContactBar",
+    "description": "Accessible label for the contact LinkedIn button. Must convey destination and new-tab behavior.",
+    "tone": "functional",
+    "characterLimit": 60,
+    "placeholders": [],
+    "doNotTranslate": ["LinkedIn"],
+    "notes": "Must indicate it opens in a new tab."
+  }
+}
