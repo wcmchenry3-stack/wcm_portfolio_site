@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const { t } = useTranslation('common');
 
   useEffect(() => {
     const handleKeyDown = (e) => {
@@ -24,23 +26,23 @@ export function Navbar() {
       {/* Skip-to-content link — first focusable element in the DOM */}
       <a
         href="#main-content"
-        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-brand-teal focus:text-white focus:rounded focus:ring-2 focus:ring-white focus:outline-none"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:start-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-brand-teal focus:text-white focus:rounded focus:ring-2 focus:ring-white focus:outline-none"
       >
-        Skip to main content
+        {t('navbar.skipLink')}
       </a>
 
       <header className="sticky top-0 z-40 bg-brand-dark border-b border-brand-navy shadow-sm">
         <nav
-          aria-label="Main navigation"
+          aria-label={t('navbar.navAriaLabel')}
           className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16"
         >
           {/* Logo */}
           <NavLink
             to="/"
-            aria-label="Bill McHenry – home"
+            aria-label={t('navbar.brandAriaLabel')}
             className="text-brand-light font-semibold text-lg hover:text-brand-teal transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark rounded px-1"
           >
-            Bill McHenry
+            {t('navbar.brand')}
           </NavLink>
 
           {/* Desktop nav links */}
@@ -50,12 +52,12 @@ export function Navbar() {
           >
             <li>
               <NavLink to="/" end className={navLinkClass}>
-                Home
+                {t('navbar.home')}
               </NavLink>
             </li>
             <li>
               <NavLink to="/resume" className={navLinkClass}>
-                Resume
+                {t('navbar.resume')}
               </NavLink>
             </li>
           </ul>
@@ -64,9 +66,7 @@ export function Navbar() {
           <button
             aria-expanded={isOpen}
             aria-controls="mobile-menu"
-            aria-label={
-              isOpen ? 'Close navigation menu' : 'Open navigation menu'
-            }
+            aria-label={isOpen ? t('navbar.closeMenu') : t('navbar.openMenu')}
             onClick={() => setIsOpen(!isOpen)}
             className="sm:hidden flex items-center justify-center min-h-[44px] min-w-[44px] rounded text-brand-light hover:text-brand-teal transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
           >
@@ -101,7 +101,7 @@ export function Navbar() {
           <div
             id="mobile-menu"
             role="navigation"
-            aria-label="Mobile navigation"
+            aria-label={t('navbar.mobileAriaLabel')}
             className="sm:hidden border-t border-brand-navy bg-brand-dark"
           >
             <ul
@@ -115,7 +115,7 @@ export function Navbar() {
                   className={navLinkClass}
                   onClick={() => setIsOpen(false)}
                 >
-                  Home
+                  {t('navbar.home')}
                 </NavLink>
               </li>
               <li>
@@ -124,7 +124,7 @@ export function Navbar() {
                   className={navLinkClass}
                   onClick={() => setIsOpen(false)}
                 >
-                  Resume
+                  {t('navbar.resume')}
                 </NavLink>
               </li>
             </ul>

@@ -1,31 +1,35 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
+import { I18nextProvider } from 'react-i18next';
+import i18n from '../../test/i18nTestInstance.js';
 import { Navbar } from './Navbar.jsx';
 
 function renderNavbar() {
   return render(
-    <MemoryRouter>
-      <Navbar />
-    </MemoryRouter>
+    <I18nextProvider i18n={i18n}>
+      <MemoryRouter>
+        <Navbar />
+      </MemoryRouter>
+    </I18nextProvider>
   );
 }
 
 describe('Navbar', () => {
   it('renders the skip-to-content link as the first focusable element', () => {
     renderNavbar();
-    const skipLink = screen.getByText('Skip to main content');
+    const skipLink = screen.getByText(/skip to main content/i);
     expect(skipLink.tagName).toBe('A');
     expect(skipLink).toHaveAttribute('href', '#main-content');
   });
 
   it('skip link has sr-only class (visually hidden by default)', () => {
     renderNavbar();
-    const skipLink = screen.getByText('Skip to main content');
+    const skipLink = screen.getByText(/skip to main content/i);
     expect(skipLink.className).toContain('sr-only');
   });
 
-  it('hamburger button is not visible on desktop (hidden sm:hidden)', () => {
+  it('hamburger button is present with aria-expanded false by default', () => {
     renderNavbar();
     const hamburger = screen.getByRole('button', {
       name: /open navigation menu/i,
