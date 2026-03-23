@@ -25,7 +25,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>3/3</span>
+                <span class='fraction'>4/4</span>
             </div>
         
             
@@ -46,7 +46,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>3/3</span>
+                <span class='fraction'>4/4</span>
             </div>
         
             
@@ -116,31 +116,16 @@
 <a name='L51'></a><a href='#L51'>51</a>
 <a name='L52'></a><a href='#L52'>52</a>
 <a name='L53'></a><a href='#L53'>53</a>
-<a name='L54'></a><a href='#L54'>54</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">9x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">72x</span>
+<span class="cline-any cline-yes">11x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -156,7 +141,12 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">72x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">88x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -169,9 +159,28 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { softSkills, technicalSkills } from '../../data/skills.js';
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">88x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { useTranslation } from 'react-i18next';
+import { softSkillKeys, technicalSkillKeys } from '../../data/skills.js';
 &nbsp;
 export function SkillsSection() {
+  const { t } = useTranslation('home');
+&nbsp;
   return (
     &lt;section
       aria-labelledby="skills-heading"
@@ -182,20 +191,20 @@ export function SkillsSection() {
           id="skills-heading"
           className="text-2xl sm:text-3xl font-bold text-brand-dark text-center mb-12"
         &gt;
-          Skills &amp;amp; Expertise
+          {t('skills.heading')}
         &lt;/h2&gt;
 &nbsp;
         &lt;div className="grid grid-cols-1 sm:grid-cols-2 gap-8"&gt;
           {/* Soft Skills */}
           &lt;div className="bg-white rounded-xl p-6 shadow-sm border border-slate-200"&gt;
             &lt;h3 className="text-lg font-semibold text-brand-navy mb-4"&gt;
-              Soft Skills
+              {t('skills.softHeading')}
             &lt;/h3&gt;
             &lt;ul className="flex flex-wrap gap-2" role="list"&gt;
-              {softSkills.map((skill) =&gt; (
-                &lt;li key={skill}&gt;
+              {softSkillKeys.map((key) =&gt; (
+                &lt;li key={key}&gt;
                   &lt;span className="inline-block bg-brand-navy text-brand-light text-sm font-medium px-3 py-1.5 rounded-full"&gt;
-                    {skill}
+                    {t(key)}
                   &lt;/span&gt;
                 &lt;/li&gt;
               ))}
@@ -205,13 +214,13 @@ export function SkillsSection() {
           {/* Technical Skills */}
           &lt;div className="bg-white rounded-xl p-6 shadow-sm border border-slate-200"&gt;
             &lt;h3 className="text-lg font-semibold text-brand-navy mb-4"&gt;
-              Technical Skills
+              {t('skills.technicalHeading')}
             &lt;/h3&gt;
             &lt;ul className="flex flex-wrap gap-2" role="list"&gt;
-              {technicalSkills.map((skill) =&gt; (
-                &lt;li key={skill}&gt;
+              {technicalSkillKeys.map((key) =&gt; (
+                &lt;li key={key}&gt;
                   &lt;span className="inline-block bg-brand-teal text-white text-sm font-medium px-3 py-1.5 rounded-full"&gt;
-                    {skill}
+                    {t(key)}
                   &lt;/span&gt;
                 &lt;/li&gt;
               ))}
@@ -229,7 +238,7 @@ export function SkillsSection() {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2026-03-23T03:06:06.044Z
+                at 2026-03-23T03:10:35.592Z
             </div>
         <script src="../../../prettify.js"></script>
         <script>
