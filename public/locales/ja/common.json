@@ -1,0 +1,16 @@
+{
+  "navbar.skipLink": "メインコンテンツへ移動",
+  "navbar.brand": "Bill McHenry",
+  "navbar.brandAriaLabel": "Bill McHenry – ホーム",
+  "navbar.navAriaLabel": "メインナビゲーション",
+  "navbar.home": "ホーム",
+  "navbar.resume": "履歴書",
+  "navbar.openMenu": "ナビゲーションメニューを開く",
+  "navbar.closeMenu": "ナビゲーションメニューを閉じる",
+  "navbar.mobileAriaLabel": "モバイルナビゲーション",
+  "navbar.languageSwitcher": "言語を選択",
+  "footer.copyright": "© {{year}} Bill McHenry — Calgary, Alberta",
+  "footer.linkedin": "LinkedIn",
+  "footer.linkedinAriaLabel": "Bill McHenryのLinkedIn（新しいタブで開く）",
+  "dates.present": "現在"
+}

@@ -1,10 +1,10 @@
 {
   "hero.location": "كالجاري، ألبرتا",
-  "hero.headline": "ابتكار حلول مبدعة كقائد في إدارة المنتجات يعتمد على البيانات وحل المشكلات",
+  "hero.headline": "ابتكار حلول متقدمة كقائد في إدارة المنتجات يعتمد على البيانات وحل المشكلات",
   "hero.viewResume": "عرض السيرة الذاتية",
-  "hero.connectLinkedIn": "التواصل عبر LinkedIn",
-  "hero.linkedinAriaLabel": "التواصل عبر LinkedIn (يفتح في نافذة جديدة)",
-  "hero.headshotAlt": "Bill McHenry، مدير المنتجات",
+  "hero.connectLinkedIn": "تواصل عبر LinkedIn",
+  "hero.linkedinAriaLabel": "تواصل عبر LinkedIn (يفتح في نافذة جديدة)",
+  "hero.headshotAlt": "Bill McHenry، مدير منتجات",
   "skills.heading": "المهارات والخبرات",
   "skills.softHeading": "المهارات الشخصية",
   "skills.technicalHeading": "المهارات التقنية",
@@ -24,7 +24,7 @@
   "skills.tech.splunk": "Splunk",
   "skills.tech.sql": "SQL",
   "skills.tech.tableau": "Tableau",
-  "contact.cta": "هل أنت مهتم بالتعاون معنا؟",
+  "contact.cta": "هل ترغب في التعاون معنا؟",
   "contact.button": "تواصل عبر LinkedIn",
   "contact.ariaLabel": "إرسال رسالة عبر LinkedIn (يفتح في تبويب جديد)"
 }

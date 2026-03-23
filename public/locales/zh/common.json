@@ -1,0 +1,16 @@
+{
+  "navbar.skipLink": "跳过导航直达内容",
+  "navbar.brand": "Bill McHenry",
+  "navbar.brandAriaLabel": "Bill McHenry – 首页",
+  "navbar.navAriaLabel": "主导航",
+  "navbar.home": "主页",
+  "navbar.resume": "简历",
+  "navbar.openMenu": "打开导航菜单",
+  "navbar.closeMenu": "关闭导航菜单",
+  "navbar.mobileAriaLabel": "移动导航",
+  "navbar.languageSwitcher": "选择语言",
+  "footer.copyright": "© {{year}} Bill McHenry — Calgary, Alberta",
+  "footer.linkedin": "LinkedIn",
+  "footer.linkedinAriaLabel": "Bill McHenry 的 LinkedIn（新标签页打开）",
+  "dates.present": "至今"
+}
