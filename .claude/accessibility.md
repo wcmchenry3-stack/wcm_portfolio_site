@@ -6,18 +6,19 @@ See [~/.claude/standards/accessibility.md](~/.claude/standards/accessibility.md)
 
 These combinations meet the minimum contrast ratios — use only these:
 
-| Foreground | Background | Ratio | Use |
-|---|---|---|---|
-| `#F8FAFC` | `#0F172A` | ~15:1 | Primary text on dark |
-| `#F8FAFC` | `#1E3A5F` | ~10:1 | Text on brand navy |
-| `#0D9488` | `#0F172A` | ~5.2:1 | Large/bold text only — verify per use |
-| `#64748B` | `#F8FAFC` | ~4.6:1 | Muted text on light bg |
+| Foreground | Background | Ratio  | Use                                   |
+| ---------- | ---------- | ------ | ------------------------------------- |
+| `#F8FAFC`  | `#0F172A`  | ~15:1  | Primary text on dark                  |
+| `#F8FAFC`  | `#1E3A5F`  | ~10:1  | Text on brand navy                    |
+| `#0D9488`  | `#0F172A`  | ~5.2:1 | Large/bold text only — verify per use |
+| `#64748B`  | `#F8FAFC`  | ~4.6:1 | Muted text on light bg                |
 
 Do not introduce new color combinations without verifying contrast with a tool.
 
 ## Focus Ring Standard (this project)
 
 All interactive elements must use:
+
 ```
 focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:outline-none
 ```

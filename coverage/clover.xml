@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1774197101357" clover="3.2.0">
+  <project timestamp="1774197101357" name="All files">
+    <metrics statements="31" coveredstatements="28" conditionals="23" coveredconditionals="22" methods="24" coveredmethods="21" elements="78" coveredelements="71" complexity="0" loc="31" ncloc="31" packages="5" files="12" classes="12"/>
+    <package name="components.home">
+      <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="5"/>
+      <file name="ContactBar.jsx" path="C:\Users\wcmch\claude_projects\wcm_portfolio_site\src\components\home\ContactBar.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="5" type="stmt"/>
+      </file>
+      <file name="HeroSection.jsx" path="C:\Users\wcmch\claude_projects\wcm_portfolio_site\src\components\home\HeroSection.jsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+      </file>
+      <file name="SkillsSection.jsx" path="C:\Users\wcmch\claude_projects\wcm_portfolio_site\src\components\home\SkillsSection.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="20" count="72" type="stmt"/>
+        <line num="34" count="72" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.layout">
+      <metrics statements="13" coveredstatements="11" conditionals="10" coveredconditionals="9" methods="9" coveredmethods="7"/>
+      <file name="Footer.jsx" path="C:\Users\wcmch\claude_projects\wcm_portfolio_site\src\components\layout\Footer.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="8" type="stmt"/>
+      </file>
+      <file name="Navbar.jsx" path="C:\Users\wcmch\claude_projects\wcm_portfolio_site\src\components\layout\Navbar.jsx">
+        <metrics statements="12" coveredstatements="10" conditionals="10" coveredconditionals="9" methods="8" coveredmethods="6"/>
+        <line num="5" count="16" type="stmt"/>
+        <line num="7" count="16" type="stmt"/>
+        <line num="8" count="12" type="stmt"/>
+        <line num="9" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="12" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+        <line num="15" count="16" type="stmt"/>
+        <line num="16" count="38" type="stmt"/>
+        <line num="22" count="16" type="stmt"/>
+        <line num="65" count="3" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.resume">
+      <metrics statements="7" coveredstatements="7" conditionals="13" coveredconditionals="13" methods="7" coveredmethods="7"/>
+      <file name="ExperienceItem.jsx" path="C:\Users\wcmch\claude_projects\wcm_portfolio_site\src\components\resume\ExperienceItem.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="13" coveredconditionals="13" methods="4" coveredmethods="4"/>
+        <line num="5" count="34" type="stmt"/>
+        <line num="24" count="69" type="stmt"/>
+        <line num="37" count="41" type="stmt"/>
+        <line num="45" count="104" type="stmt"/>
+      </file>
+      <file name="ExperienceList.jsx" path="C:\Users\wcmch\claude_projects\wcm_portfolio_site\src\components\resume\ExperienceList.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="15" count="28" type="stmt"/>
+      </file>
+      <file name="ResumeSummary.jsx" path="C:\Users\wcmch\claude_projects\wcm_portfolio_site\src\components\resume\ResumeSummary.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="data">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="experience.js" path="C:\Users\wcmch\claude_projects\wcm_portfolio_site\src\data\experience.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+      </file>
+      <file name="skills.js" path="C:\Users\wcmch\claude_projects\wcm_portfolio_site\src\data\skills.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="Home.jsx" path="C:\Users\wcmch\claude_projects\wcm_portfolio_site\src\pages\Home.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="5" type="stmt"/>
+      </file>
+      <file name="Resume.jsx" path="C:\Users\wcmch\claude_projects\wcm_portfolio_site\src\pages\Resume.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="7" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

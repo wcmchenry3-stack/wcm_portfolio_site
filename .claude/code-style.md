@@ -17,6 +17,7 @@ Exception: `App.jsx` and page files may use default exports for React Router com
 ## Tailwind Class Order
 
 Apply classes in this order within `className`:
+
 1. Layout (`flex`, `grid`, `block`, `hidden`)
 2. Position (`relative`, `absolute`, `sticky`, `top-*`, `z-*`)
 3. Sizing (`w-*`, `h-*`, `max-w-*`)
