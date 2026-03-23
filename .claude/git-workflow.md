@@ -19,6 +19,7 @@ Add to every PR that touches UI:
 
 ```markdown
 ## Accessibility
+
 - [ ] axe DevTools — no violations on affected pages
 - [ ] Keyboard-only navigation tested
 - [ ] Tested at 320px viewport width
