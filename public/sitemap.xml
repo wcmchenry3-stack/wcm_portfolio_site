@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
+  <url>
+    <loc>https://billmchenry.org/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://billmchenry.org/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://billmchenry.org/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://billmchenry.org/"/>
+    <xhtml:link rel="alternate" hreflang="hi"    href="https://billmchenry.org/"/>
+    <xhtml:link rel="alternate" hreflang="ar"    href="https://billmchenry.org/"/>
+    <xhtml:link rel="alternate" hreflang="zh"    href="https://billmchenry.org/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://billmchenry.org/"/>
+    <xhtml:link rel="alternate" hreflang="ko"    href="https://billmchenry.org/"/>
+    <xhtml:link rel="alternate" hreflang="pt"    href="https://billmchenry.org/"/>
+    <xhtml:link rel="alternate" hreflang="he"    href="https://billmchenry.org/"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://billmchenry.org/"/>
+    <xhtml:link rel="alternate" hreflang="nl"    href="https://billmchenry.org/"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://billmchenry.org/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://billmchenry.org/"/>
+  </url>
+  <url>
+    <loc>https://billmchenry.org/resume</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://billmchenry.org/resume"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://billmchenry.org/resume"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://billmchenry.org/resume"/>
+    <xhtml:link rel="alternate" hreflang="hi"    href="https://billmchenry.org/resume"/>
+    <xhtml:link rel="alternate" hreflang="ar"    href="https://billmchenry.org/resume"/>
+    <xhtml:link rel="alternate" hreflang="zh"    href="https://billmchenry.org/resume"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://billmchenry.org/resume"/>
+    <xhtml:link rel="alternate" hreflang="ko"    href="https://billmchenry.org/resume"/>
+    <xhtml:link rel="alternate" hreflang="pt"    href="https://billmchenry.org/resume"/>
+    <xhtml:link rel="alternate" hreflang="he"    href="https://billmchenry.org/resume"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://billmchenry.org/resume"/>
+    <xhtml:link rel="alternate" hreflang="nl"    href="https://billmchenry.org/resume"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://billmchenry.org/resume"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://billmchenry.org/resume"/>
+  </url>
+</urlset>
