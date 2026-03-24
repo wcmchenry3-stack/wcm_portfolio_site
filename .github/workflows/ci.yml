@@ -41,3 +41,24 @@ jobs:
       working-directory: .
       audit-level: high
     secrets: inherit
+
+  perf-lighthouse:
+    uses: wcmchenry3-stack/.github/.github/workflows/called-perf-frontend.yml@main
+    with:
+      build-command: npm run build
+      dist-dir: dist
+      lhci-config: lighthouserc.json
+    secrets: inherit
+
+  perf-bundle:
+    name: Bundle size
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npm run size

@@ -38,6 +38,62 @@ export const LOCALES = [
     flag: '🇸🇦',
     dir: 'rtl',
   },
+  {
+    code: 'zh',
+    label: 'Chinese (Mandarin)',
+    nativeLabel: '中文',
+    flag: '🇨🇳',
+    dir: 'ltr',
+  },
+  {
+    code: 'ja',
+    label: 'Japanese',
+    nativeLabel: '日本語',
+    flag: '🇯🇵',
+    dir: 'ltr',
+  },
+  {
+    code: 'ko',
+    label: 'Korean',
+    nativeLabel: '한국어',
+    flag: '🇰🇷',
+    dir: 'ltr',
+  },
+  {
+    code: 'pt',
+    label: 'Portuguese',
+    nativeLabel: 'Português',
+    flag: '🇧🇷',
+    dir: 'ltr',
+  },
+  {
+    code: 'he',
+    label: 'Hebrew',
+    nativeLabel: 'עברית',
+    flag: '🇮🇱',
+    dir: 'rtl',
+  },
+  {
+    code: 'de',
+    label: 'German',
+    nativeLabel: 'Deutsch',
+    flag: '🇩🇪',
+    dir: 'ltr',
+  },
+  {
+    code: 'nl',
+    label: 'Dutch',
+    nativeLabel: 'Nederlands',
+    flag: '🇳🇱',
+    dir: 'ltr',
+  },
+  {
+    code: 'ru',
+    label: 'Russian',
+    nativeLabel: 'Русский',
+    flag: '🇷🇺',
+    dir: 'ltr',
+  },
 ];
 
 export const RTL_LOCALES = new Set(

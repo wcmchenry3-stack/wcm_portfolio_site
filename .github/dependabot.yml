@@ -9,6 +9,29 @@ updates:
     open-pull-requests-limit: 5
     labels:
       - dependencies
+    groups:
+      dev-tooling:
+        patterns:
+          - '@lhci/*'
+          - '@size-limit/*'
+          - 'size-limit'
+          - 'eslint*'
+          - 'prettier'
+          - 'vitest'
+          - '@vitest/*'
+          - '@testing-library/*'
+          - 'vite'
+          - '@vitejs/*'
+      react:
+        patterns:
+          - 'react'
+          - 'react-dom'
+          - 'react-router-dom'
+          - '@types/react*'
+      i18n:
+        patterns:
+          - 'i18next*'
+          - 'react-i18next'
 
   - package-ecosystem: github-actions
     directory: /
