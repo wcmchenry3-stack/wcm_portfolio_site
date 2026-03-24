@@ -14,6 +14,64 @@ html {
   scroll-padding-top: 5rem;
 }
 
+/* ─── Print styles (resume page) ────────────────────────────────────────── */
+@media print {
+  /* Hide navigation chrome */
+  nav,
+  footer,
+  [data-testid='language-switcher'] {
+    display: none !important;
+  }
+
+  /* Reset backgrounds — let the browser paper white show through */
+  body,
+  main,
+  .bg-brand-dark,
+  .bg-brand-light,
+  .bg-brand-navy {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
+  /* Flatten card — no shadow or border needed on paper */
+  .shadow-sm,
+  .shadow,
+  .shadow-lg {
+    box-shadow: none !important;
+  }
+  .rounded-xl,
+  .rounded-lg {
+    border-radius: 0 !important;
+  }
+  .border {
+    border-color: #ccc !important;
+  }
+
+  /* Typography */
+  h1 { font-size: 22pt; }
+  h2 { font-size: 14pt; }
+  h3 { font-size: 12pt; }
+  p, li { font-size: 10pt; line-height: 1.4; }
+
+  /* Avoid page breaks inside experience entries */
+  article,
+  section {
+    break-inside: avoid;
+  }
+
+  /* Show href of links for reference */
+  a[href^='http']::after {
+    content: ' (' attr(href) ')';
+    font-size: 8pt;
+    color: #555;
+  }
+
+  /* Sensible page margins */
+  @page {
+    margin: 1.5cm 2cm;
+  }
+}
+
 /* Arabic — system fonts with strong Naskh/Arabic coverage */
 :lang(ar) {
   font-family: 'Segoe UI', 'Tahoma', Arial, ui-sans-serif, sans-serif;
