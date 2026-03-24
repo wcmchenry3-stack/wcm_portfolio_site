@@ -1,0 +1,8 @@
+#!/bin/sh
+# Scan staged files for secrets before committing
+if command -v gitleaks >/dev/null 2>&1; then
+  gitleaks protect --staged --redact
+else
+  echo "⚠  gitleaks not installed — skipping secret scan."
+  echo "   Install: https://github.com/gitleaks/gitleaks#installing"
+fi
