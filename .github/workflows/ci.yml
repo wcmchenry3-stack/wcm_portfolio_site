@@ -62,3 +62,7 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm run size
+
+  openai-policy:
+    uses: wcmchenry3-stack/.github/.github/workflows/called-openai-policy.yml@main
+    secrets: inherit
