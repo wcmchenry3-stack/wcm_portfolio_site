@@ -28,12 +28,12 @@
     }
   ],
   "dependencies": {
-    "i18next": "^25.10.5",
+    "i18next": "^26.0.2",
     "i18next-browser-languagedetector": "^8.2.1",
     "i18next-http-backend": "^3.0.2",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "react-i18next": "^16.6.2",
+    "react-i18next": "^17.0.1",
     "react-router-dom": "^7.13.2"
   },
   "devDependencies": {
@@ -48,21 +48,21 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
-    "@vitest/coverage-v8": "^4.1.1",
+    "@vitest/coverage-v8": "^4.1.2",
     "autoprefixer": "^10.4.27",
     "eslint": "^9.39.4",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "eslint-plugin-security": "^4.0.0",
     "globals": "^17.4.0",
-    "i18next-cli": "^1.50.4",
+    "i18next-cli": "^1.51.4",
     "jsdom": "^29.0.1",
     "postcss": "^8.5.8",
     "prettier": "^3.8.1",
     "sharp": "^0.34.5",
     "size-limit": "^12.0.1",
     "tailwindcss": "^4.2.2",
-    "vite": "^8.0.2",
+    "vite": "^8.0.3",
     "vitest": "^4.1.0"
   }
 }
