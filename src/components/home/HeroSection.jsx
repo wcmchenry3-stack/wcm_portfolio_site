@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { LINKEDIN_URL } from '../../data/brand.js';
 
 export function HeroSection() {
   const { t } = useTranslation('home');
@@ -25,16 +26,16 @@ export function HeroSection() {
             <div className="flex flex-col sm:flex-row gap-3 justify-center sm:justify-start">
               <Link
                 to="/resume"
-                className="inline-flex items-center justify-center min-h-[44px] px-6 py-3 bg-brand-teal text-white font-semibold rounded-lg hover:bg-teal-600 transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
+                className="inline-flex items-center justify-center min-h-touch px-6 py-3 bg-brand-teal text-white font-semibold rounded-lg hover:bg-brand-teal-hover transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
               >
                 {t('hero.viewResume')}
               </Link>
               <a
-                href="https://www.linkedin.com/in/bill-mchenry/"
+                href={LINKEDIN_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={t('hero.linkedinAriaLabel')}
-                className="inline-flex items-center justify-center min-h-[44px] px-6 py-3 border border-brand-teal text-brand-teal font-semibold rounded-lg hover:bg-brand-navy transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
+                className="inline-flex items-center justify-center min-h-touch px-6 py-3 border border-brand-teal text-brand-teal font-semibold rounded-lg hover:bg-brand-navy transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
               >
                 {t('hero.connectLinkedIn')}
               </a>

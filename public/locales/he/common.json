@@ -12,5 +12,9 @@
   "footer.copyright": "© {{year}} Bill McHenry — Calgary, Alberta",
   "footer.linkedin": "LinkedIn",
   "footer.linkedinAriaLabel": "Bill McHenry ב-LinkedIn (נפתח בכרטיסייה חדשה)",
-  "dates.present": "נוכחי"
+  "dates.present": "נוכחי",
+  "contact.sectionAriaLabel": "פרטי יצירת קשר",
+  "notfound.heading": "הדף לא נמצא",
+  "notfound.description": "הדף שחיפשת אינו קיים.",
+  "notfound.homeLink": "חזרה לדף הבית"
 }

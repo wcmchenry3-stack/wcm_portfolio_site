@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { LINKEDIN_URL } from '../../data/brand.js';
 
 export function Footer() {
   const { t } = useTranslation('common');
@@ -11,11 +12,11 @@ export function Footer() {
         </p>
 
         <a
-          href="https://www.linkedin.com/in/bill-mchenry/"
+          href={LINKEDIN_URL}
           target="_blank"
           rel="noopener noreferrer"
           aria-label={t('footer.linkedinAriaLabel')}
-          className="inline-flex items-center gap-2 text-brand-muted hover:text-brand-teal transition-colors text-sm focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark rounded px-2 py-1 min-h-[44px]"
+          className="inline-flex items-center gap-2 text-brand-muted hover:text-brand-teal transition-colors text-sm focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark rounded px-2 py-1 min-h-touch"
         >
           <svg
             aria-hidden="true"

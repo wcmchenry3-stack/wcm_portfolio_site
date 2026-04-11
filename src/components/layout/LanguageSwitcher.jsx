@@ -39,7 +39,7 @@ export function LanguageSwitcher() {
         aria-expanded={isOpen}
         aria-label={t('navbar.languageSwitcher')}
         onClick={() => setIsOpen((o) => !o)}
-        className="flex items-center gap-1.5 text-sm font-medium min-h-[44px] px-2 py-1 rounded text-brand-light hover:text-brand-teal transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
+        className="flex items-center gap-1.5 text-sm font-medium min-h-touch px-2 py-1 rounded text-brand-light hover:text-brand-teal transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
       >
         <span aria-hidden="true">{current.flag}</span>
         <span>{current.nativeLabel}</span>
