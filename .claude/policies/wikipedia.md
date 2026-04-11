@@ -1,7 +1,6 @@
 # Wikipedia / Wikimedia API Policy
 
 Policy references (calibrated against CI workflow `called-wikipedia-policy.yml`):
-
 - https://www.mediawiki.org/wiki/API:Etiquette
 - https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use
 - https://www.mediawiki.org/wiki/API:REST_API
