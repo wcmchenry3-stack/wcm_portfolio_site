@@ -5,7 +5,10 @@ export function ContactBar() {
   const { t } = useTranslation('home');
 
   return (
-    <section aria-label={t('contact.sectionAriaLabel', { ns: 'common' })} className="bg-brand-navy py-10">
+    <section
+      aria-label={t('contact.sectionAriaLabel', { ns: 'common' })}
+      className="bg-brand-navy py-10"
+    >
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <p className="text-brand-light text-lg font-medium mb-4">
           {t('contact.cta')}
