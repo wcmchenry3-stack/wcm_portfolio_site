@@ -1,20 +1,24 @@
 import { useTranslation } from 'react-i18next';
+import { LINKEDIN_URL } from '../../data/brand.js';
 
 export function ContactBar() {
   const { t } = useTranslation('home');
 
   return (
-    <section aria-label="Contact information" className="bg-brand-navy py-10">
+    <section
+      aria-label={t('contact.sectionAriaLabel', { ns: 'common' })}
+      className="bg-brand-navy py-10"
+    >
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <p className="text-brand-light text-lg font-medium mb-4">
           {t('contact.cta')}
         </p>
         <a
-          href="https://www.linkedin.com/in/bill-mchenry/"
+          href={LINKEDIN_URL}
           target="_blank"
           rel="noopener noreferrer"
           aria-label={t('contact.ariaLabel')}
-          className="inline-flex items-center justify-center min-h-[44px] gap-2 px-6 py-3 bg-brand-teal text-white font-semibold rounded-lg hover:bg-teal-600 transition-colors focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-brand-navy"
+          className="inline-flex items-center justify-center min-h-touch gap-2 px-6 py-3 bg-brand-teal text-white font-semibold rounded-lg hover:bg-brand-teal-hover transition-colors focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-brand-navy"
         >
           <svg
             aria-hidden="true"

@@ -16,7 +16,7 @@ export function Navbar() {
   }, []);
 
   const navLinkClass = ({ isActive }) =>
-    `text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark rounded px-2 py-1 min-h-[44px] inline-flex items-center ${
+    `text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark rounded px-2 py-1 min-h-touch inline-flex items-center ${
       isActive
         ? 'text-brand-teal underline underline-offset-4'
         : 'text-brand-light hover:text-brand-teal'
@@ -72,7 +72,7 @@ export function Navbar() {
             aria-controls="mobile-menu"
             aria-label={isOpen ? t('navbar.closeMenu') : t('navbar.openMenu')}
             onClick={() => setIsOpen(!isOpen)}
-            className="sm:hidden flex items-center justify-center min-h-[44px] min-w-[44px] rounded text-brand-light hover:text-brand-teal transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
+            className="sm:hidden flex items-center justify-center min-h-touch min-w-touch rounded text-brand-light hover:text-brand-teal transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
           >
             <svg
               aria-hidden="true"

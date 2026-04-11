@@ -12,5 +12,9 @@
   "footer.copyright": "© {{year}} Bill McHenry — Calgary, Alberta",
   "footer.linkedin": "LinkedIn",
   "footer.linkedinAriaLabel": "Bill McHenry의 LinkedIn (새 탭에서 열림)",
-  "dates.present": "현재"
+  "dates.present": "현재",
+  "contact.sectionAriaLabel": "연락처 정보",
+  "notfound.heading": "페이지를 찾을 수 없음",
+  "notfound.description": "찾으시는 페이지가 존재하지 않습니다.",
+  "notfound.homeLink": "홈으로 돌아가기"
 }

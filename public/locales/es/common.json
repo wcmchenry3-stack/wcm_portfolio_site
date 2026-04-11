@@ -12,5 +12,9 @@
   "footer.copyright": "© {{year}} Bill McHenry — Calgary, Alberta",
   "footer.linkedin": "LinkedIn",
   "footer.linkedinAriaLabel": "Bill McHenry en LinkedIn (abre en nueva pestaña)",
-  "dates.present": "Actual"
+  "dates.present": "Actual",
+  "contact.sectionAriaLabel": "Información de contacto",
+  "notfound.heading": "Página no encontrada",
+  "notfound.description": "La página que buscas no existe.",
+  "notfound.homeLink": "Volver al inicio"
 }
