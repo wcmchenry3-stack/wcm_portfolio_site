@@ -19,7 +19,7 @@ export function SkillsSection() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           {/* Soft Skills */}
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-slate-200">
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-brand-border">
             <h3 className="text-lg font-semibold text-brand-navy mb-4">
               {t('skills.softHeading')}
             </h3>
@@ -35,7 +35,7 @@ export function SkillsSection() {
           </div>
 
           {/* Technical Skills */}
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-slate-200">
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-brand-border">
             <h3 className="text-lg font-semibold text-brand-navy mb-4">
               {t('skills.technicalHeading')}
             </h3>

@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 export default function NotFound() {
+  const { t } = useTranslation('common');
+
   return (
     <main
       id="main-content"
@@ -10,16 +13,16 @@ export default function NotFound() {
       <div className="text-center max-w-md">
         <p className="text-6xl font-bold text-brand-teal">404</p>
         <h1 className="mt-4 text-2xl font-semibold text-brand-light">
-          Page not found
+          {t('notfound.heading')}
         </h1>
         <p className="mt-3 text-brand-muted">
-          The page you&apos;re looking for doesn&apos;t exist.
+          {t('notfound.description')}
         </p>
         <Link
           to="/"
-          className="mt-8 inline-flex items-center justify-center min-h-[44px] px-6 py-2.5 bg-brand-teal text-white font-semibold rounded-lg hover:bg-teal-600 transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
+          className="mt-8 inline-flex items-center justify-center min-h-touch px-6 py-2.5 bg-brand-teal text-white font-semibold rounded-lg hover:bg-brand-teal-hover transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
         >
-          Back to home
+          {t('notfound.homeLink')}
         </Link>
       </div>
     </main>

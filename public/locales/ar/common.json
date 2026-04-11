@@ -12,5 +12,9 @@
   "footer.copyright": "© {{year}} Bill McHenry — كالغاري، ألبرتا",
   "footer.linkedin": "LinkedIn",
   "footer.linkedinAriaLabel": "Bill McHenry على LinkedIn (يفتح في تبويب جديد)",
-  "dates.present": "الحالي"
+  "dates.present": "الحالي",
+  "contact.sectionAriaLabel": "معلومات التواصل",
+  "notfound.heading": "الصفحة غير موجودة",
+  "notfound.description": "الصفحة التي تبحث عنها غير موجودة.",
+  "notfound.homeLink": "العودة إلى الرئيسية"
 }

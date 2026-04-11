@@ -12,5 +12,9 @@
   "footer.copyright": "© {{year}} Bill McHenry — Calgary, Alberta",
   "footer.linkedin": "LinkedIn",
   "footer.linkedinAriaLabel": "Bill McHenry 的 LinkedIn（新标签页打开）",
-  "dates.present": "至今"
+  "dates.present": "至今",
+  "contact.sectionAriaLabel": "联系信息",
+  "notfound.heading": "页面未找到",
+  "notfound.description": "您查找的页面不存在。",
+  "notfound.homeLink": "返回首页"
 }
