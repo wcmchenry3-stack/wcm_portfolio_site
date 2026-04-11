@@ -9,10 +9,14 @@ services:
       - type: rewrite
         source: /*
         destination: /index.html
+    # NOTE: Render static sites require headers to be configured in the
+    # Render Dashboard (Settings > Headers), not in this file.
+    # The values below are kept as documentation of the intended headers.
+    # See: https://render.com/docs/static-site-headers
     headers:
       - path: /*
         name: Content-Security-Policy
-        value: "default-src 'self'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self'; connect-src 'self'; frame-ancestors 'none'"
+        value: "default-src 'self'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self' https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com; frame-ancestors 'none'"
       - path: /*
         name: X-Frame-Options
         value: DENY
