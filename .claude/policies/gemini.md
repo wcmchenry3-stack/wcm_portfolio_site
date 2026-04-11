@@ -1,7 +1,6 @@
 # Google Gemini API Policy
 
 Policy references:
-
 - https://ai.google.dev/gemini-api/terms
 - https://ai.google.dev/gemini-api/docs/api-key
 - https://ai.google.dev/gemini-api/docs/safety-settings
