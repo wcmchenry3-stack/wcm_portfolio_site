@@ -28,7 +28,11 @@
       "Bash(npm uninstall:*)",
       "Bash(npm audit:*)",
       "Bash(grep -v \"^$\")",
-      "Bash(cd:*)"
+      "Bash(cd:*)",
+      "Bash(python -c ' *)",
+      "Bash(python -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('head:', d['headRefOid'][:8], '| mergeable:', d['mergeable'], '| state:', d['mergeStateStatus']\\)\")",
+      "Bash(gh api *)",
+      "Bash(python -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('sha:', d['headSha'][:8]\\); print\\('event:', d['event']\\); print\\('prs:', d['pullRequests']\\)\")"
     ]
   }
 }
