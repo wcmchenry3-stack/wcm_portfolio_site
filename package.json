@@ -33,7 +33,7 @@
     "i18next-http-backend": "^4.0.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
-    "react-i18next": "^17.0.9",
+    "react-i18next": "^17.0.10",
     "react-router-dom": "^7.18.0"
   },
   "devDependencies": {
@@ -55,7 +55,7 @@
     "eslint-plugin-react-refresh": "^0.5.3",
     "eslint-plugin-security": "^4.0.1",
     "globals": "^17.7.0",
-    "i18next-cli": "^1.65.0",
+    "i18next-cli": "^1.66.2",
     "jsdom": "^29.1.1",
     "postcss": "^8.5.16",
     "prettier": "^3.9.4",
