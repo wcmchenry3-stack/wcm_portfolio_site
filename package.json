@@ -15,7 +15,7 @@
     "i18n:check": "node scripts/check-i18n-strings.js",
     "i18n:translate": "node scripts/translate.js",
     "size": "size-limit",
-    "lhci": "lhci autorun"
+    "lhci": "npx @lhci/cli@0.14.0 autorun"
   },
   "size-limit": [
     {
@@ -38,7 +38,6 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
-    "@lhci/cli": "^0.15.1",
     "@size-limit/file": "^12.1.0",
     "@tailwindcss/typography": "^0.5.20",
     "@tailwindcss/vite": "^4.3.3",
