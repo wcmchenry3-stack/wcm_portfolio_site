@@ -20,6 +20,7 @@ jobs:
     with:
       working-directory: .
       run-a11y: true
+      node-version: '22'
     secrets: inherit
 
   test:
@@ -27,12 +28,14 @@ jobs:
     with:
       working-directory: .
       coverage-threshold: 80
+      node-version: '22'
     secrets: inherit
 
   build:
     uses: wcmchenry3-stack/.github/.github/workflows/called-build-frontend.yml@main
     with:
       working-directory: .
+      node-version: '22'
     secrets: inherit
 
   cve:
@@ -40,6 +43,7 @@ jobs:
     with:
       working-directory: .
       audit-level: high
+      node-version: '22'
     secrets: inherit
 
   perf-lighthouse:
@@ -48,6 +52,7 @@ jobs:
       build-command: npm run build
       dist-dir: dist
       lhci-config: lighthouserc.json
+      node-version: '22'
     secrets: inherit
 
   perf-bundle:
@@ -57,7 +62,7 @@ jobs:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
       - run: npm ci
       - run: npm run build
