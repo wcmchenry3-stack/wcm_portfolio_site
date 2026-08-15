@@ -10,6 +10,8 @@ updates:
     labels:
       - dependencies
     groups:
+      # Narrow groups first — Dependabot assigns a dependency to the first
+      # group it matches, so these keep their identity.
       dev-tooling:
         patterns:
           - '@lhci/*'
@@ -32,6 +34,16 @@ updates:
         patterns:
           - 'i18next*'
           - 'react-i18next'
+      # CVE fixes get their own PR so they are never held up behind a routine batch.
+      security-updates:
+        applies-to: security-updates
+        patterns: ['*']
+      # Anything not claimed above batches into one weekly PR; majors still
+      # open individually.
+      minor-and-patch:
+        applies-to: version-updates
+        patterns: ['*']
+        update-types: ['minor', 'patch']
 
   - package-ecosystem: github-actions
     directory: /
@@ -42,3 +54,11 @@ updates:
     open-pull-requests-limit: 5
     labels:
       - dependencies
+    groups:
+      security-updates:
+        applies-to: security-updates
+        patterns: ['*']
+      actions:
+        applies-to: version-updates
+        patterns: ['*']
+        update-types: ['minor', 'patch']
