@@ -19,7 +19,7 @@ describe('HeroSection', () => {
   it('renders the main headline', () => {
     renderHero();
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(
-      /crafting innovative solutions/i
+      /product leader who builds/i
     );
   });
 

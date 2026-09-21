@@ -23,6 +23,9 @@ export function HeroSection() {
             >
               {t('hero.headline')}
             </h1>
+            <p className="text-brand-light/80 text-lg mb-8 max-w-xl">
+              {t('hero.subhead')}
+            </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center sm:justify-start">
               <Link
                 to="/resume"
@@ -31,11 +34,17 @@ export function HeroSection() {
                 {t('hero.viewResume')}
               </Link>
               <a
+                href="#selected-work"
+                className="inline-flex items-center justify-center min-h-touch px-6 py-3 border border-brand-teal text-brand-teal font-semibold rounded-lg hover:bg-brand-navy transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
+              >
+                {t('hero.viewWork')}
+              </a>
+              <a
                 href={LINKEDIN_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={t('hero.linkedinAriaLabel')}
-                className="inline-flex items-center justify-center min-h-touch px-6 py-3 border border-brand-teal text-brand-teal font-semibold rounded-lg hover:bg-brand-navy transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
+                className="inline-flex items-center justify-center min-h-touch px-6 py-3 text-brand-light font-semibold rounded-lg hover:text-brand-teal transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
               >
                 {t('hero.connectLinkedIn')}
               </a>
