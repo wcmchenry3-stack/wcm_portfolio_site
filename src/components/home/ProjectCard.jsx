@@ -27,10 +27,7 @@ export function ProjectCard({ project, variant = 'featured' }) {
       </p>
       <ul className="space-y-2" role="list">
         {project.bullets.map((bullet) => (
-          <li
-            key={bullet}
-            className="flex gap-2 text-sm text-brand-dark/80"
-          >
+          <li key={bullet} className="flex gap-2 text-sm text-brand-dark/80">
             <span aria-hidden="true" className="text-brand-teal">
               &bull;
             </span>

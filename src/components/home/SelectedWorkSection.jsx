@@ -22,7 +22,11 @@ export function SelectedWorkSection() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
           {featuredProjects.map((project) => (
-            <ProjectCard key={project.id} project={project} variant="featured" />
+            <ProjectCard
+              key={project.id}
+              project={project}
+              variant="featured"
+            />
           ))}
         </div>
 

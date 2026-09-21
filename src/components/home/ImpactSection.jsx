@@ -18,7 +18,10 @@ export function ImpactSection() {
           mobile platform used by real estate agents worldwide.
         </p>
 
-        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" role="list">
+        <ul
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+          role="list"
+        >
           {proofPoints.map((point) => (
             <li
               key={point.id}

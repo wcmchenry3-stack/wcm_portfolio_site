@@ -3,7 +3,8 @@ export const featuredProjects = [
     id: 'bookshelfai',
     name: 'BookshelfAI',
     category: 'Product & AI',
-    tagline: 'An AI vision product that turns a camera into a personal librarian.',
+    tagline:
+      'An AI vision product that turns a camera into a personal librarian.',
     bullets: [
       'Scan → identify → confirm → lifecycle UX design',
       'OpenAI vision plus Google Books / Open Library enrichment',
@@ -15,7 +16,8 @@ export const featuredProjects = [
     id: 'bc-arcade',
     name: 'BC Arcade',
     category: 'Product & Mobile',
-    tagline: 'A 12-game mobile platform, specified and released like a real product.',
+    tagline:
+      'A 12-game mobile platform, specified and released like a real product.',
     bullets: [
       'Free / premium tiering and monetization strategy across 12 games',
       'App Store readiness and iOS / Android platform tradeoffs',
