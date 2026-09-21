@@ -1,11 +1,29 @@
 export const experience = [
   {
+    company: 'eXp Realty',
+    i18nKey: 'exprealty',
+    location: 'Remote',
+    title: 'Principal Product Manager',
+    startDate: { year: 2024, month: 4 },
+    endDate: null,
+    bullets: [
+      'Expanded a niche U.S. web and mobile application into a global user platform, growing active users from 26K to 59K (+127%) across multiple user segments and ~20 countries.',
+      'Consolidated fragmented user workflows into a single platform, migrating 88K users off legacy applications and helping avoid a $6M three-year licensing contract.',
+      'Restructured product ownership across the organization, creating clear domain accountability and reducing reliance on centralized, story-level oversight across a product group supported by ~30 engineers.',
+      'Developed four business analysts into autonomous product leaders, with responsibility for roadmaps, prioritization, stakeholder management, and delivery across major product domains.',
+      'Established direct user research as a core part of product development, moving from virtually no user engagement before my arrival to 50+ direct user meetings in 2026, with findings shaping roadmap priorities and major product redesigns.',
+      'Modernized the product and data foundation, improving scalability, data trust, usability, and global readiness while enabling more flexible user experiences.',
+      'Turned around an existing AI copilot, improving response reliability and evolving it from basic dashboard retrieval toward deeper business analysis and actionable user insights.',
+      'Operationalized AI-assisted product development, coaching product teams and peers on using Claude for requirements, discovery, prototyping, and increasingly hands-on implementation.',
+    ],
+  },
+  {
     company: 'Virbela',
     i18nKey: 'virbela',
     location: 'Remote',
     title: 'Lead Product Manager',
     startDate: { year: 2021, month: 3 },
-    endDate: null,
+    endDate: { year: 2024, month: 4 },
     bullets: [
       'Led product strategy and roadmap for a virtual 3D workspace platform used by enterprise clients across 40+ countries.',
       'Partnered with engineering, design, and customer success to deliver bi-weekly releases with measurable retention improvements.',
