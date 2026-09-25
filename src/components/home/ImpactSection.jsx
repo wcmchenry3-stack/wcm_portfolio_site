@@ -1,8 +1,11 @@
+import { useTranslation } from 'react-i18next';
 import { proofPoints } from '../../data/impact.js';
 import { Container } from '../ui/Container.jsx';
 import { SectionHeading } from '../ui/SectionHeading.jsx';
 
 export function ImpactSection() {
+  const { t } = useTranslation('home');
+
   return (
     <section
       aria-labelledby="impact-heading"
@@ -12,9 +15,9 @@ export function ImpactSection() {
         <SectionHeading
           id="impact-heading"
           tone="dark"
-          intro="As Principal Product Manager at eXp Realty, I own My eXp — a web and mobile platform used by real estate agents worldwide."
+          intro={t('impact.intro')}
         >
-          Proven Product Leadership
+          {t('impact.heading')}
         </SectionHeading>
 
         <ul
@@ -30,16 +33,21 @@ export function ImpactSection() {
                 {point.stat}
               </p>
               <p className="font-semibold text-brand-dark mb-2">
-                {point.headline}
+                {t(`impact.${point.id}.headline`, {
+                  defaultValue: point.headline,
+                })}
               </p>
-              <p className="text-sm text-brand-muted">{point.description}</p>
+              <p className="text-sm text-brand-muted">
+                {t(`impact.${point.id}.description`, {
+                  defaultValue: point.description,
+                })}
+              </p>
             </li>
           ))}
         </ul>
 
         <p className="text-brand-muted text-center mt-10">
-          15+ years in product and technology — real estate tech, virtual
-          collaboration, enterprise SaaS, and consulting.
+          {t('impact.outro')}
         </p>
       </Container>
     </section>

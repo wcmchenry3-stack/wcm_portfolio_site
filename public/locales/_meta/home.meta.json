@@ -19,10 +19,30 @@
     "doNotTranslate": [],
     "notes": "Avoid passive voice. Emphasizes data-driven problem solving and leadership. This is the most impactful string on the site — quality matters."
   },
+  "hero.subhead": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "Supporting sentence below the H1 headline, expanding on the value proposition.",
+    "tone": "professional, confident",
+    "characterLimit": 220,
+    "placeholders": [],
+    "doNotTranslate": ["AI"],
+    "notes": "Emphasizes the full product lifecycle plus hands-on AI-assisted development."
+  },
   "hero.viewResume": {
     "page": "home",
     "component": "HeroSection",
     "description": "CTA button that navigates to the Resume page.",
+    "tone": "imperative, professional",
+    "characterLimit": 25,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "hero.viewWork": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "CTA button that scrolls to the Selected Work section on the same page.",
     "tone": "imperative, professional",
     "characterLimit": 25,
     "placeholders": [],
@@ -59,195 +79,355 @@
     "doNotTranslate": ["Bill McHenry"],
     "notes": "Describes who is in the photo and their role. Name must not be translated."
   },
-  "skills.heading": {
+  "impact.heading": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Section heading for the skills area of the home page.",
+    "component": "ImpactSection",
+    "description": "Section heading for the proof-points area of the home page.",
+    "tone": "professional, confident",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "impact.intro": {
+    "page": "home",
+    "component": "ImpactSection",
+    "description": "Intro sentence naming the current role and product owned.",
     "tone": "professional",
+    "characterLimit": 160,
+    "placeholders": [],
+    "doNotTranslate": ["Principal Product Manager", "eXp Realty", "My eXp"],
+    "notes": "eXp Realty and My eXp are product/company names — do not translate."
+  },
+  "impact.outro": {
+    "page": "home",
+    "component": "ImpactSection",
+    "description": "Closing summary line beneath the proof-point grid, listing the industries worked in.",
+    "tone": "professional",
+    "characterLimit": 160,
+    "placeholders": [],
+    "doNotTranslate": ["SaaS"],
+    "notes": null
+  },
+  "impact.growth.headline": {
+    "page": "home",
+    "component": "ImpactSection",
+    "description": "Proof-point headline pairing with the '+127%' stat — describes the user growth achieved.",
+    "tone": "concise, quantitative",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Contains a numeric range with an arrow (26K → 59K); keep the arrow and number format, translate no other symbols."
+  },
+  "impact.growth.description": {
+    "page": "home",
+    "component": "ImpactSection",
+    "description": "One-sentence elaboration on the user-growth proof point.",
+    "tone": "professional, concise",
+    "characterLimit": 140,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "impact.consolidation.headline": {
+    "page": "home",
+    "component": "ImpactSection",
+    "description": "Proof-point headline pairing with the '$6M' stat — describes the platform consolidation achieved.",
+    "tone": "concise, quantitative",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "impact.consolidation.description": {
+    "page": "home",
+    "component": "ImpactSection",
+    "description": "One-sentence elaboration on the consolidation proof point.",
+    "tone": "professional, concise",
+    "characterLimit": 140,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "impact.org.headline": {
+    "page": "home",
+    "component": "ImpactSection",
+    "description": "Proof-point headline pairing with the '30' stat — describes engineers/analysts supported.",
+    "tone": "concise, quantitative",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "impact.org.description": {
+    "page": "home",
+    "component": "ImpactSection",
+    "description": "One-sentence elaboration on the org-development proof point.",
+    "tone": "professional, concise",
+    "characterLimit": 140,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "impact.ai.headline": {
+    "page": "home",
+    "component": "ImpactSection",
+    "description": "Proof-point headline pairing with the 'AI' stat — describes the AI copilot turnaround.",
+    "tone": "concise, quantitative",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": ["AI"],
+    "notes": null
+  },
+  "impact.ai.description": {
+    "page": "home",
+    "component": "ImpactSection",
+    "description": "One-sentence elaboration on the AI-copilot proof point.",
+    "tone": "professional, concise",
+    "characterLimit": 160,
+    "placeholders": [],
+    "doNotTranslate": ["AI"],
+    "notes": null
+  },
+  "work.heading": {
+    "page": "home",
+    "component": "SelectedWorkSection",
+    "description": "Section heading for the personal-projects showcase.",
+    "tone": "professional, approachable",
     "characterLimit": 30,
     "placeholders": [],
     "doNotTranslate": [],
     "notes": null
   },
-  "skills.softHeading": {
+  "work.intro": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Sub-heading for the soft skills category.",
-    "tone": "professional",
-    "characterLimit": 20,
+    "component": "SelectedWorkSection",
+    "description": "Intro sentence framing the personal projects as exploration/craft rather than commercial work.",
+    "tone": "professional, personable",
+    "characterLimit": 140,
     "placeholders": [],
     "doNotTranslate": [],
     "notes": null
   },
-  "skills.technicalHeading": {
+  "work.bookshelfai.category": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Sub-heading for the technical skills category.",
-    "tone": "professional",
-    "characterLimit": 25,
+    "component": "ProjectCard",
+    "description": "Eyebrow category tag on the BookshelfAI project card.",
+    "tone": "concise, functional",
+    "characterLimit": 30,
     "placeholders": [],
-    "doNotTranslate": [],
+    "doNotTranslate": ["AI"],
     "notes": null
   },
-  "skills.soft.adaptive": {
+  "work.bookshelfai.tagline": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Soft skill tag — ability to adjust to changing circumstances.",
+    "component": "ProjectCard",
+    "description": "One-sentence description of the BookshelfAI project.",
     "tone": "professional, concise",
-    "characterLimit": 20,
+    "characterLimit": 120,
     "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Single word or short phrase preferred."
-  },
-  "skills.soft.agile": {
-    "page": "home",
-    "component": "SkillsSection",
-    "description": "Soft skill tag — refers to Agile methodology mindset and flexible working style.",
-    "tone": "professional, concise",
-    "characterLimit": 20,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "In this context it refers to the Agile software development methodology mindset, not just 'quick'."
-  },
-  "skills.soft.communicative": {
-    "page": "home",
-    "component": "SkillsSection",
-    "description": "Soft skill tag — strong communication ability.",
-    "tone": "professional, concise",
-    "characterLimit": 20,
-    "placeholders": [],
-    "doNotTranslate": [],
+    "doNotTranslate": ["BookshelfAI"],
     "notes": null
   },
-  "skills.soft.conflictResolution": {
+  "work.bookshelfai.bullet_1": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Soft skill tag — ability to mediate and resolve workplace disagreements.",
-    "tone": "professional, concise",
+    "component": "ProjectCard",
+    "description": "First supporting bullet for the BookshelfAI card — the product flow.",
+    "tone": "concise, technical",
+    "characterLimit": 80,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Contains arrows (→) separating flow steps; keep the arrows."
+  },
+  "work.bookshelfai.bullet_2": {
+    "page": "home",
+    "component": "ProjectCard",
+    "description": "Second supporting bullet for the BookshelfAI card — the data sources used.",
+    "tone": "concise, technical",
+    "characterLimit": 80,
+    "placeholders": [],
+    "doNotTranslate": ["OpenAI", "Google Books", "Open Library"],
+    "notes": "Product/service names — do not translate."
+  },
+  "work.bookshelfai.bullet_3": {
+    "page": "home",
+    "component": "ProjectCard",
+    "description": "Third supporting bullet for the BookshelfAI card — platform reach.",
+    "tone": "concise, technical",
+    "characterLimit": 80,
+    "placeholders": [],
+    "doNotTranslate": ["iOS", "Android"],
+    "notes": "Platform names — do not translate."
+  },
+  "work.bc-arcade.category": {
+    "page": "home",
+    "component": "ProjectCard",
+    "description": "Eyebrow category tag on the BC Arcade project card.",
+    "tone": "concise, functional",
     "characterLimit": 30,
     "placeholders": [],
     "doNotTranslate": [],
     "notes": null
   },
-  "skills.soft.flexible": {
+  "work.bc-arcade.tagline": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Soft skill tag — willingness and ability to adapt.",
+    "component": "ProjectCard",
+    "description": "One-sentence description of the BC Arcade project.",
     "tone": "professional, concise",
-    "characterLimit": 20,
+    "characterLimit": 120,
+    "placeholders": [],
+    "doNotTranslate": ["BC Arcade"],
+    "notes": null
+  },
+  "work.bc-arcade.bullet_1": {
+    "page": "home",
+    "component": "ProjectCard",
+    "description": "First supporting bullet for the BC Arcade card — monetization strategy.",
+    "tone": "concise, technical",
+    "characterLimit": 90,
     "placeholders": [],
     "doNotTranslate": [],
     "notes": null
   },
-  "skills.soft.leadership": {
+  "work.bc-arcade.bullet_2": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Soft skill tag — leadership ability.",
-    "tone": "professional, concise",
-    "characterLimit": 20,
+    "component": "ProjectCard",
+    "description": "Second supporting bullet for the BC Arcade card — platform readiness.",
+    "tone": "concise, technical",
+    "characterLimit": 90,
+    "placeholders": [],
+    "doNotTranslate": ["App Store", "iOS", "Android"],
+    "notes": "Platform/store names — do not translate."
+  },
+  "work.bc-arcade.bullet_3": {
+    "page": "home",
+    "component": "ProjectCard",
+    "description": "Third supporting bullet for the BC Arcade card — product-spec scale.",
+    "tone": "concise, technical",
+    "characterLimit": 100,
     "placeholders": [],
     "doNotTranslate": [],
     "notes": null
   },
-  "skills.soft.peopleManagement": {
+  "work.rulersai.category": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Soft skill tag — managing and developing direct reports.",
+    "component": "ProjectCard",
+    "description": "Eyebrow category tag on the RulersAI project card.",
+    "tone": "concise, functional",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "work.rulersai.tagline": {
+    "page": "home",
+    "component": "ProjectCard",
+    "description": "One-sentence description of the RulersAI project.",
     "tone": "professional, concise",
+    "characterLimit": 120,
+    "placeholders": [],
+    "doNotTranslate": ["RulersAI"],
+    "notes": null
+  },
+  "work.rulersai.bullet_1": {
+    "page": "home",
+    "component": "ProjectCard",
+    "description": "First supporting bullet for the RulersAI card — ingestion pipeline.",
+    "tone": "concise, technical",
+    "characterLimit": 80,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "work.rulersai.bullet_2": {
+    "page": "home",
+    "component": "ProjectCard",
+    "description": "Second supporting bullet for the RulersAI card — operational reliability.",
+    "tone": "concise, technical",
+    "characterLimit": 90,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "work.powerplays.category": {
+    "page": "home",
+    "component": "ProjectCard",
+    "description": "Eyebrow category tag on the Power Plays History project card.",
+    "tone": "concise, functional",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "work.powerplays.tagline": {
+    "page": "home",
+    "component": "ProjectCard",
+    "description": "One-sentence description of the Power Plays History project.",
+    "tone": "professional, concise",
+    "characterLimit": 120,
+    "placeholders": [],
+    "doNotTranslate": ["Power Plays History"],
+    "notes": null
+  },
+  "work.powerplays.bullet_1": {
+    "page": "home",
+    "component": "ProjectCard",
+    "description": "First supporting bullet for the Power Plays History card — content format.",
+    "tone": "concise, technical",
+    "characterLimit": 80,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "work.powerplays.bullet_2": {
+    "page": "home",
+    "component": "ProjectCard",
+    "description": "Second supporting bullet for the Power Plays History card — nature of the work.",
+    "tone": "concise, technical",
+    "characterLimit": 80,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "career.heading": {
+    "page": "home",
+    "component": "CareerBridgeSection",
+    "description": "Section heading bridging the home page to the full resume — states years of experience.",
+    "tone": "professional, confident",
+    "characterLimit": 60,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "career.body": {
+    "page": "home",
+    "component": "CareerBridgeSection",
+    "description": "Summary paragraph spanning the full career arc, ending with a nudge toward the resume.",
+    "tone": "professional, confident",
+    "characterLimit": 220,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Contains an em dash used as a rhetorical pause — keep or use the target language's equivalent punctuation."
+  },
+  "career.cta": {
+    "page": "home",
+    "component": "CareerBridgeSection",
+    "description": "CTA button that navigates to the Resume page.",
+    "tone": "imperative, professional",
     "characterLimit": 25,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Same destination and intent as hero.viewResume but distinct wording ('View Full Resume' vs 'View Resume') — keep them distinct in translation too."
   },
-  "skills.soft.problemSolving": {
+  "contact.heading": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Soft skill tag — systematic approach to identifying and solving problems.",
-    "tone": "professional, concise",
-    "characterLimit": 25,
+    "component": "ContactBar",
+    "description": "Short, warm heading opening the closing contact section.",
+    "tone": "warm, inviting, professional",
+    "characterLimit": 30,
     "placeholders": [],
     "doNotTranslate": [],
     "notes": null
-  },
-  "skills.tech.alteryx": {
-    "page": "home",
-    "component": "SkillsSection",
-    "description": "Technical skill tag — data analytics platform.",
-    "tone": "neutral",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": ["Alteryx"],
-    "notes": "Product name — do not translate."
-  },
-  "skills.tech.generativeAI": {
-    "page": "home",
-    "component": "SkillsSection",
-    "description": "Technical skill tag — proficiency with generative AI tools and concepts.",
-    "tone": "neutral",
-    "characterLimit": 25,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Translate the concept naturally; 'AI' acronym may be kept as-is."
-  },
-  "skills.tech.jira": {
-    "page": "home",
-    "component": "SkillsSection",
-    "description": "Technical skill tag — Atlassian Jira project tracking tool.",
-    "tone": "neutral",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": ["Jira"],
-    "notes": "Product name — do not translate."
-  },
-  "skills.tech.excelPowerQuery": {
-    "page": "home",
-    "component": "SkillsSection",
-    "description": "Technical skill tag — Microsoft Excel and Power Query data tools.",
-    "tone": "neutral",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": ["Microsoft Excel / PowerQuery"],
-    "notes": "Product names — do not translate."
-  },
-  "skills.tech.python": {
-    "page": "home",
-    "component": "SkillsSection",
-    "description": "Technical skill tag — Python programming language.",
-    "tone": "neutral",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": ["Python"],
-    "notes": "Programming language name — do not translate."
-  },
-  "skills.tech.splunk": {
-    "page": "home",
-    "component": "SkillsSection",
-    "description": "Technical skill tag — Splunk data platform.",
-    "tone": "neutral",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": ["Splunk"],
-    "notes": "Product name — do not translate."
-  },
-  "skills.tech.sql": {
-    "page": "home",
-    "component": "SkillsSection",
-    "description": "Technical skill tag — SQL database query language.",
-    "tone": "neutral",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": ["SQL"],
-    "notes": "Technology acronym — do not translate."
-  },
-  "skills.tech.tableau": {
-    "page": "home",
-    "component": "SkillsSection",
-    "description": "Technical skill tag — Tableau data visualization tool.",
-    "tone": "neutral",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": ["Tableau"],
-    "notes": "Product name — do not translate."
   },
   "contact.cta": {
     "page": "home",
@@ -278,5 +458,25 @@
     "placeholders": [],
     "doNotTranslate": ["LinkedIn"],
     "notes": "Must indicate it opens in a new tab."
+  },
+  "contact.emailHref": {
+    "page": "home",
+    "component": "ContactBar",
+    "description": "mailto: link — not visible text. Never translate; must remain a valid mailto URL.",
+    "tone": "functional",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["mailto:wcmchenry3@gmail.com"],
+    "notes": "This is a URL, not display copy. The translation pipeline should pass it through unchanged."
+  },
+  "contact.emailButton": {
+    "page": "home",
+    "component": "ContactBar",
+    "description": "Secondary button text offering email as an alternative to LinkedIn.",
+    "tone": "imperative, professional",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
   }
 }
