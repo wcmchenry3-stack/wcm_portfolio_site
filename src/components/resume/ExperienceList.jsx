@@ -5,7 +5,7 @@ import { ExperienceItem } from './ExperienceItem.jsx';
 export function ExperienceList() {
   const { t } = useTranslation('resume');
   return (
-    <section aria-labelledby="experience-heading">
+    <section aria-labelledby="experience-heading" className="mb-10">
       <h2
         id="experience-heading"
         className="text-xl font-semibold text-brand-navy mb-6 pb-2 border-b-2 border-brand-teal"

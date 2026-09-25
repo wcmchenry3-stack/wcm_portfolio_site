@@ -44,5 +44,13 @@
   "experience.crossmark.role_1.bullet_1": "Oversaw an eight-person Agile team launching a client-insights reporting system, saving internal users 30% of their time.",
   "experience.crossmark.role_1.bullet_2": "Led a six-person Agile team building a promotion insights dashboard for 25 corporate clients.",
   "experience.crossmark.role_1.bullet_3": "Designed and built an automated report supporting a $10M+ Coca-Cola business line.",
-  "experience.crossmark.role_2.title": "Management Trainee"
+  "experience.crossmark.role_2.title": "Management Trainee",
+  "capabilities.heading": "Capabilities",
+  "capabilities.product.heading": "Product",
+  "capabilities.product.items": "Strategy & roadmap · Customer discovery · People leadership & coaching · Stakeholder management · Go-to-market · GDPR compliance",
+  "capabilities.technical.heading": "Technical",
+  "capabilities.technical.items": "Generative AI & LLMs · AI-assisted product workflows · SQL · Python · Power BI · APIs & integrations · iOS/Android · CI/CD · Localization",
+  "education.heading": "Education & Certifications",
+  "education.degree": "B.A., Business Administration & Psychology, Alma College",
+  "education.certifications": "Pragmatic Marketing Level V · Certified Scrum Product Owner (CSPO)"
 }

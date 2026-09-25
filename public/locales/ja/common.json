@@ -9,7 +9,6 @@
   "navbar.closeMenu": "ナビゲーションメニューを閉じる",
   "navbar.mobileAriaLabel": "モバイルナビゲーション",
   "navbar.languageSwitcher": "言語を選択",
-  "footer.copyright": "© {{year}} Bill McHenry — Calgary, Alberta",
   "footer.linkedin": "LinkedIn",
   "footer.linkedinAriaLabel": "Bill McHenryのLinkedIn（新しいタブで開く）",
   "dates.present": "現在",

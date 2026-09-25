@@ -6,8 +6,8 @@
     "tone": "neutral",
     "characterLimit": 40,
     "placeholders": [],
-    "doNotTranslate": ["Calgary", "Alberta"],
-    "notes": "For hi and ar, transliterated city/province names are preferred but optional."
+    "doNotTranslate": ["Chicago", "IL"],
+    "notes": "For hi and ar, transliterated city names are preferred but optional."
   },
   "hero.headline": {
     "page": "home",

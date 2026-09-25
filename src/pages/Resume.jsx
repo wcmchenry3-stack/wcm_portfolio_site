@@ -1,6 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import { ResumeSummary } from '../components/resume/ResumeSummary.jsx';
 import { ExperienceList } from '../components/resume/ExperienceList.jsx';
+import { CapabilitiesSection } from '../components/resume/CapabilitiesSection.jsx';
+import { EducationSection } from '../components/resume/EducationSection.jsx';
 import { LINKEDIN_URL } from '../data/brand.js';
 
 export default function Resume() {
@@ -30,6 +32,8 @@ export default function Resume() {
         <div className="bg-white rounded-xl shadow-sm border border-brand-border p-6 sm:p-10">
           <ResumeSummary />
           <ExperienceList />
+          <CapabilitiesSection />
+          <EducationSection />
         </div>
       </div>
     </main>

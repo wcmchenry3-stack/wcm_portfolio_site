@@ -458,5 +458,94 @@
     "placeholders": [],
     "doNotTranslate": [],
     "notes": "This role has no bullets on the resume — title only."
+  },
+  "capabilities.heading": {
+    "page": "resume",
+    "component": "CapabilitiesSection",
+    "description": "Section heading for the capabilities/skills list.",
+    "tone": "professional, formal",
+    "characterLimit": 25,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "capabilities.product.heading": {
+    "page": "resume",
+    "component": "CapabilitiesSection",
+    "description": "Sub-heading for the product-skills capability group.",
+    "tone": "professional, formal",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "capabilities.product.items": {
+    "page": "resume",
+    "component": "CapabilitiesSection",
+    "description": "Middle-dot-separated list of product-management capabilities.",
+    "tone": "professional, concise, noun phrases",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["GDPR"],
+    "notes": "Each item is a short noun phrase separated by ' · '. Preserve the separator style. GDPR is a regulatory acronym — do not translate."
+  },
+  "capabilities.technical.heading": {
+    "page": "resume",
+    "component": "CapabilitiesSection",
+    "description": "Sub-heading for the technical-skills capability group.",
+    "tone": "professional, formal",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "capabilities.technical.items": {
+    "page": "resume",
+    "component": "CapabilitiesSection",
+    "description": "Middle-dot-separated list of technical capabilities.",
+    "tone": "professional, concise, noun phrases",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "AI",
+      "LLMs",
+      "SQL",
+      "Python",
+      "Power BI",
+      "APIs",
+      "iOS/Android",
+      "CI/CD"
+    ],
+    "notes": "Each item is a short noun phrase separated by ' · '. Preserve the separator style. Technology names and acronyms are do-not-translate."
+  },
+  "education.heading": {
+    "page": "resume",
+    "component": "EducationSection",
+    "description": "Section heading for education and certifications.",
+    "tone": "professional, formal",
+    "characterLimit": 35,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "education.degree": {
+    "page": "resume",
+    "component": "EducationSection",
+    "description": "Academic degree, major, and institution.",
+    "tone": "professional, neutral",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["B.A.", "Alma College"],
+    "notes": "Alma College is a proper noun — do not translate. Translate the degree name and major naturally."
+  },
+  "education.certifications": {
+    "page": "resume",
+    "component": "EducationSection",
+    "description": "Middle-dot-separated list of professional certifications.",
+    "tone": "professional, neutral",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["Pragmatic Marketing", "CSPO"],
+    "notes": "Pragmatic Marketing and CSPO (Certified Scrum Product Owner) are certification/program names — do not translate."
   }
 }
