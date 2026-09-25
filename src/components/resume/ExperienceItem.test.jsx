@@ -112,3 +112,90 @@ describe('ExperienceItem — multi-role', () => {
     expect(screen.getByText(/2020/)).toBeInTheDocument();
   });
 });
+
+describe('ExperienceItem — translation key resolution', () => {
+  it('resolves a single-role title and bullet under experience.<i18nKey>', () => {
+    i18n.addResource(
+      'en',
+      'resume',
+      'experience.transkeysingle.title',
+      'Translated Single Title'
+    );
+    i18n.addResource(
+      'en',
+      'resume',
+      'experience.transkeysingle.bullet_1',
+      'Translated single bullet'
+    );
+
+    render(
+      <ExperienceItem
+        company="Translation Co"
+        i18nKey="transkeysingle"
+        location="Remote"
+        title="Untranslated Single Title"
+        startDate={{ year: 2020, month: 1 }}
+        endDate={null}
+        bullets={['Untranslated single bullet']}
+      />,
+      { wrapper }
+    );
+
+    expect(
+      screen.getByRole('heading', { level: 4, name: 'Translated Single Title' })
+    ).toBeInTheDocument();
+    expect(screen.getByText('Translated single bullet')).toBeInTheDocument();
+  });
+
+  it('resolves a multi-role title and bullet under experience.<i18nKey>.role_<n>', () => {
+    i18n.addResource(
+      'en',
+      'resume',
+      'experience.transkeymulti.role_2.title',
+      'Translated Role 2 Title'
+    );
+    i18n.addResource(
+      'en',
+      'resume',
+      'experience.transkeymulti.role_2.bullet_1',
+      'Translated role 2 bullet'
+    );
+
+    render(
+      <ExperienceItem
+        company="Translation Co"
+        i18nKey="transkeymulti"
+        location="Remote"
+        roles={[
+          {
+            title: 'Untranslated Role 1 Title',
+            startDate: { year: 2022, month: 1 },
+            endDate: null,
+            bullets: ['Untranslated role 1 bullet'],
+          },
+          {
+            title: 'Untranslated Role 2 Title',
+            startDate: { year: 2020, month: 1 },
+            endDate: { year: 2021, month: 12 },
+            bullets: ['Untranslated role 2 bullet'],
+          },
+        ]}
+      />,
+      { wrapper }
+    );
+
+    expect(
+      screen.getByRole('heading', { level: 4, name: 'Translated Role 2 Title' })
+    ).toBeInTheDocument();
+    expect(screen.getByText('Translated role 2 bullet')).toBeInTheDocument();
+    // Role 1 has no matching resource, so it still falls back to the
+    // English default passed as props — proving each role resolves its
+    // own independent key path rather than sharing one.
+    expect(
+      screen.getByRole('heading', {
+        level: 4,
+        name: 'Untranslated Role 1 Title',
+      })
+    ).toBeInTheDocument();
+  });
+});

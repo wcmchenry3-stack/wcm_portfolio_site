@@ -11,6 +11,46 @@ function DateRange({ startDate, endDate }) {
 }
 
 /**
+ * Renders one role's title, date range, and bullets. Shared by both the
+ * single-role and multi-role layouts in ExperienceItem — the only
+ * difference between them is the i18n key prefix each role resolves
+ * against.
+ *
+ * @param {{
+ *   title: string,
+ *   startDate?: { year: number, month: number },
+ *   endDate?: { year: number, month: number } | null,
+ *   bullets?: string[],
+ *   keyPrefix: string,
+ * }} props
+ */
+function RoleBlock({ title, startDate, endDate, bullets, keyPrefix }) {
+  const { t } = useTranslation('resume');
+  return (
+    <div>
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-3">
+        <h4 className="text-base font-semibold text-brand-dark">
+          {t(`${keyPrefix}.title`, { defaultValue: title })}
+        </h4>
+        <DateRange startDate={startDate} endDate={endDate} />
+      </div>
+      {bullets && bullets.length > 0 && (
+        <ul className="list-disc list-outside ms-5 space-y-1.5">
+          {bullets.map((bullet, i) => (
+            <li
+              key={i}
+              className="text-brand-dark leading-relaxed text-sm sm:text-base"
+            >
+              {t(`${keyPrefix}.bullet_${i + 1}`, { defaultValue: bullet })}
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}
+
+/**
  * @param {{
  *   company: string,
  *   location: string,
@@ -40,6 +80,14 @@ export function ExperienceItem({
   const tLocation = t(`experience.${i18nKey}.location`, {
     defaultValue: location,
   });
+
+  // Normalize a single-role company into a one-element role list so both
+  // shapes render through the same RoleBlock. Each role resolves its
+  // translations under `experience.<i18nKey>` (single-role) or
+  // `experience.<i18nKey>.role_<n>` (multi-role).
+  const roleList =
+    roles ?? (title ? [{ title, startDate, endDate, bullets }] : []);
+
   return (
     <article className="mb-8 last:mb-0">
       <h3 className="text-lg font-bold text-brand-navy">
@@ -51,63 +99,18 @@ export function ExperienceItem({
         )}
       </h3>
 
-      {/* Single-role company */}
-      {!roles && title && (
-        <div className="mt-2">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-3">
-            <h4 className="text-base font-semibold text-brand-dark">
-              {t(`experience.${i18nKey}.title`, { defaultValue: title })}
-            </h4>
-            <DateRange startDate={startDate} endDate={endDate} />
-          </div>
-          {bullets && bullets.length > 0 && (
-            <ul className="list-disc list-outside ms-5 space-y-1.5">
-              {bullets.map((bullet, i) => (
-                <li
-                  key={i}
-                  className="text-brand-dark leading-relaxed text-sm sm:text-base"
-                >
-                  {t(`experience.${i18nKey}.bullet_${i + 1}`, {
-                    defaultValue: bullet,
-                  })}
-                </li>
-              ))}
-            </ul>
-          )}
-        </div>
-      )}
-
-      {/* Multi-role company */}
-      {roles && (
+      {roleList.length > 0 && (
         <div className="mt-2 space-y-5">
-          {roles.map((role, ri) => (
-            <div key={ri}>
-              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-3">
-                <h4 className="text-base font-semibold text-brand-dark">
-                  {t(`experience.${i18nKey}.role_${ri + 1}.title`, {
-                    defaultValue: role.title,
-                  })}
-                </h4>
-                <DateRange startDate={role.startDate} endDate={role.endDate} />
-              </div>
-              {role.bullets && role.bullets.length > 0 && (
-                <ul className="list-disc list-outside ms-5 space-y-1.5">
-                  {role.bullets.map((bullet, bi) => (
-                    <li
-                      key={bi}
-                      className="text-brand-dark leading-relaxed text-sm sm:text-base"
-                    >
-                      {t(
-                        `experience.${i18nKey}.role_${ri + 1}.bullet_${bi + 1}`,
-                        {
-                          defaultValue: bullet,
-                        }
-                      )}
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </div>
+          {roleList.map((role, i) => (
+            <RoleBlock
+              key={i}
+              {...role}
+              keyPrefix={
+                roles
+                  ? `experience.${i18nKey}.role_${i + 1}`
+                  : `experience.${i18nKey}`
+              }
+            />
           ))}
         </div>
       )}
