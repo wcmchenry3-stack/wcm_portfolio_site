@@ -12,7 +12,9 @@ export function CapabilitiesSection() {
       </h2>
       <div className="space-y-2">
         <p className="text-brand-dark leading-relaxed">
-          <span className="font-semibold">{t('capabilities.product.heading')}</span>{' '}
+          <span className="font-semibold">
+            {t('capabilities.product.heading')}
+          </span>{' '}
           {t('capabilities.product.items')}
         </p>
         <p className="text-brand-dark leading-relaxed">
