@@ -23,6 +23,12 @@ All interactive elements must use:
 focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:outline-none
 ```
 
+The ring/offset color changes per surface (e.g. `focus:ring-white` on the
+navy `ContactBar`) — see `src/components/ui/Button.jsx`, which is the
+canonical implementation of this standard for CTA/link buttons. Reach for
+`Button` instead of hand-writing the focus-ring classes on a new `<a>`,
+`<Link>`, or `<button>`.
+
 ## Skip-to-Content Link
 
 ```jsx

@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { Button } from '../components/ui/Button.jsx';
 
 export default function NotFound() {
   const { t } = useTranslation('common');
@@ -16,12 +16,9 @@ export default function NotFound() {
           {t('notfound.heading')}
         </h1>
         <p className="mt-3 text-brand-muted">{t('notfound.description')}</p>
-        <Link
-          to="/"
-          className="mt-8 inline-flex items-center justify-center min-h-touch px-6 py-2.5 bg-brand-teal text-white font-semibold rounded-lg hover:bg-brand-teal-hover transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
-        >
+        <Button to="/" size="sm" className="mt-8">
           {t('notfound.homeLink')}
-        </Link>
+        </Button>
       </div>
     </main>
   );

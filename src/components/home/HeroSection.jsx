@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { LINKEDIN_URL } from '../../data/brand.js';
+import { Button } from '../ui/Button.jsx';
 
 export function HeroSection() {
   const { t } = useTranslation('home');
@@ -27,27 +27,17 @@ export function HeroSection() {
               {t('hero.subhead')}
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center sm:justify-start">
-              <Link
-                to="/resume"
-                className="inline-flex items-center justify-center min-h-touch px-6 py-3 bg-brand-teal text-white font-semibold rounded-lg hover:bg-brand-teal-hover transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
-              >
-                {t('hero.viewResume')}
-              </Link>
-              <a
-                href="#selected-work"
-                className="inline-flex items-center justify-center min-h-touch px-6 py-3 border border-brand-teal text-brand-teal font-semibold rounded-lg hover:bg-brand-navy transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
-              >
+              <Button to="/resume">{t('hero.viewResume')}</Button>
+              <Button href="#selected-work" variant="outline">
                 {t('hero.viewWork')}
-              </a>
-              <a
+              </Button>
+              <Button
                 href={LINKEDIN_URL}
-                target="_blank"
-                rel="noopener noreferrer"
+                variant="ghost"
                 aria-label={t('hero.linkedinAriaLabel')}
-                className="inline-flex items-center justify-center min-h-touch px-6 py-3 text-brand-light font-semibold rounded-lg hover:text-brand-teal transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
               >
                 {t('hero.connectLinkedIn')}
-              </a>
+              </Button>
             </div>
           </div>
 

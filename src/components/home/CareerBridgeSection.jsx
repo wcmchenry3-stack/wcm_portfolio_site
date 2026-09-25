@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Button } from '../ui/Button.jsx';
 
 export function CareerBridgeSection() {
   return (
@@ -18,12 +18,7 @@ export function CareerBridgeSection() {
           SaaS, I&apos;ve led product at every stage &mdash; from 0-to-1
           discovery to scaling platforms used by tens of thousands of people.
         </p>
-        <Link
-          to="/resume"
-          className="inline-flex items-center justify-center min-h-touch px-6 py-3 bg-brand-teal text-white font-semibold rounded-lg hover:bg-brand-teal-hover transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
-        >
-          View Full Resume
-        </Link>
+        <Button to="/resume">View Full Resume</Button>
       </div>
     </section>
   );

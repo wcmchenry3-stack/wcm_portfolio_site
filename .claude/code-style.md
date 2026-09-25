@@ -5,6 +5,9 @@ See [~/.claude/standards/code-style.md](~/.claude/standards/code-style.md) for u
 ## File Naming (this project)
 
 - Components: `PascalCase.jsx` in `src/components/<section>/`
+- Shared UI primitives (used by 2+ sections): `PascalCase.jsx` in
+  `src/components/ui/` — e.g. `Button.jsx`. Check here before hand-writing
+  a button, container, or heading pattern that already has a primitive.
 - Pages: `PascalCase.jsx` in `src/pages/`
 - Tests: co-located as `ComponentName.test.jsx` or `filename.test.js`
 - Data: `camelCase.js` in `src/data/`
