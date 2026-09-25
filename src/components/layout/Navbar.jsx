@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { LanguageSwitcher } from './LanguageSwitcher.jsx';
+import { NAV_LINK_BASE } from './navLinkClass.js';
 
 /**
  * Routes rendered in both the desktop and mobile nav lists. `labelKey`
@@ -55,10 +56,10 @@ export function Navbar() {
   }, []);
 
   const navLinkClass = ({ isActive }) =>
-    `text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark rounded px-2 py-1 min-h-touch inline-flex items-center ${
+    `${NAV_LINK_BASE} font-medium inline-flex items-center ${
       isActive
         ? 'text-brand-teal underline underline-offset-4'
-        : 'text-brand-light hover:text-brand-teal'
+        : 'text-brand-light'
     }`;
 
   return (
