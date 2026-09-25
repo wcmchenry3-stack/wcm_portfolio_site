@@ -33,7 +33,11 @@ export function LanguageSwitcher() {
   };
 
   return (
-    <div ref={containerRef} className="relative">
+    <div
+      ref={containerRef}
+      className="relative"
+      data-testid="language-switcher"
+    >
       <button
         type="button"
         aria-haspopup="listbox"

@@ -28,7 +28,9 @@ describe('SelectedWorkSection', () => {
     renderSelectedWork();
     for (const project of [...featuredProjects, ...supportingProjects]) {
       expect(
-        screen.getByRole('link', { name: new RegExp(project.name, 'i') })
+        screen.getByRole('link', {
+          name: (accessibleName) => accessibleName.includes(project.name),
+        })
       ).toBeInTheDocument();
       expect(screen.getByText(project.tagline)).toBeInTheDocument();
       expect(screen.getByText(project.category)).toBeInTheDocument();
@@ -37,10 +39,11 @@ describe('SelectedWorkSection', () => {
 
   it('project links open in a new tab with noopener', () => {
     renderSelectedWork();
+    const firstProject = featuredProjects[0];
     const link = screen.getByRole('link', {
-      name: new RegExp(featuredProjects[0].name, 'i'),
+      name: (accessibleName) => accessibleName.includes(firstProject.name),
     });
-    expect(link).toHaveAttribute('href', featuredProjects[0].href);
+    expect(link).toHaveAttribute('href', firstProject.href);
     expect(link).toHaveAttribute('target', '_blank');
     expect(link).toHaveAttribute('rel', 'noopener noreferrer');
   });
