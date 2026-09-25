@@ -43,11 +43,11 @@
     "page": "resume",
     "component": "ResumeSummary",
     "description": "The professional summary paragraph — a brief narrative about the portfolio owner's strengths.",
-    "tone": "professional, confident, first-person",
+    "tone": "professional, confident, resume-style (implied subject, not first person)",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Written in first person. Emphasizes leadership, problem-solving, and communication across diverse audiences."
+    "doNotTranslate": ["AI"],
+    "notes": "Preserve '13+' exactly. Emphasizes people leadership, customer-grounded roadmaps, practical AI adoption, and full-stack shipping."
   },
   "experience.heading": {
     "page": "resume",
@@ -58,6 +58,86 @@
     "placeholders": [],
     "doNotTranslate": [],
     "notes": null
+  },
+  "experience.exprealty.title": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Job title for the eXp Realty role.",
+    "tone": "professional, neutral",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "experience.exprealty.location": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Work location for the eXp Realty role.",
+    "tone": "neutral",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Translate 'Remote' naturally into the target language."
+  },
+  "experience.exprealty.bullet_1": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "First achievement bullet for Principal PM role at eXp Realty.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["My eXp"],
+    "notes": "Preserve '88K' and '$6M' exactly. 'My eXp' is the product name — do not translate."
+  },
+  "experience.exprealty.bullet_2": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Second achievement bullet for Principal PM role at eXp Realty.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["My eXp"],
+    "notes": "Preserve '~20', '26K to 59K', and '(+127%)' exactly. 'My eXp' is the product name — do not translate."
+  },
+  "experience.exprealty.bullet_3": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Third achievement bullet for Principal PM role at eXp Realty.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "experience.exprealty.bullet_4": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Fourth achievement bullet for Principal PM role at eXp Realty.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Preserve '50+' exactly."
+  },
+  "experience.exprealty.bullet_5": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Fifth achievement bullet for Principal PM role at eXp Realty.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["AI"],
+    "notes": "Preserve '~20' exactly."
+  },
+  "experience.exprealty.bullet_6": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "Sixth achievement bullet for Principal PM role at eXp Realty.",
+    "tone": "professional, past-tense achievement",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["AI", "Q&A"],
+    "notes": "AI and Q&A are acronyms — do not translate."
   },
   "experience.virbela.title": {
     "page": "resume",
@@ -87,7 +167,7 @@
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": ["Virbela"],
-    "notes": "Preserve '40+' exactly. Do not translate Virbela."
+    "notes": "Do not translate Virbela."
   },
   "experience.virbela.bullet_2": {
     "page": "resume",
@@ -97,7 +177,7 @@
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Preserve '28%' exactly."
   },
   "experience.virbela.bullet_3": {
     "page": "resume",
@@ -106,8 +186,8 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Preserve '30%' exactly."
+    "doNotTranslate": ["GDPR"],
+    "notes": "GDPR is a regulatory acronym — do not translate."
   },
   "experience.virbela.bullet_4": {
     "page": "resume",
@@ -116,8 +196,8 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["OKR"],
-    "notes": "OKR is an acronym — do not translate. Preserve as 'OKR' or 'OKRs'."
+    "doNotTranslate": [],
+    "notes": "Preserve '15%' exactly. 'Japan' and 'Korea' are proper nouns — translate naturally if the target language has standard exonyms."
   },
   "experience.virbela.bullet_5": {
     "page": "resume",
@@ -127,7 +207,7 @@
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Preserve '200' exactly."
+    "notes": null
   },
   "experience.virbela.bullet_6": {
     "page": "resume",
@@ -136,8 +216,8 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Preserve '25%' exactly."
+    "doNotTranslate": ["AI"],
+    "notes": "AI is an acronym — do not translate."
   },
   "experience.virbela.bullet_7": {
     "page": "resume",
@@ -146,8 +226,8 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": [],
-    "notes": null
+    "doNotTranslate": ["APIs"],
+    "notes": "APIs is an acronym — do not translate."
   },
   "experience.project44.title": {
     "page": "resume",
@@ -176,8 +256,8 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["project44"],
-    "notes": "Fortune 500 is a proper noun — keep as-is."
+    "doNotTranslate": [],
+    "notes": "Preserve '34%' exactly."
   },
   "experience.project44.bullet_2": {
     "page": "resume",
@@ -186,8 +266,8 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["EDI", "API"],
-    "notes": "Preserve '40%' exactly. EDI and API are acronyms — do not translate."
+    "doNotTranslate": [],
+    "notes": null
   },
   "experience.omnitracs.location": {
     "page": "resume",
@@ -204,7 +284,7 @@
     "component": "ExperienceItem",
     "description": "Job title for the first Omnitracs role (Strategic Initiatives).",
     "tone": "professional, neutral",
-    "characterLimit": 50,
+    "characterLimit": 60,
     "placeholders": [],
     "doNotTranslate": ["SaaS"],
     "notes": "SaaS is an acronym — do not expand or translate."
@@ -216,8 +296,8 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["SaaS"],
-    "notes": null
+    "doNotTranslate": [],
+    "notes": "Preserve '180%' exactly."
   },
   "experience.omnitracs.role_1.bullet_2": {
     "page": "resume",
@@ -226,8 +306,8 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Preserve '$2M' exactly — currency format must not change."
+    "doNotTranslate": ["iOS", "Android"],
+    "notes": "iOS and Android are platform names — do not translate."
   },
   "experience.omnitracs.role_1.bullet_3": {
     "page": "resume",
@@ -236,15 +316,15 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": [],
-    "notes": null
+    "doNotTranslate": ["SQL", "Power BI"],
+    "notes": "SQL and Power BI are product/technology names — do not translate."
   },
   "experience.omnitracs.role_2.title": {
     "page": "resume",
     "component": "ExperienceItem",
     "description": "Job title for the second Omnitracs role (Canadian Market).",
     "tone": "professional, neutral",
-    "characterLimit": 50,
+    "characterLimit": 60,
     "placeholders": [],
     "doNotTranslate": ["SaaS"],
     "notes": null
@@ -256,8 +336,8 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["ELD"],
-    "notes": "ELD is a regulatory acronym — do not translate."
+    "doNotTranslate": [],
+    "notes": "Preserve '69%' exactly."
   },
   "experience.omnitracs.role_2.bullet_2": {
     "page": "resume",
@@ -266,8 +346,8 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["ARR", "YoY"],
-    "notes": "Preserve '18%' exactly. ARR and YoY are finance acronyms — do not translate."
+    "doNotTranslate": [],
+    "notes": "Preserve '$30M' exactly. 'French-Canadian' refers to the Francophone Canadian market."
   },
   "experience.omnitracs.role_2.bullet_3": {
     "page": "resume",
@@ -277,7 +357,7 @@
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Preserve '$8M' exactly."
   },
   "experience.omnitracs.role_3.title": {
     "page": "resume",
@@ -297,7 +377,7 @@
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Preserve '50,000+' exactly."
+    "notes": "Refers to an in-cab camera IoT (Internet of Things) hardware solution."
   },
   "experience.omnitracs.role_3.bullet_2": {
     "page": "resume",
@@ -307,7 +387,7 @@
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Preserve '4.2-star' exactly."
+    "notes": null
   },
   "experience.omnitracs.role_3.bullet_3": {
     "page": "resume",
@@ -316,8 +396,8 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["PRD", "QA"],
-    "notes": "PRD and QA are product management acronyms — do not translate."
+    "doNotTranslate": ["3PLs"],
+    "notes": "3PLs (third-party logistics providers) is an industry acronym — do not translate."
   },
   "experience.crossmark.location": {
     "page": "resume",
@@ -332,7 +412,7 @@
   "experience.crossmark.role_1.title": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "Job title for the first CROSSMARK role (Product Owner / Business Analyst).",
+    "description": "Job title for the first CROSSMARK role (Product Owner & Business Analyst).",
     "tone": "professional, neutral",
     "characterLimit": 50,
     "placeholders": [],
@@ -342,32 +422,32 @@
   "experience.crossmark.role_1.bullet_1": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "First bullet for CROSSMARK Product Owner role.",
+    "description": "First bullet for CROSSMARK Product Owner & Business Analyst role.",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["CROSSMARK"],
-    "notes": "Preserve '3,000+' exactly. CROSSMARK must appear in all-caps."
+    "doNotTranslate": ["Agile"],
+    "notes": "Preserve '30%' exactly. Agile refers to the software development methodology."
   },
   "experience.crossmark.role_1.bullet_2": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "Second bullet for CROSSMARK Product Owner role.",
+    "description": "Second bullet for CROSSMARK Product Owner & Business Analyst role.",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": [],
-    "notes": null
+    "doNotTranslate": ["Agile"],
+    "notes": "Preserve '25' exactly. Agile refers to the software development methodology."
   },
   "experience.crossmark.role_1.bullet_3": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "Third bullet for CROSSMARK Product Owner role.",
+    "description": "Third bullet for CROSSMARK Product Owner & Business Analyst role.",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Agile/Scrum refers to the software development methodology — translate the surrounding text but the methodology names may be kept."
+    "doNotTranslate": ["Coca-Cola"],
+    "notes": "Preserve '$10M+' exactly. Coca-Cola is a proper noun — do not translate."
   },
   "experience.crossmark.role_2.title": {
     "page": "resume",
@@ -377,26 +457,95 @@
     "characterLimit": 30,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "This role has no bullets on the resume — title only."
   },
-  "experience.crossmark.role_2.bullet_1": {
+  "capabilities.heading": {
     "page": "resume",
-    "component": "ExperienceItem",
-    "description": "First bullet for CROSSMARK Management Trainee role.",
-    "tone": "professional, past-tense achievement",
-    "characterLimit": null,
+    "component": "CapabilitiesSection",
+    "description": "Section heading for the capabilities/skills list.",
+    "tone": "professional, formal",
+    "characterLimit": 25,
     "placeholders": [],
     "doNotTranslate": [],
     "notes": null
   },
-  "experience.crossmark.role_2.bullet_2": {
+  "capabilities.product.heading": {
     "page": "resume",
-    "component": "ExperienceItem",
-    "description": "Second bullet for CROSSMARK Management Trainee role.",
-    "tone": "professional, past-tense achievement",
+    "component": "CapabilitiesSection",
+    "description": "Sub-heading for the product-skills capability group.",
+    "tone": "professional, formal",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "capabilities.product.items": {
+    "page": "resume",
+    "component": "CapabilitiesSection",
+    "description": "Middle-dot-separated list of product-management capabilities.",
+    "tone": "professional, concise, noun phrases",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["CPG"],
-    "notes": "CPG is an industry acronym — do not translate."
+    "doNotTranslate": ["GDPR"],
+    "notes": "Each item is a short noun phrase separated by ' · '. Preserve the separator style. GDPR is a regulatory acronym — do not translate."
+  },
+  "capabilities.technical.heading": {
+    "page": "resume",
+    "component": "CapabilitiesSection",
+    "description": "Sub-heading for the technical-skills capability group.",
+    "tone": "professional, formal",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "capabilities.technical.items": {
+    "page": "resume",
+    "component": "CapabilitiesSection",
+    "description": "Middle-dot-separated list of technical capabilities.",
+    "tone": "professional, concise, noun phrases",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "AI",
+      "LLMs",
+      "SQL",
+      "Python",
+      "Power BI",
+      "APIs",
+      "iOS/Android",
+      "CI/CD"
+    ],
+    "notes": "Each item is a short noun phrase separated by ' · '. Preserve the separator style. Technology names and acronyms are do-not-translate."
+  },
+  "education.heading": {
+    "page": "resume",
+    "component": "EducationSection",
+    "description": "Section heading for education and certifications.",
+    "tone": "professional, formal",
+    "characterLimit": 35,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "education.degree": {
+    "page": "resume",
+    "component": "EducationSection",
+    "description": "Academic degree, major, and institution.",
+    "tone": "professional, neutral",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["B.A.", "Alma College"],
+    "notes": "Alma College is a proper noun — do not translate. Translate the degree name and major naturally."
+  },
+  "education.certifications": {
+    "page": "resume",
+    "component": "EducationSection",
+    "description": "Middle-dot-separated list of professional certifications.",
+    "tone": "professional, neutral",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["Pragmatic Marketing", "CSPO"],
+    "notes": "Pragmatic Marketing and CSPO (Certified Scrum Product Owner) are certification/program names — do not translate."
   }
 }
