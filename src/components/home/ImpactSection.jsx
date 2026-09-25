@@ -16,6 +16,7 @@ export function ImpactSection() {
           id="impact-heading"
           tone="dark"
           intro={t('impact.intro')}
+          className="mb-3"
         >
           {t('impact.heading')}
         </SectionHeading>

@@ -17,15 +17,18 @@ const NAV_ITEMS = [
 /**
  * The route links shared by the desktop and mobile menus. `onNavigate`
  * is called after a link is clicked — the mobile menu uses it to close
- * itself; the desktop menu has no need to pass one.
+ * itself; the desktop menu has no need to pass one. Takes `t` from
+ * Navbar rather than calling `useTranslation` itself, since it's
+ * mounted twice per render (desktop and mobile) and Navbar already
+ * holds one.
  *
  * @param {{
  *   navLinkClass: (state: { isActive: boolean }) => string,
  *   onNavigate?: () => void,
+ *   t: (key: string) => string,
  * }} props
  */
-function NavLinks({ navLinkClass, onNavigate }) {
-  const { t } = useTranslation('common');
+function NavLinks({ navLinkClass, onNavigate, t }) {
   return (
     <>
       {NAV_ITEMS.map((item) => (
@@ -80,7 +83,7 @@ export function Navbar() {
             <NavLink
               to="/"
               aria-label={t('navbar.brandAriaLabel')}
-              className="text-brand-light font-semibold text-lg hover:text-brand-teal transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark rounded px-1"
+              className="inline-flex items-center min-h-touch text-brand-light font-semibold text-lg hover:text-brand-teal transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark rounded px-1"
             >
               {t('navbar.brand')}
             </NavLink>
@@ -90,7 +93,7 @@ export function Navbar() {
               className="hidden sm:flex items-center gap-2 list-none m-0 p-0"
               role="list"
             >
-              <NavLinks navLinkClass={navLinkClass} />
+              <NavLinks navLinkClass={navLinkClass} t={t} />
               <li>
                 <LanguageSwitcher />
               </li>
@@ -145,6 +148,7 @@ export function Navbar() {
               <NavLinks
                 navLinkClass={navLinkClass}
                 onNavigate={() => setIsOpen(false)}
+                t={t}
               />
               <li className="pt-1">
                 <LanguageSwitcher />

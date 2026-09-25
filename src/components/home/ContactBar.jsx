@@ -13,8 +13,8 @@ export function ContactBar() {
       aria-label={t('contact.sectionAriaLabel', { ns: 'common' })}
       className="bg-brand-navy py-14"
     >
-      <Container className="text-center">
-        <SectionHeading tone="light" intro={t('contact.cta')}>
+      <Container>
+        <SectionHeading tone="light" intro={t('contact.cta')} className="mb-3">
           {t('contact.heading')}
         </SectionHeading>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">

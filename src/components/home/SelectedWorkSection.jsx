@@ -14,7 +14,12 @@ export function SelectedWorkSection() {
       className="bg-white py-14 sm:py-20 scroll-mt-20"
     >
       <Container>
-        <SectionHeading id="work-heading" tone="dark" intro={t('work.intro')}>
+        <SectionHeading
+          id="work-heading"
+          tone="dark"
+          intro={t('work.intro')}
+          className="mb-3"
+        >
           {t('work.heading')}
         </SectionHeading>
 
@@ -24,6 +29,7 @@ export function SelectedWorkSection() {
               key={project.id}
               project={project}
               variant="featured"
+              t={t}
             />
           ))}
         </div>
@@ -34,6 +40,7 @@ export function SelectedWorkSection() {
               key={project.id}
               project={project}
               variant="supporting"
+              t={t}
             />
           ))}
         </div>

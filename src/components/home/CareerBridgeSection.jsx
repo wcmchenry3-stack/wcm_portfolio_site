@@ -16,6 +16,7 @@ export function CareerBridgeSection() {
           id="career-heading"
           tone="light"
           intro={t('career.body')}
+          className="mb-4"
         >
           {t('career.heading')}
         </SectionHeading>

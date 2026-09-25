@@ -87,4 +87,60 @@ describe('Button', () => {
       screen.getByRole('link', { name: 'Open example' })
     ).toBeInTheDocument();
   });
+
+  it.each([
+    ['md', ['px-6', 'py-3']],
+    ['sm', ['px-5', 'py-2.5']],
+  ])('size="%s" applies its built-in padding', (size, expected) => {
+    renderButton({ to: '/resume', size });
+    const link = screen.getByRole('link', { name: 'Click me' });
+    expected.forEach((cls) => expect(link.className).toContain(cls));
+  });
+
+  it('size="none" applies no built-in padding, leaving it entirely to className', () => {
+    renderButton({ to: '/resume', size: 'none', className: 'px-6 py-2.5' });
+    const link = screen.getByRole('link', { name: 'Click me' });
+    expect(link.className).toContain('px-6');
+    expect(link.className).toContain('py-2.5');
+    expect(link.className).not.toContain('px-5');
+    expect(link.className).not.toContain('px-6 py-3');
+  });
+
+  it.each([
+    [
+      'primary',
+      'dark',
+      ['bg-brand-teal', 'text-white', 'hover:bg-brand-teal-hover'],
+    ],
+    [
+      'outline',
+      'dark',
+      ['border-brand-teal', 'text-brand-teal', 'hover:bg-brand-navy'],
+    ],
+    ['ghost', 'dark', ['text-brand-light', 'hover:text-brand-teal']],
+    ['primary', 'navy', ['bg-brand-teal', 'hover:bg-brand-teal-hover']],
+    ['outline', 'navy', ['text-brand-light', 'hover:bg-brand-dark']],
+    ['primary', 'light', ['bg-brand-teal', 'hover:bg-brand-teal-hover']],
+  ])(
+    'variant=%s surface=%s renders the exact expected color classes',
+    (variant, surface, expectedClasses) => {
+      renderButton({ to: '/resume', variant, surface });
+      const link = screen.getByRole('link', { name: 'Click me' });
+      expectedClasses.forEach((cls) => expect(link.className).toContain(cls));
+    }
+  );
+
+  it.each([
+    ['dark', 'focus:ring-brand-teal', 'focus:ring-offset-brand-dark'],
+    ['navy', 'focus:ring-white', 'focus:ring-offset-brand-navy'],
+    ['light', 'focus:ring-brand-teal', 'focus:ring-offset-brand-light'],
+  ])(
+    'surface=%s applies the same focus ring regardless of variant',
+    (surface, ring, offset) => {
+      renderButton({ to: '/resume', variant: 'primary', surface });
+      const link = screen.getByRole('link', { name: 'Click me' });
+      expect(link.className).toContain(ring);
+      expect(link.className).toContain(offset);
+    }
+  );
 });

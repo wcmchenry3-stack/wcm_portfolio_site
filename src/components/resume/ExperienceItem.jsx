@@ -14,7 +14,9 @@ function DateRange({ startDate, endDate }) {
  * Renders one role's title, date range, and bullets. Shared by both the
  * single-role and multi-role layouts in ExperienceItem — the only
  * difference between them is the i18n key prefix each role resolves
- * against.
+ * against. Takes `t` from the caller rather than calling
+ * `useTranslation` itself, since ExperienceItem already holds one and
+ * this renders once per role (up to several times per company).
  *
  * @param {{
  *   title: string,
@@ -22,10 +24,10 @@ function DateRange({ startDate, endDate }) {
  *   endDate?: { year: number, month: number } | null,
  *   bullets?: string[],
  *   keyPrefix: string,
+ *   t: (key: string, options?: object) => string,
  * }} props
  */
-function RoleBlock({ title, startDate, endDate, bullets, keyPrefix }) {
-  const { t } = useTranslation('resume');
+function RoleBlock({ title, startDate, endDate, bullets, keyPrefix, t }) {
   return (
     <div>
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-3">
@@ -105,6 +107,7 @@ export function ExperienceItem({
             <RoleBlock
               key={i}
               {...role}
+              t={t}
               keyPrefix={
                 roles
                   ? `experience.${i18nKey}.role_${i + 1}`

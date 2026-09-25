@@ -5,7 +5,7 @@ import { SectionHeading } from './SectionHeading.jsx';
 describe('SectionHeading', () => {
   it('renders an h2 with the given id', () => {
     render(
-      <SectionHeading id="impact-heading" tone="dark">
+      <SectionHeading id="impact-heading" tone="dark" className="mb-3">
         Proven Product Leadership
       </SectionHeading>
     );
@@ -18,14 +18,16 @@ describe('SectionHeading', () => {
 
   it('renders no intro paragraph when none is given', () => {
     const { container } = render(
-      <SectionHeading tone="dark">Heading only</SectionHeading>
+      <SectionHeading tone="dark" className="mb-3">
+        Heading only
+      </SectionHeading>
     );
     expect(container.querySelector('p')).not.toBeInTheDocument();
   });
 
   it('renders the intro paragraph when given (tone="dark")', () => {
     render(
-      <SectionHeading tone="dark" intro="An intro sentence.">
+      <SectionHeading tone="dark" intro="An intro sentence." className="mb-3">
         Heading
       </SectionHeading>
     );
@@ -34,7 +36,7 @@ describe('SectionHeading', () => {
 
   it('renders the intro paragraph when given (tone="light")', () => {
     render(
-      <SectionHeading tone="light" intro="An intro sentence.">
+      <SectionHeading tone="light" intro="An intro sentence." className="mb-3">
         Heading
       </SectionHeading>
     );
@@ -58,12 +60,35 @@ describe('SectionHeading', () => {
 
   it('tone="dark" centers the heading and constrains intro width', () => {
     render(
-      <SectionHeading tone="dark" intro="Intro">
+      <SectionHeading tone="dark" intro="Intro" className="mb-3">
         Heading
       </SectionHeading>
     );
     const heading = screen.getByRole('heading', { level: 2 });
     expect(heading.className).toContain('text-center');
     expect(screen.getByText('Intro').className).toContain('max-w-2xl');
+  });
+
+  // Regression test: SectionHeading previously baked mb-4 into every
+  // tone="light" heading, which silently changed ContactBar's original
+  // mb-3 spacing when it was migrated onto this shared component.
+  it('tone="light"/"dark" bake in no margin — two callers can use different values', () => {
+    const { rerender } = render(
+      <SectionHeading tone="light" className="mb-3">
+        Let&apos;s talk.
+      </SectionHeading>
+    );
+    let heading = screen.getByRole('heading', { level: 2 });
+    expect(heading.className).toContain('mb-3');
+    expect(heading.className).not.toMatch(/\bmb-4\b/);
+
+    rerender(
+      <SectionHeading tone="light" className="mb-4">
+        15+ Years Building Products That Matter
+      </SectionHeading>
+    );
+    heading = screen.getByRole('heading', { level: 2 });
+    expect(heading.className).toContain('mb-4');
+    expect(heading.className).not.toMatch(/\bmb-3\b/);
   });
 });

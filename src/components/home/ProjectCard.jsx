@@ -1,7 +1,16 @@
-import { useTranslation } from 'react-i18next';
-
-export function ProjectCard({ project, variant = 'featured' }) {
-  const { t } = useTranslation('home');
+/**
+ * Renders one project's card. Takes `t` from the caller
+ * (SelectedWorkSection, which already holds a `home`-namespace instance)
+ * rather than calling `useTranslation` itself, since this renders once
+ * per project.
+ *
+ * @param {{
+ *   project: { id: string, name: string, category: string, tagline: string, bullets: string[], href: string },
+ *   variant?: 'featured' | 'supporting',
+ *   t: (key: string, options?: object) => string,
+ * }} props
+ */
+export function ProjectCard({ project, variant = 'featured', t }) {
   const isFeatured = variant === 'featured';
 
   return (
