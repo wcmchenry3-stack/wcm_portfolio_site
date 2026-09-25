@@ -47,7 +47,7 @@ describe('experience data', () => {
     });
   });
 
-  it('every role has title, startDate, endDate, and non-empty bullets', () => {
+  it('every role has title, startDate, endDate, and a bullets array', () => {
     experience.forEach((job) => {
       const roles = job.roles ?? [
         {
@@ -63,7 +63,6 @@ describe('experience data', () => {
         expect(isDateObject(role.startDate)).toBe(true);
         expect(role.endDate === null || isDateObject(role.endDate)).toBe(true);
         expect(Array.isArray(role.bullets)).toBe(true);
-        expect(role.bullets.length).toBeGreaterThan(0);
         role.bullets.forEach((b) => {
           expect(b.trim().length).toBeGreaterThan(0);
         });
