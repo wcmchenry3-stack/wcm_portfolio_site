@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { LINKEDIN_URL } from '../../data/brand.js';
 import { Button } from '../ui/Button.jsx';
+import { Container } from '../ui/Container.jsx';
 
 export function HeroSection() {
   const { t } = useTranslation('home');
@@ -10,7 +11,7 @@ export function HeroSection() {
       aria-labelledby="hero-heading"
       className="bg-brand-dark py-16 sm:py-24"
     >
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <Container>
         <div className="flex flex-col-reverse sm:flex-row items-center gap-10 sm:gap-16">
           {/* Text content */}
           <div className="flex-1 text-center sm:text-start">
@@ -53,7 +54,7 @@ export function HeroSection() {
             />
           </div>
         </div>
-      </div>
+      </Container>
     </section>
   );
 }

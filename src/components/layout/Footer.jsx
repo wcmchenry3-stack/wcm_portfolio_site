@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { LINKEDIN_URL } from '../../data/brand.js';
 import { LinkedInIcon } from '../ui/LinkedInIcon.jsx';
+import { Container } from '../ui/Container.jsx';
 import { NAV_LINK_BASE } from './navLinkClass.js';
 
 export function Footer() {
@@ -8,7 +9,7 @@ export function Footer() {
 
   return (
     <footer className="bg-brand-dark border-t border-brand-navy mt-auto">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <Container className="py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="text-brand-muted text-sm">
           {t('footer.copyright', { year: new Date().getFullYear() })}
         </p>
@@ -23,7 +24,7 @@ export function Footer() {
           <LinkedInIcon />
           {t('footer.linkedin')}
         </a>
-      </div>
+      </Container>
     </footer>
   );
 }

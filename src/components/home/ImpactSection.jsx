@@ -1,4 +1,6 @@
 import { proofPoints } from '../../data/impact.js';
+import { Container } from '../ui/Container.jsx';
+import { SectionHeading } from '../ui/SectionHeading.jsx';
 
 export function ImpactSection() {
   return (
@@ -6,17 +8,14 @@ export function ImpactSection() {
       aria-labelledby="impact-heading"
       className="bg-brand-light py-14 sm:py-20"
     >
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2
+      <Container>
+        <SectionHeading
           id="impact-heading"
-          className="text-2xl sm:text-3xl font-bold text-brand-dark text-center mb-3"
+          tone="dark"
+          intro="As Principal Product Manager at eXp Realty, I own My eXp — a web and mobile platform used by real estate agents worldwide."
         >
           Proven Product Leadership
-        </h2>
-        <p className="text-brand-muted text-center max-w-2xl mx-auto mb-12">
-          As Principal Product Manager at eXp Realty, I own My eXp — a web and
-          mobile platform used by real estate agents worldwide.
-        </p>
+        </SectionHeading>
 
         <ul
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
@@ -42,7 +41,7 @@ export function ImpactSection() {
           15+ years in product and technology — real estate tech, virtual
           collaboration, enterprise SaaS, and consulting.
         </p>
-      </div>
+      </Container>
     </section>
   );
 }

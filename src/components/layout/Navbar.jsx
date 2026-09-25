@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { LanguageSwitcher } from './LanguageSwitcher.jsx';
 import { NAV_LINK_BASE } from './navLinkClass.js';
+import { Container } from '../ui/Container.jsx';
 
 /**
  * Routes rendered in both the desktop and mobile nav lists. `labelKey`
@@ -73,62 +74,61 @@ export function Navbar() {
       </a>
 
       <header className="sticky top-0 z-40 bg-brand-dark border-b border-brand-navy shadow-sm">
-        <nav
-          aria-label={t('navbar.navAriaLabel')}
-          className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16"
-        >
-          {/* Logo */}
-          <NavLink
-            to="/"
-            aria-label={t('navbar.brandAriaLabel')}
-            className="text-brand-light font-semibold text-lg hover:text-brand-teal transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark rounded px-1"
-          >
-            {t('navbar.brand')}
-          </NavLink>
-
-          {/* Desktop nav links */}
-          <ul
-            className="hidden sm:flex items-center gap-2 list-none m-0 p-0"
-            role="list"
-          >
-            <NavLinks navLinkClass={navLinkClass} />
-            <li>
-              <LanguageSwitcher />
-            </li>
-          </ul>
-
-          {/* Mobile hamburger */}
-          <button
-            aria-expanded={isOpen}
-            aria-controls="mobile-menu"
-            aria-label={isOpen ? t('navbar.closeMenu') : t('navbar.openMenu')}
-            onClick={() => setIsOpen(!isOpen)}
-            className="sm:hidden flex items-center justify-center min-h-touch min-w-touch rounded text-brand-light hover:text-brand-teal transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
-          >
-            <svg
-              aria-hidden="true"
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
+        <nav aria-label={t('navbar.navAriaLabel')}>
+          <Container className="flex items-center justify-between h-16">
+            {/* Logo */}
+            <NavLink
+              to="/"
+              aria-label={t('navbar.brandAriaLabel')}
+              className="text-brand-light font-semibold text-lg hover:text-brand-teal transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark rounded px-1"
             >
-              {isOpen ? (
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              ) : (
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              )}
-            </svg>
-          </button>
+              {t('navbar.brand')}
+            </NavLink>
+
+            {/* Desktop nav links */}
+            <ul
+              className="hidden sm:flex items-center gap-2 list-none m-0 p-0"
+              role="list"
+            >
+              <NavLinks navLinkClass={navLinkClass} />
+              <li>
+                <LanguageSwitcher />
+              </li>
+            </ul>
+
+            {/* Mobile hamburger */}
+            <button
+              aria-expanded={isOpen}
+              aria-controls="mobile-menu"
+              aria-label={isOpen ? t('navbar.closeMenu') : t('navbar.openMenu')}
+              onClick={() => setIsOpen(!isOpen)}
+              className="sm:hidden flex items-center justify-center min-h-touch min-w-touch rounded text-brand-light hover:text-brand-teal transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
+            >
+              <svg
+                aria-hidden="true"
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                {isOpen ? (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                ) : (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                )}
+              </svg>
+            </button>
+          </Container>
         </nav>
 
         {/* Mobile menu */}
