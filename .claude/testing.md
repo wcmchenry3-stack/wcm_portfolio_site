@@ -17,6 +17,8 @@ See [~/.claude/standards/testing.md](~/.claude/standards/testing.md) for univers
 - Hamburger has `aria-expanded="false"` by default, `aria-controls="mobile-menu"`
 - Clicking hamburger sets `aria-expanded="true"`
 - Mobile menu closes on Escape key
+- Mobile menu is exposed as a `<nav>` landmark, not a `div` with `role="navigation"`
+- Clicking a mobile nav link closes the menu (`aria-expanded` returns to `false`)
 
 ### Footer
 
@@ -28,34 +30,60 @@ See [~/.claude/standards/testing.md](~/.claude/standards/testing.md) for univers
 - Headshot `<img>` has non-empty `alt`
 - "View Resume" link navigates to `/resume`
 
-### SkillsSection
+### ImpactSection
 
-- Renders `<h2>` heading
-- Soft skills and technical skills each in a `<ul>`
-- Correct number of items rendered
+- Heading and intro sentence resolve from the `home` namespace
+- One `<li>` per proof point (`src/data/impact.js`), each with its stat, headline, and description
+- Outro sentence renders
+
+### SelectedWorkSection
+
+- Heading and intro resolve from the `home` namespace
+- Every featured and supporting project (`src/data/projects.js`) renders as a card with its name, category, and tagline
+- Project links open in a new tab with `rel="noopener noreferrer"`
+
+### CareerBridgeSection
+
+- Heading and body resolve from the `home` namespace
+- CTA link navigates to `/resume`
+
+### ContactBar
+
+- Heading and CTA sentence render
+- LinkedIn button opens in a new tab with `noopener`
+- Email button links to a `mailto:` address without `target`/`rel`
+
+### LanguageSwitcher
+
+- Root element carries `data-testid="language-switcher"` (the print stylesheet's target — see `src/index.css`)
+- Trigger button shows the current locale, has `aria-haspopup="listbox"` and `aria-expanded`
+- Opens a `listbox` of all `LOCALES` on click; exactly one option is `aria-selected`
+- Closes on Escape and after selecting a locale; all options are keyboard-reachable
 
 ### ExperienceItem
 
 - Renders company name, all role titles, bullets as `<li>` elements
 - Handles both single-role and multi-role formats
+- Single-role and multi-role entries each resolve translations under their own independent i18n key path (`experience.<key>` vs `experience.<key>.role_<n>`)
 
-### ResumeSummary
+### UI primitives (`src/components/ui/`)
 
-- Renders summary text
+- `Button` — renders `Link`/`<a>`/`<button>` based on `to`/`href`/neither; external `http(s)` hrefs get `target="_blank" rel="noopener noreferrer"`; every variant/surface combo includes the focus-ring classes
+- `Container` — `size` maps to the right max-width class; always includes the gutter padding
+- `SectionHeading` — renders the heading with the given `id`; intro is optional; `tone="resume"` has no built-in margin (callers supply it via `className`)
+- `PageMain` — `id="main-content"`, `tabIndex={-1}`, always includes `scroll-mt-20 flex-1`
+- `LinkedInIcon` — `aria-hidden="true"`; default and custom sizing
 
 ### Home / Resume pages
 
 - Renders without crash
 - Contains `<main>` landmark with `id="main-content"`
+- Resume page renders the Professional Summary, Experience, Capabilities, and Education & Certifications sections
 
 ## Data File Tests
 
-### skills.js
-
-- `softSkills` and `technicalSkills` are non-empty string arrays with no empty strings
-
 ### experience.js
 
-- Array with length > 0; each entry has `company`
-- Each entry has flat `title/period/bullets` OR `roles` array
-- No empty bullet strings
+- Array with length > 0; each entry has `company` and `i18nKey`
+- Single-role entries have `title`, `startDate`, `endDate` (or `null` for a current role), and a `bullets` array
+- Multi-role entries have a `roles` array, each with the same shape

@@ -23,6 +23,19 @@ All interactive elements must use:
 focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:outline-none
 ```
 
+The ring/offset color changes per surface (e.g. `focus:ring-white` on the
+navy `ContactBar`). Two canonical implementations exist, one per element
+family — reach for the matching one instead of hand-writing focus-ring
+classes on a new element:
+
+- **CTA/link buttons** (a background or bordered pill, e.g. "View Resume",
+  "Get in Touch on LinkedIn") — `src/components/ui/Button.jsx`.
+- **Plain text links** (nav items, the footer LinkedIn link, the language
+  switcher trigger — text with a hover color and no background/border) —
+  `NAV_LINK_BASE` from `src/components/layout/navLinkClass.js`. `Button`
+  doesn't fit this family: it always renders a background or border, which
+  a plain nav-style text link shouldn't have.
+
 ## Skip-to-Content Link
 
 ```jsx

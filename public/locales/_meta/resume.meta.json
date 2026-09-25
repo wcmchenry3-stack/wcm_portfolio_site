@@ -16,7 +16,9 @@
     "tone": "professional",
     "characterLimit": 30,
     "placeholders": [],
-    "doNotTranslate": ["LinkedIn"],
+    "doNotTranslate": [
+      "LinkedIn"
+    ],
     "notes": "Platform name — do not translate."
   },
   "page.linkedinAriaLabel": {
@@ -26,7 +28,9 @@
     "tone": "functional",
     "characterLimit": 70,
     "placeholders": [],
-    "doNotTranslate": ["LinkedIn"],
+    "doNotTranslate": [
+      "LinkedIn"
+    ],
     "notes": "Must indicate it opens in a new tab."
   },
   "summary.heading": {
@@ -46,8 +50,8 @@
     "tone": "professional, confident, resume-style (implied subject, not first person)",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["AI"],
-    "notes": "Preserve '13+' exactly. Emphasizes people leadership, customer-grounded roadmaps, practical AI adoption, and full-stack shipping."
+    "doNotTranslate": [],
+    "notes": "Preserve '13+' exactly. Emphasizes people leadership, customer-grounded roadmaps, practical AI adoption, and full-stack shipping. \"AI\" is NOT a protected term — translate it to your locale's normal word/abbreviation for artificial intelligence (matching how the site's other AI-related copy renders it in your locale, e.g. \"KI\" in German, \"IA\" in French/Spanish/Portuguese), unless your locale conventionally keeps \"AI\" as an English loanword (Hindi, Japanese, Korean, Chinese, Hebrew, Russian, Dutch already do this)."
   },
   "experience.heading": {
     "page": "resume",
@@ -86,7 +90,9 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["My eXp"],
+    "doNotTranslate": [
+      "My eXp"
+    ],
     "notes": "Preserve '88K' and '$6M' exactly. 'My eXp' is the product name — do not translate."
   },
   "experience.exprealty.bullet_2": {
@@ -96,7 +102,9 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["My eXp"],
+    "doNotTranslate": [
+      "My eXp"
+    ],
     "notes": "Preserve '~20', '26K to 59K', and '(+127%)' exactly. 'My eXp' is the product name — do not translate."
   },
   "experience.exprealty.bullet_3": {
@@ -126,8 +134,8 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["AI"],
-    "notes": "Preserve '~20' exactly."
+    "doNotTranslate": [],
+    "notes": "Preserve '~20' exactly. \"AI\" is NOT a protected term — translate it to your locale's normal word/abbreviation for artificial intelligence (matching how the site's other AI-related copy renders it in your locale, e.g. \"KI\" in German, \"IA\" in French/Spanish/Portuguese), unless your locale conventionally keeps \"AI\" as an English loanword (Hindi, Japanese, Korean, Chinese, Hebrew, Russian, Dutch already do this)."
   },
   "experience.exprealty.bullet_6": {
     "page": "resume",
@@ -136,8 +144,10 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["AI", "Q&A"],
-    "notes": "AI and Q&A are acronyms — do not translate."
+    "doNotTranslate": [
+      "Q&A"
+    ],
+    "notes": "AI and Q&A are acronyms — do not translate. \"AI\" is NOT a protected term — translate it to your locale's normal word/abbreviation for artificial intelligence (matching how the site's other AI-related copy renders it in your locale, e.g. \"KI\" in German, \"IA\" in French/Spanish/Portuguese), unless your locale conventionally keeps \"AI\" as an English loanword (Hindi, Japanese, Korean, Chinese, Hebrew, Russian, Dutch already do this)."
   },
   "experience.virbela.title": {
     "page": "resume",
@@ -146,7 +156,9 @@
     "tone": "professional, neutral",
     "characterLimit": 40,
     "placeholders": [],
-    "doNotTranslate": ["Virbela"],
+    "doNotTranslate": [
+      "Virbela"
+    ],
     "notes": "Translate the title; the company name Virbela must not be translated."
   },
   "experience.virbela.location": {
@@ -166,7 +178,9 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["Virbela"],
+    "doNotTranslate": [
+      "Virbela"
+    ],
     "notes": "Do not translate Virbela."
   },
   "experience.virbela.bullet_2": {
@@ -186,7 +200,9 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["GDPR"],
+    "doNotTranslate": [
+      "GDPR"
+    ],
     "notes": "GDPR is a regulatory acronym — do not translate."
   },
   "experience.virbela.bullet_4": {
@@ -216,8 +232,8 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["AI"],
-    "notes": "AI is an acronym — do not translate."
+    "doNotTranslate": [],
+    "notes": "AI is an acronym — do not translate. \"AI\" is NOT a protected term — translate it to your locale's normal word/abbreviation for artificial intelligence (matching how the site's other AI-related copy renders it in your locale, e.g. \"KI\" in German, \"IA\" in French/Spanish/Portuguese), unless your locale conventionally keeps \"AI\" as an English loanword (Hindi, Japanese, Korean, Chinese, Hebrew, Russian, Dutch already do this)."
   },
   "experience.virbela.bullet_7": {
     "page": "resume",
@@ -226,7 +242,9 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["APIs"],
+    "doNotTranslate": [
+      "APIs"
+    ],
     "notes": "APIs is an acronym — do not translate."
   },
   "experience.project44.title": {
@@ -236,7 +254,9 @@
     "tone": "professional, neutral",
     "characterLimit": 40,
     "placeholders": [],
-    "doNotTranslate": ["project44"],
+    "doNotTranslate": [
+      "project44"
+    ],
     "notes": "project44 has an intentional lowercase 'p' — preserve exactly."
   },
   "experience.project44.location": {
@@ -286,7 +306,9 @@
     "tone": "professional, neutral",
     "characterLimit": 60,
     "placeholders": [],
-    "doNotTranslate": ["SaaS"],
+    "doNotTranslate": [
+      "SaaS"
+    ],
     "notes": "SaaS is an acronym — do not expand or translate."
   },
   "experience.omnitracs.role_1.bullet_1": {
@@ -306,7 +328,10 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["iOS", "Android"],
+    "doNotTranslate": [
+      "iOS",
+      "Android"
+    ],
     "notes": "iOS and Android are platform names — do not translate."
   },
   "experience.omnitracs.role_1.bullet_3": {
@@ -316,7 +341,10 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["SQL", "Power BI"],
+    "doNotTranslate": [
+      "SQL",
+      "Power BI"
+    ],
     "notes": "SQL and Power BI are product/technology names — do not translate."
   },
   "experience.omnitracs.role_2.title": {
@@ -326,7 +354,9 @@
     "tone": "professional, neutral",
     "characterLimit": 60,
     "placeholders": [],
-    "doNotTranslate": ["SaaS"],
+    "doNotTranslate": [
+      "SaaS"
+    ],
     "notes": null
   },
   "experience.omnitracs.role_2.bullet_1": {
@@ -396,7 +426,9 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["3PLs"],
+    "doNotTranslate": [
+      "3PLs"
+    ],
     "notes": "3PLs (third-party logistics providers) is an industry acronym — do not translate."
   },
   "experience.crossmark.location": {
@@ -426,7 +458,9 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["Agile"],
+    "doNotTranslate": [
+      "Agile"
+    ],
     "notes": "Preserve '30%' exactly. Agile refers to the software development methodology."
   },
   "experience.crossmark.role_1.bullet_2": {
@@ -436,7 +470,9 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["Agile"],
+    "doNotTranslate": [
+      "Agile"
+    ],
     "notes": "Preserve '25' exactly. Agile refers to the software development methodology."
   },
   "experience.crossmark.role_1.bullet_3": {
@@ -446,7 +482,9 @@
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["Coca-Cola"],
+    "doNotTranslate": [
+      "Coca-Cola"
+    ],
     "notes": "Preserve '$10M+' exactly. Coca-Cola is a proper noun — do not translate."
   },
   "experience.crossmark.role_2.title": {
@@ -486,7 +524,9 @@
     "tone": "professional, concise, noun phrases",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["GDPR"],
+    "doNotTranslate": [
+      "GDPR"
+    ],
     "notes": "Each item is a short noun phrase separated by ' · '. Preserve the separator style. GDPR is a regulatory acronym — do not translate."
   },
   "capabilities.technical.heading": {
@@ -507,7 +547,6 @@
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [
-      "AI",
       "LLMs",
       "SQL",
       "Python",
@@ -516,7 +555,7 @@
       "iOS/Android",
       "CI/CD"
     ],
-    "notes": "Each item is a short noun phrase separated by ' · '. Preserve the separator style. Technology names and acronyms are do-not-translate."
+    "notes": "Each item is a short noun phrase separated by ' · '. Preserve the separator style. Technology names and acronyms are do-not-translate. \"AI\" is NOT a protected term — translate it to your locale's normal word/abbreviation for artificial intelligence (matching how the site's other AI-related copy renders it in your locale, e.g. \"KI\" in German, \"IA\" in French/Spanish/Portuguese), unless your locale conventionally keeps \"AI\" as an English loanword (Hindi, Japanese, Korean, Chinese, Hebrew, Russian, Dutch already do this)."
   },
   "education.heading": {
     "page": "resume",
@@ -535,7 +574,10 @@
     "tone": "professional, neutral",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["B.A.", "Alma College"],
+    "doNotTranslate": [
+      "B.A.",
+      "Alma College"
+    ],
     "notes": "Alma College is a proper noun — do not translate. Translate the degree name and major naturally."
   },
   "education.certifications": {
@@ -545,7 +587,10 @@
     "tone": "professional, neutral",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["Pragmatic Marketing", "CSPO"],
+    "doNotTranslate": [
+      "Pragmatic Marketing",
+      "CSPO"
+    ],
     "notes": "Pragmatic Marketing and CSPO (Certified Scrum Product Owner) are certification/program names — do not translate."
   }
 }

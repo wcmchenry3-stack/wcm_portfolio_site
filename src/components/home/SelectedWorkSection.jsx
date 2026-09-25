@@ -1,24 +1,27 @@
+import { useTranslation } from 'react-i18next';
 import { featuredProjects, supportingProjects } from '../../data/projects.js';
 import { ProjectCard } from './ProjectCard.jsx';
+import { Container } from '../ui/Container.jsx';
+import { SectionHeading } from '../ui/SectionHeading.jsx';
 
 export function SelectedWorkSection() {
+  const { t } = useTranslation('home');
+
   return (
     <section
       id="selected-work"
       aria-labelledby="work-heading"
       className="bg-white py-14 sm:py-20 scroll-mt-20"
     >
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2
+      <Container>
+        <SectionHeading
           id="work-heading"
-          className="text-2xl sm:text-3xl font-bold text-brand-dark text-center mb-3"
+          tone="dark"
+          intro={t('work.intro')}
+          className="mb-3"
         >
-          Selected Work
-        </h2>
-        <p className="text-brand-muted text-center max-w-2xl mx-auto mb-12">
-          A few things I&apos;ve built to test ideas and sharpen how I think
-          about product.
-        </p>
+          {t('work.heading')}
+        </SectionHeading>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
           {featuredProjects.map((project) => (
@@ -26,6 +29,7 @@ export function SelectedWorkSection() {
               key={project.id}
               project={project}
               variant="featured"
+              t={t}
             />
           ))}
         </div>
@@ -36,10 +40,11 @@ export function SelectedWorkSection() {
               key={project.id}
               project={project}
               variant="supporting"
+              t={t}
             />
           ))}
         </div>
-      </div>
+      </Container>
     </section>
   );
 }

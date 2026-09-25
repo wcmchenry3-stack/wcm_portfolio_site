@@ -5,6 +5,12 @@ See [~/.claude/standards/code-style.md](~/.claude/standards/code-style.md) for u
 ## File Naming (this project)
 
 - Components: `PascalCase.jsx` in `src/components/<section>/`
+- Shared UI primitives (used by 2+ sections): `PascalCase.jsx` in
+  `src/components/ui/` — `Button.jsx`, `Container.jsx`, `SectionHeading.jsx`,
+  `PageMain.jsx`, `LinkedInIcon.jsx`. Check here before hand-writing a
+  button, container, section heading, page wrapper, or icon that already
+  has a primitive. There is deliberately no `Card` or generic `Section`
+  primitive yet — see epic #198 for why.
 - Pages: `PascalCase.jsx` in `src/pages/`
 - Tests: co-located as `ComponentName.test.jsx` or `filename.test.js`
 - Data: `camelCase.js` in `src/data/`

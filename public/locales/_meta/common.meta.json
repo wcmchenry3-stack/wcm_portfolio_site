@@ -138,5 +138,45 @@
     "placeholders": [],
     "doNotTranslate": [],
     "notes": "Use the most natural word for 'current / ongoing' in employment context."
+  },
+  "contact.sectionAriaLabel": {
+    "page": "global",
+    "component": "ContactBar",
+    "description": "ARIA label for the contact <section> landmark at the bottom of the home page.",
+    "tone": "functional",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "notfound.heading": {
+    "page": "global",
+    "component": "NotFound",
+    "description": "Heading on the 404 page, below the '404' numeral.",
+    "tone": "neutral, friendly",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "notfound.description": {
+    "page": "global",
+    "component": "NotFound",
+    "description": "One-sentence explanation on the 404 page.",
+    "tone": "neutral, friendly",
+    "characterLimit": 60,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
+  },
+  "notfound.homeLink": {
+    "page": "global",
+    "component": "NotFound",
+    "description": "CTA button on the 404 page that navigates back to the home page.",
+    "tone": "imperative, friendly",
+    "characterLimit": 25,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": null
   }
 }

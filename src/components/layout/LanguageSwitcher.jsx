@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { LOCALES } from '../../i18n/locales.js';
+import { NAV_LINK_BASE } from './navLinkClass.js';
 
 export function LanguageSwitcher() {
   const { i18n, t } = useTranslation('common');
@@ -32,14 +33,18 @@ export function LanguageSwitcher() {
   };
 
   return (
-    <div ref={containerRef} className="relative">
+    <div
+      ref={containerRef}
+      className="relative"
+      data-testid="language-switcher"
+    >
       <button
         type="button"
         aria-haspopup="listbox"
         aria-expanded={isOpen}
         aria-label={t('navbar.languageSwitcher')}
         onClick={() => setIsOpen((o) => !o)}
-        className="flex items-center gap-1.5 text-sm font-medium min-h-touch px-2 py-1 rounded text-brand-light hover:text-brand-teal transition-colors focus:outline-none focus:ring-2 focus:ring-brand-teal focus:ring-offset-2 focus:ring-offset-brand-dark"
+        className={`${NAV_LINK_BASE} font-medium flex items-center gap-1.5 text-brand-light`}
       >
         <span aria-hidden="true">{current.flag}</span>
         <span>{current.nativeLabel}</span>

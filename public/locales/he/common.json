@@ -15,5 +15,6 @@
   "contact.sectionAriaLabel": "פרטי יצירת קשר",
   "notfound.heading": "הדף לא נמצא",
   "notfound.description": "הדף שחיפשת אינו קיים.",
-  "notfound.homeLink": "חזרה לדף הבית"
+  "notfound.homeLink": "חזרה לדף הבית",
+  "footer.copyright": "© {{year}} Bill McHenry — Chicago, IL"
 }

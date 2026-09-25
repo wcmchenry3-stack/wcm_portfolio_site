@@ -9,6 +9,7 @@
   "navbar.closeMenu": "Cerrar menú de navegación",
   "navbar.mobileAriaLabel": "Navegación móvil",
   "navbar.languageSwitcher": "Seleccionar idioma",
+  "footer.copyright": "© {{year}} Bill McHenry — Chicago, IL",
   "footer.linkedin": "LinkedIn",
   "footer.linkedinAriaLabel": "Bill McHenry en LinkedIn (abre en nueva pestaña)",
   "dates.present": "Actual",

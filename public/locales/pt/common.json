@@ -11,6 +11,7 @@
   "navbar.languageSwitcher": "Selecionar idioma",
   "footer.linkedin": "LinkedIn",
   "footer.linkedinAriaLabel": "Bill McHenry no LinkedIn (abre em nova aba)",
+  "footer.copyright": "© {{year}} Bill McHenry — Chicago, IL",
   "dates.present": "Atualmente",
   "contact.sectionAriaLabel": "Informações de contato",
   "notfound.heading": "Página não encontrada",
