@@ -6,7 +6,10 @@
     "tone": "neutral",
     "characterLimit": 40,
     "placeholders": [],
-    "doNotTranslate": ["Chicago", "IL"],
+    "doNotTranslate": [
+      "Chicago",
+      "IL"
+    ],
     "notes": "For hi and ar, transliterated city names are preferred but optional."
   },
   "hero.headline": {
@@ -26,8 +29,8 @@
     "tone": "professional, confident",
     "characterLimit": 220,
     "placeholders": [],
-    "doNotTranslate": ["AI"],
-    "notes": "Emphasizes the full product lifecycle plus hands-on AI-assisted development."
+    "doNotTranslate": [],
+    "notes": "Emphasizes the full product lifecycle plus hands-on AI-assisted development. \"AI\" is NOT a protected term here — translate it to your locale's normal word/abbreviation for artificial intelligence, matching how the (now-removed) skills.tech.generativeAI key used to render it in this locale (e.g. \"KI\" in German, \"IA\" in French/Spanish/Portuguese) — unless your locale conventionally keeps \"AI\" as an English loanword (e.g. Hindi, Japanese, Korean, Chinese, Hebrew, Russian, Dutch already do this)."
   },
   "hero.viewResume": {
     "page": "home",
@@ -56,7 +59,9 @@
     "tone": "imperative, professional",
     "characterLimit": 30,
     "placeholders": [],
-    "doNotTranslate": ["LinkedIn"],
+    "doNotTranslate": [
+      "LinkedIn"
+    ],
     "notes": "LinkedIn is a platform name — do not translate."
   },
   "hero.linkedinAriaLabel": {
@@ -66,7 +71,9 @@
     "tone": "functional",
     "characterLimit": 60,
     "placeholders": [],
-    "doNotTranslate": ["LinkedIn"],
+    "doNotTranslate": [
+      "LinkedIn"
+    ],
     "notes": "Must indicate it opens in a new tab."
   },
   "hero.headshotAlt": {
@@ -76,7 +83,9 @@
     "tone": "neutral, descriptive",
     "characterLimit": 60,
     "placeholders": [],
-    "doNotTranslate": ["Bill McHenry"],
+    "doNotTranslate": [
+      "Bill McHenry"
+    ],
     "notes": "Describes who is in the photo and their role. Name must not be translated."
   },
   "impact.heading": {
@@ -96,8 +105,11 @@
     "tone": "professional",
     "characterLimit": 160,
     "placeholders": [],
-    "doNotTranslate": ["Principal Product Manager", "eXp Realty", "My eXp"],
-    "notes": "eXp Realty and My eXp are product/company names — do not translate."
+    "doNotTranslate": [
+      "eXp Realty",
+      "My eXp"
+    ],
+    "notes": "eXp Realty and My eXp are product/company names — do not translate. \"Principal Product Manager\" IS a translatable job title (unlike the two protected names) — translate it the same way hero.location does, so the title reads consistently across the page."
   },
   "impact.outro": {
     "page": "home",
@@ -106,7 +118,9 @@
     "tone": "professional",
     "characterLimit": 160,
     "placeholders": [],
-    "doNotTranslate": ["SaaS"],
+    "doNotTranslate": [
+      "SaaS"
+    ],
     "notes": null
   },
   "impact.growth.headline": {
@@ -176,8 +190,8 @@
     "tone": "concise, quantitative",
     "characterLimit": 40,
     "placeholders": [],
-    "doNotTranslate": ["AI"],
-    "notes": null
+    "doNotTranslate": [],
+    "notes": "\"AI\" is NOT a protected term here — translate it to your locale's normal word/abbreviation for artificial intelligence, matching how the (now-removed) skills.tech.generativeAI key used to render it in this locale (e.g. \"KI\" in German, \"IA\" in French/Spanish/Portuguese) — unless your locale conventionally keeps \"AI\" as an English loanword (e.g. Hindi, Japanese, Korean, Chinese, Hebrew, Russian, Dutch already do this)."
   },
   "impact.ai.description": {
     "page": "home",
@@ -186,8 +200,8 @@
     "tone": "professional, concise",
     "characterLimit": 160,
     "placeholders": [],
-    "doNotTranslate": ["AI"],
-    "notes": null
+    "doNotTranslate": [],
+    "notes": "\"AI\" is NOT a protected term here — translate it to your locale's normal word/abbreviation for artificial intelligence, matching how the (now-removed) skills.tech.generativeAI key used to render it in this locale (e.g. \"KI\" in German, \"IA\" in French/Spanish/Portuguese) — unless your locale conventionally keeps \"AI\" as an English loanword (e.g. Hindi, Japanese, Korean, Chinese, Hebrew, Russian, Dutch already do this)."
   },
   "work.heading": {
     "page": "home",
@@ -216,8 +230,8 @@
     "tone": "concise, functional",
     "characterLimit": 30,
     "placeholders": [],
-    "doNotTranslate": ["AI"],
-    "notes": null
+    "doNotTranslate": [],
+    "notes": "\"AI\" is NOT a protected term here — translate it to your locale's normal word/abbreviation for artificial intelligence, matching how the (now-removed) skills.tech.generativeAI key used to render it in this locale (e.g. \"KI\" in German, \"IA\" in French/Spanish/Portuguese) — unless your locale conventionally keeps \"AI\" as an English loanword (e.g. Hindi, Japanese, Korean, Chinese, Hebrew, Russian, Dutch already do this)."
   },
   "work.bookshelfai.tagline": {
     "page": "home",
@@ -226,7 +240,9 @@
     "tone": "professional, concise",
     "characterLimit": 120,
     "placeholders": [],
-    "doNotTranslate": ["BookshelfAI"],
+    "doNotTranslate": [
+      "BookshelfAI"
+    ],
     "notes": null
   },
   "work.bookshelfai.bullet_1": {
@@ -246,7 +262,11 @@
     "tone": "concise, technical",
     "characterLimit": 80,
     "placeholders": [],
-    "doNotTranslate": ["OpenAI", "Google Books", "Open Library"],
+    "doNotTranslate": [
+      "OpenAI",
+      "Google Books",
+      "Open Library"
+    ],
     "notes": "Product/service names — do not translate."
   },
   "work.bookshelfai.bullet_3": {
@@ -256,7 +276,10 @@
     "tone": "concise, technical",
     "characterLimit": 80,
     "placeholders": [],
-    "doNotTranslate": ["iOS", "Android"],
+    "doNotTranslate": [
+      "iOS",
+      "Android"
+    ],
     "notes": "Platform names — do not translate."
   },
   "work.bc-arcade.category": {
@@ -276,7 +299,9 @@
     "tone": "professional, concise",
     "characterLimit": 120,
     "placeholders": [],
-    "doNotTranslate": ["BC Arcade"],
+    "doNotTranslate": [
+      "BC Arcade"
+    ],
     "notes": null
   },
   "work.bc-arcade.bullet_1": {
@@ -296,7 +321,11 @@
     "tone": "concise, technical",
     "characterLimit": 90,
     "placeholders": [],
-    "doNotTranslate": ["App Store", "iOS", "Android"],
+    "doNotTranslate": [
+      "App Store",
+      "iOS",
+      "Android"
+    ],
     "notes": "Platform/store names — do not translate."
   },
   "work.bc-arcade.bullet_3": {
@@ -326,7 +355,9 @@
     "tone": "professional, concise",
     "characterLimit": 120,
     "placeholders": [],
-    "doNotTranslate": ["RulersAI"],
+    "doNotTranslate": [
+      "RulersAI"
+    ],
     "notes": null
   },
   "work.rulersai.bullet_1": {
@@ -366,7 +397,9 @@
     "tone": "professional, concise",
     "characterLimit": 120,
     "placeholders": [],
-    "doNotTranslate": ["Power Plays History"],
+    "doNotTranslate": [
+      "Power Plays History"
+    ],
     "notes": null
   },
   "work.powerplays.bullet_1": {
@@ -446,7 +479,9 @@
     "tone": "imperative, professional",
     "characterLimit": 35,
     "placeholders": [],
-    "doNotTranslate": ["LinkedIn"],
+    "doNotTranslate": [
+      "LinkedIn"
+    ],
     "notes": "LinkedIn is a platform name — do not translate."
   },
   "contact.ariaLabel": {
@@ -456,7 +491,9 @@
     "tone": "functional",
     "characterLimit": 60,
     "placeholders": [],
-    "doNotTranslate": ["LinkedIn"],
+    "doNotTranslate": [
+      "LinkedIn"
+    ],
     "notes": "Must indicate it opens in a new tab."
   },
   "contact.emailHref": {
@@ -466,7 +503,9 @@
     "tone": "functional",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["mailto:wcmchenry3@gmail.com"],
+    "doNotTranslate": [
+      "mailto:wcmchenry3@gmail.com"
+    ],
     "notes": "This is a URL, not display copy. The translation pipeline should pass it through unchanged."
   },
   "contact.emailButton": {

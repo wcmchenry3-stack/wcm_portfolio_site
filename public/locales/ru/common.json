@@ -15,5 +15,6 @@
   "contact.sectionAriaLabel": "Контактная информация",
   "notfound.heading": "Страница не найдена",
   "notfound.description": "Запрашиваемая страница не существует.",
-  "notfound.homeLink": "Вернуться на главную"
+  "notfound.homeLink": "Вернуться на главную",
+  "footer.copyright": "© {{year}} Bill McHenry — Чикаго, Иллинойс"
 }

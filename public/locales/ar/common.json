@@ -15,5 +15,6 @@
   "contact.sectionAriaLabel": "معلومات التواصل",
   "notfound.heading": "الصفحة غير موجودة",
   "notfound.description": "الصفحة التي تبحث عنها غير موجودة.",
-  "notfound.homeLink": "العودة إلى الرئيسية"
+  "notfound.homeLink": "العودة إلى الرئيسية",
+  "footer.copyright": "© {{year}} Bill McHenry — Chicago, IL"
 }

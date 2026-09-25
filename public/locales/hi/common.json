@@ -11,6 +11,7 @@
   "navbar.languageSwitcher": "भाषा चुनें",
   "footer.linkedin": "LinkedIn",
   "footer.linkedinAriaLabel": "Bill McHenry का LinkedIn (नए टैब में खुलता है)",
+  "footer.copyright": "© {{year}} Bill McHenry — Chicago, IL",
   "dates.present": "वर्तमान",
   "contact.sectionAriaLabel": "संपर्क जानकारी",
   "notfound.heading": "पृष्ठ नहीं मिला",
