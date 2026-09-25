@@ -3,6 +3,45 @@ import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { LanguageSwitcher } from './LanguageSwitcher.jsx';
 
+/**
+ * Routes rendered in both the desktop and mobile nav lists. `labelKey`
+ * resolves against the `common` namespace via useTranslation.
+ */
+const NAV_ITEMS = [
+  { to: '/', end: true, labelKey: 'navbar.home' },
+  { to: '/resume', end: false, labelKey: 'navbar.resume' },
+];
+
+/**
+ * The route links shared by the desktop and mobile menus. `onNavigate`
+ * is called after a link is clicked — the mobile menu uses it to close
+ * itself; the desktop menu has no need to pass one.
+ *
+ * @param {{
+ *   navLinkClass: (state: { isActive: boolean }) => string,
+ *   onNavigate?: () => void,
+ * }} props
+ */
+function NavLinks({ navLinkClass, onNavigate }) {
+  const { t } = useTranslation('common');
+  return (
+    <>
+      {NAV_ITEMS.map((item) => (
+        <li key={item.to}>
+          <NavLink
+            to={item.to}
+            end={item.end}
+            className={navLinkClass}
+            onClick={onNavigate}
+          >
+            {t(item.labelKey)}
+          </NavLink>
+        </li>
+      ))}
+    </>
+  );
+}
+
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const { t } = useTranslation('common');
@@ -51,16 +90,7 @@ export function Navbar() {
             className="hidden sm:flex items-center gap-2 list-none m-0 p-0"
             role="list"
           >
-            <li>
-              <NavLink to="/" end className={navLinkClass}>
-                {t('navbar.home')}
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/resume" className={navLinkClass}>
-                {t('navbar.resume')}
-              </NavLink>
-            </li>
+            <NavLinks navLinkClass={navLinkClass} />
             <li>
               <LanguageSwitcher />
             </li>
@@ -102,9 +132,8 @@ export function Navbar() {
 
         {/* Mobile menu */}
         {isOpen && (
-          <div
+          <nav
             id="mobile-menu"
-            role="navigation"
             aria-label={t('navbar.mobileAriaLabel')}
             className="sm:hidden border-t border-brand-navy bg-brand-dark"
           >
@@ -112,30 +141,15 @@ export function Navbar() {
               className="flex flex-col px-4 py-3 gap-1 list-none m-0 p-0"
               role="list"
             >
-              <li>
-                <NavLink
-                  to="/"
-                  end
-                  className={navLinkClass}
-                  onClick={() => setIsOpen(false)}
-                >
-                  {t('navbar.home')}
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/resume"
-                  className={navLinkClass}
-                  onClick={() => setIsOpen(false)}
-                >
-                  {t('navbar.resume')}
-                </NavLink>
-              </li>
+              <NavLinks
+                navLinkClass={navLinkClass}
+                onNavigate={() => setIsOpen(false)}
+              />
               <li className="pt-1">
                 <LanguageSwitcher />
               </li>
             </ul>
-          </div>
+          </nav>
         )}
       </header>
     </>

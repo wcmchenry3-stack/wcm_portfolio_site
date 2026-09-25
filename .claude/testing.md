@@ -17,6 +17,8 @@ See [~/.claude/standards/testing.md](~/.claude/standards/testing.md) for univers
 - Hamburger has `aria-expanded="false"` by default, `aria-controls="mobile-menu"`
 - Clicking hamburger sets `aria-expanded="true"`
 - Mobile menu closes on Escape key
+- Mobile menu is exposed as a `<nav>` landmark, not a `div` with `role="navigation"`
+- Clicking a mobile nav link closes the menu (`aria-expanded` returns to `false`)
 
 ### Footer
 
