@@ -106,7 +106,7 @@
     "tone": "neutral, formal",
     "characterLimit": 60,
     "placeholders": ["{{year}}"],
-    "doNotTranslate": ["Bill McHenry", "Calgary", "Alberta"],
+    "doNotTranslate": ["Bill McHenry", "Chicago", "IL"],
     "notes": "{{year}} is injected at runtime. The name and location must not be translated."
   },
   "footer.linkedin": {

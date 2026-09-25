@@ -223,31 +223,31 @@ export const glossary = {
     reason:
       'Proper name of the portfolio owner. Personal names are not translated.',
     definition:
-      'Product Management leader based in Calgary, Alberta; the subject of this portfolio.',
+      'Product Management leader based in Chicago, IL; the subject of this portfolio.',
     notes:
       'When used as the navbar brand or in image alt text, must appear exactly as shown. Do not transliterate into other scripts (Hindi/Arabic).',
   },
 
   // ─── Geography ───────────────────────────────────────────────────────────
 
-  Calgary: {
+  Chicago: {
     category: 'geography',
     doNotTranslate: false,
     reason:
       'City name — may be transliterated in Hindi and Arabic; English form is also acceptable.',
-    definition: 'City in Alberta, Canada where Bill McHenry is based.',
+    definition: 'City in Illinois, USA where Bill McHenry is based.',
     notes:
-      'fr-CA: "Calgary" (same). es: "Calgary" (same). hi: कैलगरी (transliteration preferred). ar: كالغاري (transliteration preferred).',
+      'fr-CA: "Chicago" (same). es: "Chicago" (same). hi: शिकागो (transliteration preferred). ar: شيكاغو (transliteration preferred).',
   },
 
-  Alberta: {
+  Illinois: {
     category: 'geography',
     doNotTranslate: false,
     reason:
-      'Province name — established translated/transliterated forms exist.',
-    definition: 'Canadian province.',
+      'US state name — established translated/transliterated forms exist.',
+    definition: 'US state.',
     notes:
-      'fr-CA: "Alberta" (same). es: "Alberta" (same). hi: अल्बर्टा. ar: ألبرتا.',
+      'fr-CA: "Illinois" (same). es: "Illinois" (same). hi: इलिनोइस. ar: إلينوي.',
   },
 };
 

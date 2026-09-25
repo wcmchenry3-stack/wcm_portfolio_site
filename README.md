@@ -1,6 +1,6 @@
 # Bill McHenry — Portfolio Site
 
-Personal portfolio site for Bill McHenry, Product Management Leader based in Calgary, Alberta.
+Personal portfolio site for Bill McHenry, Product Management Leader based in Chicago, IL.
 
 ## Stack
 

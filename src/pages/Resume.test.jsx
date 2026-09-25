@@ -45,6 +45,20 @@ describe('Resume page', () => {
     ).toBeInTheDocument();
   });
 
+  it('renders the Capabilities section', () => {
+    renderResume();
+    expect(
+      screen.getByRole('heading', { name: /capabilities/i })
+    ).toBeInTheDocument();
+  });
+
+  it('renders the Education & Certifications section', () => {
+    renderResume();
+    expect(
+      screen.getByRole('heading', { name: /education & certifications/i })
+    ).toBeInTheDocument();
+  });
+
   it('LinkedIn link has correct href and opens in new tab', () => {
     renderResume();
     const link = screen.getByRole('link', { name: /linkedin/i });
