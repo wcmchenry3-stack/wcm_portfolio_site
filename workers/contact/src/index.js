@@ -85,6 +85,8 @@ async function handleContact(request, env) {
 
   const { name, email, message } = result.value;
   const text = `${message}\n\n—\n${name} <${email}>\nSent via the billmchenry.org contact form.`;
+  // Quote the display name so angle brackets in it are literal, not address delimiters.
+  const quotedName = `"${name.replace(/"/g, "'")}"`;
   try {
     const res = await fetch(RESEND_URL, {
       method: 'POST',
@@ -95,7 +97,7 @@ async function handleContact(request, env) {
       body: JSON.stringify({
         from: `billmchenry.org <${env.CONTACT_FROM}>`,
         to: [env.CONTACT_TO],
-        reply_to: `${name} <${email}>`,
+        reply_to: `${quotedName} <${email}>`,
         subject: `[billmchenry.org] Message from ${name}`,
         text,
       }),

@@ -72,6 +72,14 @@ describe('contact worker — header safety', () => {
   });
 });
 
+describe('contact worker — email address validation', () => {
+  it('rejects angle brackets in the email address', () => {
+    expect(validate({ ...good, email: 'foo@evil.com>' }).ok).toBe(false);
+    expect(validate({ ...good, email: '<foo@evil.com' }).ok).toBe(false);
+    expect(validate({ ...good, email: 'foo@evil.com>bar' }).ok).toBe(false);
+  });
+});
+
 describe('contact worker — buildMime', () => {
   const mime = buildMime({
     from: 'contact@billmchenry.org',
