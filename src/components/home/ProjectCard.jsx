@@ -37,7 +37,7 @@ function ProjectVisual({ project, t }) {
             height="844"
             loading="lazy"
             className={`h-auto aspect-[390/844] object-cover object-top rounded-3xl border-4 border-brand-dark shadow-2xl ${
-              PHONE_CLASSES[i] ?? PHONE_CLASSES[0]
+              PHONE_CLASSES.at(i) ?? PHONE_CLASSES.at(0)
             }`}
           />
         ))}

@@ -21,7 +21,7 @@ export const caseStudies = [
     repo: 'https://github.com/wcmchenry3-stack/BookshelfAI',
     sections: [
       { key: 'problem', type: 'cards', items: 3 },
-      { key: 'decisions', type: 'rows', items: 4 },
+      { key: 'decisions', type: 'rows', items: 3 },
       { key: 'system', type: 'system', nodes: 4, bullets: 4 },
       { key: 'tradeoffs', type: 'table', rows: 3 },
       { key: 'validation', type: 'prose', paragraphs: 2 },

@@ -22,12 +22,21 @@ function DateRange({ startDate, endDate }) {
  *   title: string,
  *   startDate?: { year: number, month: number },
  *   endDate?: { year: number, month: number } | null,
+ *   promotion?: string,
  *   bullets?: string[],
  *   keyPrefix: string,
  *   t: (key: string, options?: object) => string,
  * }} props
  */
-function RoleBlock({ title, startDate, endDate, bullets, keyPrefix, t }) {
+function RoleBlock({
+  title,
+  startDate,
+  endDate,
+  promotion,
+  bullets,
+  keyPrefix,
+  t,
+}) {
   return (
     <div>
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-3">
@@ -36,6 +45,11 @@ function RoleBlock({ title, startDate, endDate, bullets, keyPrefix, t }) {
         </h4>
         <DateRange startDate={startDate} endDate={endDate} />
       </div>
+      {promotion && (
+        <p className="-mt-2 mb-3 text-sm italic text-brand-ink">
+          {t(`${keyPrefix}.promotion`, { defaultValue: promotion })}
+        </p>
+      )}
       {bullets && bullets.length > 0 && (
         <ul className="list-disc list-outside ms-5 space-y-1.5">
           {bullets.map((bullet, i) => (
@@ -59,6 +73,8 @@ function RoleBlock({ title, startDate, endDate, bullets, keyPrefix, t }) {
  *   title?: string,
  *   startDate?: { year: number, month: number },
  *   endDate?: { year: number, month: number } | null,
+ *   promotion?: string,
+ *   description?: string,
  *   bullets?: string[],
  *   roles?: Array<{
  *     title: string,
@@ -75,6 +91,8 @@ export function ExperienceItem({
   title,
   startDate,
   endDate,
+  promotion,
+  description,
   bullets,
   roles,
 }) {
@@ -88,7 +106,7 @@ export function ExperienceItem({
   // translations under `experience.<i18nKey>` (single-role) or
   // `experience.<i18nKey>.role_<n>` (multi-role).
   const roleList =
-    roles ?? (title ? [{ title, startDate, endDate, bullets }] : []);
+    roles ?? (title ? [{ title, startDate, endDate, promotion, bullets }] : []);
 
   return (
     <article className="mb-8 last:mb-0">
@@ -100,6 +118,13 @@ export function ExperienceItem({
           </span>
         )}
       </h3>
+      {description && (
+        <p className="mt-1 text-sm italic text-brand-ink">
+          {t(`experience.${i18nKey}.description`, {
+            defaultValue: description,
+          })}
+        </p>
+      )}
 
       {roleList.length > 0 && (
         <div className="mt-2 space-y-5">

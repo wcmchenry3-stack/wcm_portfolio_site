@@ -199,3 +199,30 @@ describe('ExperienceItem — translation key resolution', () => {
     ).toBeInTheDocument();
   });
 });
+
+describe('ExperienceItem — promotion and description lines', () => {
+  const job = {
+    ...singleRoleJob,
+    promotion: 'Promoted from PM to Senior PM, Feb 2017.',
+    description: 'Freight tracking products for fleets.',
+  };
+
+  it('renders the company description and the promotion line', () => {
+    render(<ExperienceItem {...job} />, { wrapper });
+    expect(
+      screen.getByText('Freight tracking products for fleets.')
+    ).toBeInTheDocument();
+    expect(
+      screen.getByText('Promoted from PM to Senior PM, Feb 2017.')
+    ).toBeInTheDocument();
+  });
+
+  it('renders a description-only entry with no bullet list', () => {
+    const { container } = render(
+      <ExperienceItem {...job} promotion={undefined} bullets={[]} />,
+      { wrapper }
+    );
+    expect(container.querySelector('ul')).toBeNull();
+    expect(screen.queryByText(/promoted from/i)).not.toBeInTheDocument();
+  });
+});

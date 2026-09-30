@@ -69,4 +69,34 @@ describe('Resume page', () => {
     expect(link).toHaveAttribute('target', '_blank');
     expect(link).toHaveAttribute('rel', 'noopener noreferrer');
   });
+
+  it('collapses each employer into one entry with a promotion line', () => {
+    renderResume();
+    expect(
+      screen.getAllByRole('heading', { level: 3, name: /^omnitracs/i })
+    ).toHaveLength(1);
+    expect(
+      screen.getByText(
+        /promoted from product manager to senior product manager/i
+      )
+    ).toBeInTheDocument();
+  });
+
+  it('renders Independent Products with links to each case study', () => {
+    renderResume();
+    expect(
+      screen.getByRole('heading', { level: 2, name: /independent products/i })
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole('link', { name: /read the case study.*bookshelfai/i })
+    ).toHaveAttribute('href', '/work/bookshelfai');
+    expect(
+      screen.getByRole('link', { name: /read the case study.*bc arcade/i })
+    ).toHaveAttribute('href', '/work/bc-arcade');
+  });
+
+  it('does not show a direct email address', () => {
+    renderResume();
+    expect(document.body.textContent).not.toMatch(/@gmail\.com/);
+  });
 });
