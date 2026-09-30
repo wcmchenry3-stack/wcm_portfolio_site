@@ -1,7 +1,7 @@
 # NOTE: Render static sites ignore this file — configure headers in
 # the Render Dashboard (Settings > Headers). Kept as documentation.
 /*
-  Content-Security-Policy: default-src 'self'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self' https://static.cloudflareinsights.com https://challenges.cloudflare.com 'sha256-J403+9Ckt4V7gF9M2Y4xFSNJM/iQb8gDEM3OD04hjbg='; frame-src https://challenges.cloudflare.com; connect-src 'self' https://cloudflareinsights.com https://challenges.cloudflare.com; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'self'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self' https://static.cloudflareinsights.com https://challenges.cloudflare.com 'sha256-km4/U2ak0uvDhr4ni+RBt/wuoXNLWu1v6QrN0LS8qpU='; frame-src https://challenges.cloudflare.com; connect-src 'self' https://cloudflareinsights.com https://challenges.cloudflare.com; frame-ancestors 'none'
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
