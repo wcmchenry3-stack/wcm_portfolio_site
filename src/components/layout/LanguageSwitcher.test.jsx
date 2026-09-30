@@ -10,6 +10,13 @@ const wrapper = ({ children }) => (
 );
 
 describe('LanguageSwitcher', () => {
+  it('root element carries data-testid="language-switcher" (print stylesheet target)', () => {
+    const { container } = render(<LanguageSwitcher />, { wrapper });
+    expect(
+      container.querySelector('[data-testid="language-switcher"]')
+    ).toBeInTheDocument();
+  });
+
   it('renders a button with the current locale name', () => {
     render(<LanguageSwitcher />, { wrapper });
     const btn = screen.getByRole('button', { name: /select language/i });

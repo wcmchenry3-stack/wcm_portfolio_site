@@ -3,6 +3,7 @@ import { initReactI18next } from 'react-i18next';
 import enCommon from '../../public/locales/en/common.json';
 import enHome from '../../public/locales/en/home.json';
 import enResume from '../../public/locales/en/resume.json';
+import enWork from '../../public/locales/en/work.json';
 
 /**
  * Synchronous i18next instance for use in Vitest tests.
@@ -16,13 +17,14 @@ import enResume from '../../public/locales/en/resume.json';
 i18n.use(initReactI18next).init({
   lng: 'en',
   fallbackLng: 'en',
-  ns: ['common', 'home', 'resume'],
+  ns: ['common', 'home', 'resume', 'work'],
   defaultNS: 'common',
   resources: {
     en: {
       common: enCommon,
       home: enHome,
       resume: enResume,
+      work: enWork,
     },
   },
   interpolation: { escapeValue: false },

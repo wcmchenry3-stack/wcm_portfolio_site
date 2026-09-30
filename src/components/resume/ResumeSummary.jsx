@@ -1,15 +1,13 @@
 import { useTranslation } from 'react-i18next';
+import { SectionHeading } from '../ui/SectionHeading.jsx';
 
 export function ResumeSummary() {
   const { t } = useTranslation('resume');
   return (
     <section aria-labelledby="summary-heading" className="mb-10">
-      <h2
-        id="summary-heading"
-        className="text-xl font-semibold text-brand-navy mb-3 pb-2 border-b-2 border-brand-teal"
-      >
+      <SectionHeading id="summary-heading" tone="resume" className="mb-3">
         {t('summary.heading')}
-      </h2>
+      </SectionHeading>
       <p className="text-brand-dark leading-relaxed">{t('summary.body')}</p>
     </section>
   );

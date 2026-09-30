@@ -1,0 +1,13 @@
+title = "WCM Portfolio gitleaks config"
+
+[allowlist]
+description = "False positives in resume bullet points"
+regexes = [
+  # Bullet points about building API products — not API keys
+  '''(customer-facing|client de|клиентских)\s+APIs?''',
+  # Security hardening bullet mentioning SSO and access controls
+  '''SSO.*role-based\s+access''',
+  '''role-based\s+access.*controls''',
+  # Virbela API commercial models line
+  '''Developed\s+API\s+products''',
+]

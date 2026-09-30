@@ -1,282 +1,1039 @@
 {
-  "hero.location": {
+  "hero.eyebrow": {
     "page": "home",
     "component": "HeroSection",
-    "description": "Location tag displayed beneath the hero headline. Shows where the portfolio owner is based.",
-    "tone": "neutral",
-    "characterLimit": 40,
-    "placeholders": [],
-    "doNotTranslate": ["Chicago", "IL"],
-    "notes": "For hi and ar, transliterated city names are preferred but optional."
-  },
-  "hero.headline": {
-    "page": "home",
-    "component": "HeroSection",
-    "description": "Primary H1 headline — the first and most prominent text a visitor reads.",
-    "tone": "professional, confident, aspirational",
-    "characterLimit": 140,
+    "description": "HeroSection copy: hero.eyebrow",
+    "tone": "punchy, confident",
+    "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Avoid passive voice. Emphasizes data-driven problem solving and leadership. This is the most impactful string on the site — quality matters."
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "hero.focus": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: hero.focus",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "hero.headlineLead": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: hero.headlineLead",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "hero.headlineAccent": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: hero.headlineAccent",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "hero.subhead": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: hero.subhead",
+    "tone": "professional, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "hero.viewWork": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: hero.viewWork",
+    "tone": "imperative, professional",
+    "characterLimit": 25,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "hero.viewResume": {
     "page": "home",
     "component": "HeroSection",
-    "description": "CTA button that navigates to the Resume page.",
+    "description": "HeroSection copy: hero.viewResume",
     "tone": "imperative, professional",
     "characterLimit": 25,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "hero.connectLinkedIn": {
     "page": "home",
     "component": "HeroSection",
-    "description": "CTA button that opens the LinkedIn profile in a new tab.",
+    "description": "HeroSection copy: hero.connectLinkedIn",
     "tone": "imperative, professional",
     "characterLimit": 30,
     "placeholders": [],
-    "doNotTranslate": ["LinkedIn"],
-    "notes": "LinkedIn is a platform name — do not translate."
+    "doNotTranslate": [
+      "LinkedIn"
+    ],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "hero.linkedinAriaLabel": {
     "page": "home",
     "component": "HeroSection",
-    "description": "Accessible label for the LinkedIn hero CTA button. Must convey destination and new-tab behavior.",
+    "description": "HeroSection copy: hero.linkedinAriaLabel",
     "tone": "functional",
     "characterLimit": 60,
     "placeholders": [],
-    "doNotTranslate": ["LinkedIn"],
-    "notes": "Must indicate it opens in a new tab."
+    "doNotTranslate": [
+      "LinkedIn"
+    ],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "hero.headshotAlt": {
     "page": "home",
     "component": "HeroSection",
-    "description": "Alt text for the profile photo of Bill McHenry.",
+    "description": "HeroSection copy: hero.headshotAlt",
     "tone": "neutral, descriptive",
     "characterLimit": 60,
     "placeholders": [],
-    "doNotTranslate": ["Bill McHenry"],
-    "notes": "Describes who is in the photo and their role. Name must not be translated."
+    "doNotTranslate": [
+      "Bill McHenry"
+    ],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
-  "skills.heading": {
+  "hero.outcomesLabel": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Section heading for the skills area of the home page.",
-    "tone": "professional",
+    "component": "HeroSection",
+    "description": "HeroSection copy: hero.outcomesLabel",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "hero.companiesLabel": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: hero.companiesLabel",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "impact.growth.label": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: impact.growth.label",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "impact.growth.stat": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: impact.growth.stat",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "impact.growth.description": {
+    "page": "home",
+    "component": "ImpactSection",
+    "description": "ImpactSection copy: impact.growth.description",
+    "tone": "professional, concise",
+    "characterLimit": 140,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "impact.economics.label": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: impact.economics.label",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "impact.economics.stat": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: impact.economics.stat",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "impact.economics.description": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: impact.economics.description",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "impact.people.label": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: impact.people.label",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "impact.people.stat": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: impact.people.stat",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PMs"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "impact.people.description": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: impact.people.description",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "impact.ai.label": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: impact.ai.label",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "impact.ai.stat": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: impact.ai.stat",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "impact.ai.description": {
+    "page": "home",
+    "component": "ImpactSection",
+    "description": "ImpactSection copy: impact.ai.description",
+    "tone": "professional, concise",
+    "characterLimit": 160,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "work.eyebrow": {
+    "page": "home",
+    "component": "SelectedWorkSection / ProjectCard",
+    "description": "SelectedWorkSection / ProjectCard copy: work.eyebrow",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "work.heading": {
+    "page": "home",
+    "component": "SelectedWorkSection",
+    "description": "SelectedWorkSection copy: work.heading",
+    "tone": "professional, approachable",
     "characterLimit": 30,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
-  "skills.softHeading": {
+  "work.intro": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Sub-heading for the soft skills category.",
-    "tone": "professional",
-    "characterLimit": 20,
+    "component": "SelectedWorkSection",
+    "description": "SelectedWorkSection copy: work.intro",
+    "tone": "professional, personable",
+    "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
-  "skills.technicalHeading": {
+  "work.readCaseStudy": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Sub-heading for the technical skills category.",
-    "tone": "professional",
-    "characterLimit": 25,
+    "component": "SelectedWorkSection / ProjectCard",
+    "description": "SelectedWorkSection / ProjectCard copy: work.readCaseStudy",
+    "tone": "punchy, confident",
+    "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
-  "skills.soft.adaptive": {
+  "work.alsoBuilt": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Soft skill tag — ability to adjust to changing circumstances.",
-    "tone": "professional, concise",
-    "characterLimit": 20,
+    "component": "SelectedWorkSection / ProjectCard",
+    "description": "SelectedWorkSection / ProjectCard copy: work.alsoBuilt",
+    "tone": "punchy, confident",
+    "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Single word or short phrase preferred."
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
-  "skills.soft.agile": {
+  "work.opensInNewTab": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Soft skill tag — refers to Agile methodology mindset and flexible working style.",
-    "tone": "professional, concise",
-    "characterLimit": 20,
+    "component": "SelectedWorkSection / ProjectCard",
+    "description": "SelectedWorkSection / ProjectCard copy: work.opensInNewTab",
+    "tone": "punchy, confident",
+    "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "In this context it refers to the Agile software development methodology mindset, not just 'quick'."
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
-  "skills.soft.communicative": {
+  "work.logoAlt": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Soft skill tag — strong communication ability.",
-    "tone": "professional, concise",
-    "characterLimit": 20,
-    "placeholders": [],
+    "component": "SelectedWorkSection / ProjectCard",
+    "description": "SelectedWorkSection / ProjectCard copy: work.logoAlt",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [
+      "{{name}}"
+    ],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. Keep the {{placeholder}} unchanged."
   },
-  "skills.soft.conflictResolution": {
+  "work.bookshelfai.category": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Soft skill tag — ability to mediate and resolve workplace disagreements.",
-    "tone": "professional, concise",
+    "component": "ProjectCard",
+    "description": "ProjectCard copy: work.bookshelfai.category",
+    "tone": "concise, functional",
     "characterLimit": 30,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
-  "skills.soft.flexible": {
+  "work.bookshelfai.tagline": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Soft skill tag — willingness and ability to adapt.",
+    "component": "ProjectCard",
+    "description": "ProjectCard copy: work.bookshelfai.tagline",
     "tone": "professional, concise",
-    "characterLimit": 20,
+    "characterLimit": 120,
+    "placeholders": [],
+    "doNotTranslate": [
+      "BookshelfAI"
+    ],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "work.bookshelfai.bullet_1": {
+    "page": "home",
+    "component": "ProjectCard",
+    "description": "ProjectCard copy: work.bookshelfai.bullet_1",
+    "tone": "concise, technical",
+    "characterLimit": 80,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
-  "skills.soft.leadership": {
+  "work.bookshelfai.bullet_2": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Soft skill tag — leadership ability.",
-    "tone": "professional, concise",
-    "characterLimit": 20,
+    "component": "ProjectCard",
+    "description": "ProjectCard copy: work.bookshelfai.bullet_2",
+    "tone": "concise, technical",
+    "characterLimit": 80,
+    "placeholders": [],
+    "doNotTranslate": [
+      "OpenAI",
+      "Google Books",
+      "Open Library"
+    ],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "work.bookshelfai.bullet_3": {
+    "page": "home",
+    "component": "ProjectCard",
+    "description": "ProjectCard copy: work.bookshelfai.bullet_3",
+    "tone": "concise, technical",
+    "characterLimit": 80,
+    "placeholders": [],
+    "doNotTranslate": [
+      "iOS",
+      "Android"
+    ],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "work.bookshelfai.image_1": {
+    "page": "home",
+    "component": "ProjectCard / CaseStudy",
+    "description": "Alt text for BookshelfAI screenshot 1",
+    "tone": "descriptive, plain",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "BookshelfAI"
+    ],
+    "notes": "Screen-reader alt text; describe what the screenshot shows."
+  },
+  "work.bookshelfai.image_2": {
+    "page": "home",
+    "component": "ProjectCard / CaseStudy",
+    "description": "Alt text for BookshelfAI screenshot 2",
+    "tone": "descriptive, plain",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "BookshelfAI"
+    ],
+    "notes": "Screen-reader alt text; describe what the screenshot shows."
+  },
+  "work.bookshelfai.image_3": {
+    "page": "home",
+    "component": "ProjectCard / CaseStudy",
+    "description": "Alt text for BookshelfAI screenshot 3",
+    "tone": "descriptive, plain",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "BookshelfAI"
+    ],
+    "notes": "Screen-reader alt text; describe what the screenshot shows."
+  },
+  "work.bc-arcade.category": {
+    "page": "home",
+    "component": "ProjectCard",
+    "description": "ProjectCard copy: work.bc-arcade.category",
+    "tone": "concise, functional",
+    "characterLimit": 30,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
-  "skills.soft.peopleManagement": {
+  "work.bc-arcade.tagline": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Soft skill tag — managing and developing direct reports.",
+    "component": "ProjectCard",
+    "description": "ProjectCard copy: work.bc-arcade.tagline",
     "tone": "professional, concise",
+    "characterLimit": 120,
+    "placeholders": [],
+    "doNotTranslate": [
+      "BC Arcade"
+    ],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "work.bc-arcade.bullet_1": {
+    "page": "home",
+    "component": "ProjectCard",
+    "description": "ProjectCard copy: work.bc-arcade.bullet_1",
+    "tone": "concise, technical",
+    "characterLimit": 90,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "work.bc-arcade.bullet_2": {
+    "page": "home",
+    "component": "ProjectCard",
+    "description": "ProjectCard copy: work.bc-arcade.bullet_2",
+    "tone": "concise, technical",
+    "characterLimit": 90,
+    "placeholders": [],
+    "doNotTranslate": [
+      "App Store",
+      "iOS",
+      "Android"
+    ],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "work.bc-arcade.bullet_3": {
+    "page": "home",
+    "component": "ProjectCard",
+    "description": "ProjectCard copy: work.bc-arcade.bullet_3",
+    "tone": "concise, technical",
+    "characterLimit": 100,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "work.bc-arcade.image_1": {
+    "page": "home",
+    "component": "SelectedWorkSection / ProjectCard",
+    "description": "SelectedWorkSection / ProjectCard copy: work.bc-arcade.image_1",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "BC Arcade"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "work.bc-arcade.image_2": {
+    "page": "home",
+    "component": "SelectedWorkSection / ProjectCard",
+    "description": "SelectedWorkSection / ProjectCard copy: work.bc-arcade.image_2",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "BC Arcade"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "work.bc-arcade.image_3": {
+    "page": "home",
+    "component": "SelectedWorkSection / ProjectCard",
+    "description": "SelectedWorkSection / ProjectCard copy: work.bc-arcade.image_3",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "BC Arcade"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "work.rulersai.tagline": {
+    "page": "home",
+    "component": "ProjectCard",
+    "description": "ProjectCard copy: work.rulersai.tagline",
+    "tone": "professional, concise",
+    "characterLimit": 120,
+    "placeholders": [],
+    "doNotTranslate": [
+      "RulersAI"
+    ],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "work.powerplays.tagline": {
+    "page": "home",
+    "component": "ProjectCard",
+    "description": "ProjectCard copy: work.powerplays.tagline",
+    "tone": "professional, concise",
+    "characterLimit": 120,
+    "placeholders": [],
+    "doNotTranslate": [
+      "Power Plays History"
+    ],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.eyebrow": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.eyebrow",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.heading": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.heading",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.intro": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.intro",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.habit_1.title": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.habit_1.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.habit_1.body": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.habit_1.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "Virbela"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.habit_2.title": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.habit_2.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.habit_2.body": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.habit_2.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PMs"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.habit_3.title": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.habit_3.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.habit_3.body": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.habit_3.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "SQL",
+      "APIs"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.coaching.heading": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.heading",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.coaching.intro": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.intro",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PM",
+      "PMs",
+      "Senior PM"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.coaching.stepLabel": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.stepLabel",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [
+      "{{n}}"
+    ],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. Keep the {{placeholder}} unchanged."
+  },
+  "lead.coaching.step_1.title": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.step_1.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.coaching.step_1.body": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.step_1.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.coaching.step_2.title": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.step_2.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.coaching.step_2.body": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.step_2.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.coaching.step_3.title": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.step_3.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.coaching.step_3.body": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.step_3.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PMs"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.coaching.step_4.title": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.step_4.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.coaching.step_4.body": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.step_4.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.heading": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.heading",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_1.stat": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_1.stat",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PMs"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_1.label": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_1.label",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_1.where": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_1.where",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "eXp Realty"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_2.stat": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_2.stat",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PMs"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_2.label": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_2.label",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PM",
+      "Senior PM"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_2.where": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_2.where",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "Virbela"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_3.stat": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_3.stat",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_3.label": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_3.label",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PMs"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_3.where": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_3.where",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "eXp Realty"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_4.stat": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_4.stat",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PM"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_4.label": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_4.label",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_4.where": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_4.where",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "Omnitracs",
+      "Sylectus",
+      "TMS"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "career.eyebrow": {
+    "page": "home",
+    "component": "CareerSnapshotSection",
+    "description": "CareerSnapshotSection copy: career.eyebrow",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "career.heading": {
+    "page": "home",
+    "component": "CareerBridgeSection",
+    "description": "CareerBridgeSection copy: career.heading",
+    "tone": "professional, confident",
+    "characterLimit": 60,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "career.cta": {
+    "page": "home",
+    "component": "CareerBridgeSection",
+    "description": "CareerBridgeSection copy: career.cta",
+    "tone": "imperative, professional",
     "characterLimit": 25,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
-  "skills.soft.problemSolving": {
+  "career.exprealty": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Soft skill tag — systematic approach to identifying and solving problems.",
-    "tone": "professional, concise",
-    "characterLimit": 25,
+    "component": "CareerSnapshotSection",
+    "description": "CareerSnapshotSection copy: career.exprealty",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PM"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "career.virbela": {
+    "page": "home",
+    "component": "CareerSnapshotSection",
+    "description": "CareerSnapshotSection copy: career.virbela",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "GDPR",
+      "PM",
+      "APIs"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "career.project44": {
+    "page": "home",
+    "component": "CareerSnapshotSection",
+    "description": "CareerSnapshotSection copy: career.project44",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
-  "skills.tech.alteryx": {
+  "career.omnitracs": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Technical skill tag — data analytics platform.",
-    "tone": "neutral",
+    "component": "CareerSnapshotSection",
+    "description": "CareerSnapshotSection copy: career.omnitracs",
+    "tone": "professional, confident, specific",
     "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": ["Alteryx"],
-    "notes": "Product name — do not translate."
-  },
-  "skills.tech.generativeAI": {
-    "page": "home",
-    "component": "SkillsSection",
-    "description": "Technical skill tag — proficiency with generative AI tools and concepts.",
-    "tone": "neutral",
-    "characterLimit": 25,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Translate the concept naturally; 'AI' acronym may be kept as-is."
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
-  "skills.tech.jira": {
+  "career.crossmark": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Technical skill tag — Atlassian Jira project tracking tool.",
-    "tone": "neutral",
+    "component": "CareerSnapshotSection",
+    "description": "CareerSnapshotSection copy: career.crossmark",
+    "tone": "professional, confident, specific",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["Jira"],
-    "notes": "Product name — do not translate."
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
-  "skills.tech.excelPowerQuery": {
+  "contact.heading": {
     "page": "home",
-    "component": "SkillsSection",
-    "description": "Technical skill tag — Microsoft Excel and Power Query data tools.",
-    "tone": "neutral",
-    "characterLimit": null,
+    "component": "ContactBar",
+    "description": "ContactBar copy: contact.heading",
+    "tone": "warm, inviting, professional",
+    "characterLimit": 30,
     "placeholders": [],
-    "doNotTranslate": ["Microsoft Excel / PowerQuery"],
-    "notes": "Product names — do not translate."
-  },
-  "skills.tech.python": {
-    "page": "home",
-    "component": "SkillsSection",
-    "description": "Technical skill tag — Python programming language.",
-    "tone": "neutral",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": ["Python"],
-    "notes": "Programming language name — do not translate."
-  },
-  "skills.tech.splunk": {
-    "page": "home",
-    "component": "SkillsSection",
-    "description": "Technical skill tag — Splunk data platform.",
-    "tone": "neutral",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": ["Splunk"],
-    "notes": "Product name — do not translate."
-  },
-  "skills.tech.sql": {
-    "page": "home",
-    "component": "SkillsSection",
-    "description": "Technical skill tag — SQL database query language.",
-    "tone": "neutral",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": ["SQL"],
-    "notes": "Technology acronym — do not translate."
-  },
-  "skills.tech.tableau": {
-    "page": "home",
-    "component": "SkillsSection",
-    "description": "Technical skill tag — Tableau data visualization tool.",
-    "tone": "neutral",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": ["Tableau"],
-    "notes": "Product name — do not translate."
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "contact.cta": {
     "page": "home",
     "component": "ContactBar",
-    "description": "Call-to-action heading in the contact bar at the bottom of the home page.",
+    "description": "ContactBar copy: contact.cta",
     "tone": "warm, inviting, professional",
     "characterLimit": 50,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "This is a soft invitation to reach out — not a hard sell."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "contact.button": {
     "page": "home",
     "component": "ContactBar",
-    "description": "Button text in the contact bar that opens the LinkedIn profile.",
+    "description": "ContactBar copy: contact.button",
     "tone": "imperative, professional",
     "characterLimit": 35,
     "placeholders": [],
-    "doNotTranslate": ["LinkedIn"],
-    "notes": "LinkedIn is a platform name — do not translate."
+    "doNotTranslate": [
+      "LinkedIn"
+    ],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "contact.ariaLabel": {
     "page": "home",
     "component": "ContactBar",
-    "description": "Accessible label for the contact LinkedIn button. Must convey destination and new-tab behavior.",
+    "description": "ContactBar copy: contact.ariaLabel",
     "tone": "functional",
     "characterLimit": 60,
     "placeholders": [],
-    "doNotTranslate": ["LinkedIn"],
-    "notes": "Must indicate it opens in a new tab."
+    "doNotTranslate": [
+      "LinkedIn"
+    ],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "contact.emailButton": {
+    "page": "home",
+    "component": "ContactBar",
+    "description": "ContactBar copy: contact.emailButton",
+    "tone": "imperative, professional",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   }
 }

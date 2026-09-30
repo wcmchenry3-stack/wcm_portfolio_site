@@ -7,6 +7,9 @@ import { Navbar } from './components/layout/Navbar.jsx';
 import { Footer } from './components/layout/Footer.jsx';
 import Home from './pages/Home.jsx';
 import Resume from './pages/Resume.jsx';
+import Work from './pages/Work.jsx';
+import CaseStudy from './pages/CaseStudy.jsx';
+import Contact from './pages/Contact.jsx';
 import NotFound from './pages/NotFound.jsx';
 
 function AppContent() {
@@ -17,7 +20,10 @@ function AppContent() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/work/:slug" element={<CaseStudy />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

@@ -7,7 +7,7 @@
  *
  * Flags:
  *   --locale     Target locale code (fr-CA | es | hi | ar)
- *   --namespace  Translation namespace (common | home | resume)
+ *   --namespace  Translation namespace (common | home | resume | work)
  *   --model      OpenAI model to use (default: gpt-4o)
  *   --dry-run    Preview what would be sent; do not call API or write files
  *   --force      Re-translate ALL keys, not just __NEEDS_TRANSLATION__ ones
@@ -54,7 +54,7 @@ function parseArgs() {
         .map((l) => l.code)
         .join(' | ')}`
     );
-    console.error('  Namespaces:  common | home | resume');
+    console.error('  Namespaces:  common | home | resume | work');
     process.exit(1);
   }
 

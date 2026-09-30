@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen, within, fireEvent } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import { I18nextProvider } from 'react-i18next';
 import i18n from '../../test/i18nTestInstance.js';
@@ -76,11 +76,42 @@ describe('Navbar', () => {
     ).not.toBeInTheDocument();
   });
 
-  it('renders nav links for Home and Resume', () => {
+  it('mobile menu is exposed as a nav landmark, not a div with a role', () => {
+    renderNavbar();
+    fireEvent.click(
+      screen.getByRole('button', { name: /open navigation menu/i })
+    );
+    const mobileNav = screen.getByRole('navigation', {
+      name: /mobile navigation/i,
+    });
+    expect(mobileNav.tagName).toBe('NAV');
+  });
+
+  it('clicking a mobile nav link closes the menu', () => {
+    renderNavbar();
+    const hamburger = screen.getByRole('button', {
+      name: /open navigation menu/i,
+    });
+    fireEvent.click(hamburger);
+    const mobileNav = screen.getByRole('navigation', {
+      name: /mobile navigation/i,
+    });
+    fireEvent.click(within(mobileNav).getByRole('link', { name: /home/i }));
+    expect(hamburger).toHaveAttribute('aria-expanded', 'false');
+    expect(
+      screen.queryByRole('navigation', { name: /mobile navigation/i })
+    ).not.toBeInTheDocument();
+  });
+
+  it('renders nav links for Home, Work and Resume', () => {
     renderNavbar();
     expect(
       screen.getAllByRole('link', { name: /home/i })[0]
     ).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /^work$/i })).toHaveAttribute(
+      'href',
+      '/work'
+    );
     expect(
       screen.getAllByRole('link', { name: /resume/i })[0]
     ).toBeInTheDocument();
