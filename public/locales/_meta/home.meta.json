@@ -42,68 +42,68 @@
   "hero.subhead": {
     "page": "home",
     "component": "HeroSection",
-    "description": "Supporting sentence below the H1 headline, expanding on the value proposition.",
+    "description": "HeroSection copy: hero.subhead",
     "tone": "professional, confident",
     "characterLimit": 220,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Emphasizes the full product lifecycle plus hands-on AI-assisted development. \"AI\" is NOT a protected term here — translate it to your locale's normal word/abbreviation for artificial intelligence, matching how the (now-removed) skills.tech.generativeAI key used to render it in this locale (e.g. \"KI\" in German, \"IA\" in French/Spanish/Portuguese) — unless your locale conventionally keeps \"AI\" as an English loanword (e.g. Hindi, Japanese, Korean, Chinese, Hebrew, Russian, Dutch already do this)."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "hero.viewWork": {
     "page": "home",
     "component": "HeroSection",
-    "description": "CTA button that scrolls to the Selected Work section on the same page.",
+    "description": "HeroSection copy: hero.viewWork",
     "tone": "imperative, professional",
     "characterLimit": 25,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "hero.viewResume": {
     "page": "home",
     "component": "HeroSection",
-    "description": "CTA button that navigates to the Resume page.",
+    "description": "HeroSection copy: hero.viewResume",
     "tone": "imperative, professional",
     "characterLimit": 25,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "hero.connectLinkedIn": {
     "page": "home",
     "component": "HeroSection",
-    "description": "CTA button that opens the LinkedIn profile in a new tab.",
+    "description": "HeroSection copy: hero.connectLinkedIn",
     "tone": "imperative, professional",
     "characterLimit": 30,
     "placeholders": [],
     "doNotTranslate": [
       "LinkedIn"
     ],
-    "notes": "LinkedIn is a platform name — do not translate."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "hero.linkedinAriaLabel": {
     "page": "home",
     "component": "HeroSection",
-    "description": "Accessible label for the LinkedIn hero CTA button. Must convey destination and new-tab behavior.",
+    "description": "HeroSection copy: hero.linkedinAriaLabel",
     "tone": "functional",
     "characterLimit": 60,
     "placeholders": [],
     "doNotTranslate": [
       "LinkedIn"
     ],
-    "notes": "Must indicate it opens in a new tab."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "hero.headshotAlt": {
     "page": "home",
     "component": "HeroSection",
-    "description": "Alt text for the profile photo of Bill McHenry.",
+    "description": "HeroSection copy: hero.headshotAlt",
     "tone": "neutral, descriptive",
     "characterLimit": 60,
     "placeholders": [],
     "doNotTranslate": [
       "Bill McHenry"
     ],
-    "notes": "Describes who is in the photo and their role. Name must not be translated."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "hero.outcomesLabel": {
     "page": "home",
@@ -148,12 +148,12 @@
   "impact.growth.description": {
     "page": "home",
     "component": "ImpactSection",
-    "description": "One-sentence elaboration on the user-growth proof point.",
+    "description": "ImpactSection copy: impact.growth.description",
     "tone": "professional, concise",
     "characterLimit": 140,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "impact.economics.label": {
     "page": "home",
@@ -240,12 +240,12 @@
   "impact.ai.description": {
     "page": "home",
     "component": "ImpactSection",
-    "description": "One-sentence elaboration on the AI-copilot proof point.",
+    "description": "ImpactSection copy: impact.ai.description",
     "tone": "professional, concise",
     "characterLimit": 160,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "\"AI\" is NOT a protected term here — translate it to your locale's normal word/abbreviation for artificial intelligence, matching how the (now-removed) skills.tech.generativeAI key used to render it in this locale (e.g. \"KI\" in German, \"IA\" in French/Spanish/Portuguese) — unless your locale conventionally keeps \"AI\" as an English loanword (e.g. Hindi, Japanese, Korean, Chinese, Hebrew, Russian, Dutch already do this)."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "work.eyebrow": {
     "page": "home",
@@ -260,22 +260,22 @@
   "work.heading": {
     "page": "home",
     "component": "SelectedWorkSection",
-    "description": "Section heading for the personal-projects showcase.",
+    "description": "SelectedWorkSection copy: work.heading",
     "tone": "professional, approachable",
     "characterLimit": 30,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "work.intro": {
     "page": "home",
     "component": "SelectedWorkSection",
-    "description": "Intro sentence framing the personal projects as exploration/craft rather than commercial work.",
+    "description": "SelectedWorkSection copy: work.intro",
     "tone": "professional, personable",
     "characterLimit": 140,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "work.readCaseStudy": {
     "page": "home",
@@ -322,39 +322,39 @@
   "work.bookshelfai.category": {
     "page": "home",
     "component": "ProjectCard",
-    "description": "Eyebrow category tag on the BookshelfAI project card.",
+    "description": "ProjectCard copy: work.bookshelfai.category",
     "tone": "concise, functional",
     "characterLimit": 30,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "\"AI\" is NOT a protected term here — translate it to your locale's normal word/abbreviation for artificial intelligence, matching how the (now-removed) skills.tech.generativeAI key used to render it in this locale (e.g. \"KI\" in German, \"IA\" in French/Spanish/Portuguese) — unless your locale conventionally keeps \"AI\" as an English loanword (e.g. Hindi, Japanese, Korean, Chinese, Hebrew, Russian, Dutch already do this)."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "work.bookshelfai.tagline": {
     "page": "home",
     "component": "ProjectCard",
-    "description": "One-sentence description of the BookshelfAI project.",
+    "description": "ProjectCard copy: work.bookshelfai.tagline",
     "tone": "professional, concise",
     "characterLimit": 120,
     "placeholders": [],
     "doNotTranslate": [
       "BookshelfAI"
     ],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "work.bookshelfai.bullet_1": {
     "page": "home",
     "component": "ProjectCard",
-    "description": "First supporting bullet for the BookshelfAI card — the product flow.",
+    "description": "ProjectCard copy: work.bookshelfai.bullet_1",
     "tone": "concise, technical",
     "characterLimit": 80,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Contains arrows (→) separating flow steps; keep the arrows."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "work.bookshelfai.bullet_2": {
     "page": "home",
     "component": "ProjectCard",
-    "description": "Second supporting bullet for the BookshelfAI card — the data sources used.",
+    "description": "ProjectCard copy: work.bookshelfai.bullet_2",
     "tone": "concise, technical",
     "characterLimit": 80,
     "placeholders": [],
@@ -363,12 +363,12 @@
       "Google Books",
       "Open Library"
     ],
-    "notes": "Product/service names — do not translate."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "work.bookshelfai.bullet_3": {
     "page": "home",
     "component": "ProjectCard",
-    "description": "Third supporting bullet for the BookshelfAI card — platform reach.",
+    "description": "ProjectCard copy: work.bookshelfai.bullet_3",
     "tone": "concise, technical",
     "characterLimit": 80,
     "placeholders": [],
@@ -376,44 +376,44 @@
       "iOS",
       "Android"
     ],
-    "notes": "Platform names — do not translate."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "work.bc-arcade.category": {
     "page": "home",
     "component": "ProjectCard",
-    "description": "Eyebrow category tag on the BC Arcade project card.",
+    "description": "ProjectCard copy: work.bc-arcade.category",
     "tone": "concise, functional",
     "characterLimit": 30,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "work.bc-arcade.tagline": {
     "page": "home",
     "component": "ProjectCard",
-    "description": "One-sentence description of the BC Arcade project.",
+    "description": "ProjectCard copy: work.bc-arcade.tagline",
     "tone": "professional, concise",
     "characterLimit": 120,
     "placeholders": [],
     "doNotTranslate": [
       "BC Arcade"
     ],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "work.bc-arcade.bullet_1": {
     "page": "home",
     "component": "ProjectCard",
-    "description": "First supporting bullet for the BC Arcade card — monetization strategy.",
+    "description": "ProjectCard copy: work.bc-arcade.bullet_1",
     "tone": "concise, technical",
     "characterLimit": 90,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "work.bc-arcade.bullet_2": {
     "page": "home",
     "component": "ProjectCard",
-    "description": "Second supporting bullet for the BC Arcade card — platform readiness.",
+    "description": "ProjectCard copy: work.bc-arcade.bullet_2",
     "tone": "concise, technical",
     "characterLimit": 90,
     "placeholders": [],
@@ -422,17 +422,17 @@
       "iOS",
       "Android"
     ],
-    "notes": "Platform/store names — do not translate."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "work.bc-arcade.bullet_3": {
     "page": "home",
     "component": "ProjectCard",
-    "description": "Third supporting bullet for the BC Arcade card — product-spec scale.",
+    "description": "ProjectCard copy: work.bc-arcade.bullet_3",
     "tone": "concise, technical",
     "characterLimit": 100,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "work.bc-arcade.image_1": {
     "page": "home",
@@ -473,26 +473,26 @@
   "work.rulersai.tagline": {
     "page": "home",
     "component": "ProjectCard",
-    "description": "One-sentence description of the RulersAI project.",
+    "description": "ProjectCard copy: work.rulersai.tagline",
     "tone": "professional, concise",
     "characterLimit": 120,
     "placeholders": [],
     "doNotTranslate": [
       "RulersAI"
     ],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "work.powerplays.tagline": {
     "page": "home",
     "component": "ProjectCard",
-    "description": "One-sentence description of the Power Plays History project.",
+    "description": "ProjectCard copy: work.powerplays.tagline",
     "tone": "professional, concise",
     "characterLimit": 120,
     "placeholders": [],
     "doNotTranslate": [
       "Power Plays History"
     ],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "lead.eyebrow": {
     "page": "home",
@@ -873,22 +873,22 @@
   "career.heading": {
     "page": "home",
     "component": "CareerBridgeSection",
-    "description": "Section heading bridging the home page to the full resume — states years of experience.",
+    "description": "CareerBridgeSection copy: career.heading",
     "tone": "professional, confident",
     "characterLimit": 60,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "career.cta": {
     "page": "home",
     "component": "CareerBridgeSection",
-    "description": "CTA button that navigates to the Resume page.",
+    "description": "CareerBridgeSection copy: career.cta",
     "tone": "imperative, professional",
     "characterLimit": 25,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Same destination and intent as hero.viewResume but distinct wording ('View Full Resume' vs 'View Resume') — keep them distinct in translation too."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "career.exprealty": {
     "page": "home",
@@ -949,46 +949,46 @@
   "contact.heading": {
     "page": "home",
     "component": "ContactBar",
-    "description": "Short, warm heading opening the closing contact section.",
+    "description": "ContactBar copy: contact.heading",
     "tone": "warm, inviting, professional",
     "characterLimit": 30,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "contact.cta": {
     "page": "home",
     "component": "ContactBar",
-    "description": "Call-to-action heading in the contact bar at the bottom of the home page.",
+    "description": "ContactBar copy: contact.cta",
     "tone": "warm, inviting, professional",
     "characterLimit": 50,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "This is a soft invitation to reach out — not a hard sell."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "contact.button": {
     "page": "home",
     "component": "ContactBar",
-    "description": "Button text in the contact bar that opens the LinkedIn profile.",
+    "description": "ContactBar copy: contact.button",
     "tone": "imperative, professional",
     "characterLimit": 35,
     "placeholders": [],
     "doNotTranslate": [
       "LinkedIn"
     ],
-    "notes": "LinkedIn is a platform name — do not translate."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "contact.ariaLabel": {
     "page": "home",
     "component": "ContactBar",
-    "description": "Accessible label for the contact LinkedIn button. Must convey destination and new-tab behavior.",
+    "description": "ContactBar copy: contact.ariaLabel",
     "tone": "functional",
     "characterLimit": 60,
     "placeholders": [],
     "doNotTranslate": [
       "LinkedIn"
     ],
-    "notes": "Must indicate it opens in a new tab."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "contact.emailHref": {
     "page": "home",
@@ -1005,11 +1005,11 @@
   "contact.emailButton": {
     "page": "home",
     "component": "ContactBar",
-    "description": "Secondary button text offering email as an alternative to LinkedIn.",
+    "description": "ContactBar copy: contact.emailButton",
     "tone": "imperative, professional",
     "characterLimit": 20,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   }
 }

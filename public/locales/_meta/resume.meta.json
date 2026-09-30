@@ -86,68 +86,68 @@
   "experience.exprealty.bullet_1": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "First achievement bullet for Principal PM role at eXp Realty.",
+    "description": "ExperienceItem copy: experience.exprealty.bullet_1",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [
       "My eXp"
     ],
-    "notes": "Preserve '88K' and '$6M' exactly. 'My eXp' is the product name — do not translate."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.exprealty.bullet_2": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "Second achievement bullet for Principal PM role at eXp Realty.",
+    "description": "ExperienceItem copy: experience.exprealty.bullet_2",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [
       "My eXp"
     ],
-    "notes": "Preserve '~20', '26K to 59K', and '(+127%)' exactly. 'My eXp' is the product name — do not translate."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.exprealty.bullet_3": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "Third achievement bullet for Principal PM role at eXp Realty.",
+    "description": "ExperienceItem copy: experience.exprealty.bullet_3",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.exprealty.bullet_4": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "Fourth achievement bullet for Principal PM role at eXp Realty.",
+    "description": "ExperienceItem copy: experience.exprealty.bullet_4",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Preserve '50+' exactly."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.exprealty.bullet_5": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "Fifth achievement bullet for Principal PM role at eXp Realty.",
+    "description": "ExperienceItem copy: experience.exprealty.bullet_5",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Preserve '~20' exactly. \"AI\" is NOT a protected term — translate it to your locale's normal word/abbreviation for artificial intelligence (matching how the site's other AI-related copy renders it in your locale, e.g. \"KI\" in German, \"IA\" in French/Spanish/Portuguese), unless your locale conventionally keeps \"AI\" as an English loanword (Hindi, Japanese, Korean, Chinese, Hebrew, Russian, Dutch already do this)."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.exprealty.bullet_6": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "Sixth achievement bullet for Principal PM role at eXp Realty.",
+    "description": "ExperienceItem copy: experience.exprealty.bullet_6",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [
       "Q&A"
     ],
-    "notes": "AI and Q&A are acronyms — do not translate. \"AI\" is NOT a protected term — translate it to your locale's normal word/abbreviation for artificial intelligence (matching how the site's other AI-related copy renders it in your locale, e.g. \"KI\" in German, \"IA\" in French/Spanish/Portuguese), unless your locale conventionally keeps \"AI\" as an English loanword (Hindi, Japanese, Korean, Chinese, Hebrew, Russian, Dutch already do this)."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.virbela.title": {
     "page": "resume",
@@ -174,78 +174,78 @@
   "experience.virbela.bullet_1": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "First achievement bullet for Lead PM role at Virbela.",
+    "description": "ExperienceItem copy: experience.virbela.bullet_1",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [
       "Virbela"
     ],
-    "notes": "Do not translate Virbela."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.virbela.bullet_2": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "Second achievement bullet for Lead PM role at Virbela.",
+    "description": "ExperienceItem copy: experience.virbela.bullet_2",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Preserve '28%' exactly."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.virbela.bullet_3": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "Third achievement bullet for Lead PM role at Virbela.",
+    "description": "ExperienceItem copy: experience.virbela.bullet_3",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [
       "GDPR"
     ],
-    "notes": "GDPR is a regulatory acronym — do not translate."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.virbela.bullet_4": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "Fourth achievement bullet for Lead PM role at Virbela.",
+    "description": "ExperienceItem copy: experience.virbela.bullet_4",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Preserve '15%' exactly. 'Japan' and 'Korea' are proper nouns — translate naturally if the target language has standard exonyms."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.virbela.bullet_5": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "Fifth achievement bullet for Lead PM role at Virbela.",
+    "description": "ExperienceItem copy: experience.virbela.bullet_5",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.virbela.bullet_6": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "Sixth achievement bullet for Lead PM role at Virbela.",
+    "description": "ExperienceItem copy: experience.virbela.bullet_6",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "AI is an acronym — do not translate. \"AI\" is NOT a protected term — translate it to your locale's normal word/abbreviation for artificial intelligence (matching how the site's other AI-related copy renders it in your locale, e.g. \"KI\" in German, \"IA\" in French/Spanish/Portuguese), unless your locale conventionally keeps \"AI\" as an English loanword (Hindi, Japanese, Korean, Chinese, Hebrew, Russian, Dutch already do this)."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.virbela.bullet_7": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "Seventh achievement bullet for Lead PM role at Virbela.",
+    "description": "ExperienceItem copy: experience.virbela.bullet_7",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [
       "APIs"
     ],
-    "notes": "APIs is an acronym — do not translate."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.project44.title": {
     "page": "resume",
@@ -314,17 +314,17 @@
   "experience.omnitracs.role_1.bullet_1": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "First bullet for Omnitracs Strategic Initiatives role.",
+    "description": "ExperienceItem copy: experience.omnitracs.role_1.bullet_1",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Preserve '180%' exactly."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.omnitracs.role_1.bullet_2": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "Second bullet for Omnitracs Strategic Initiatives role.",
+    "description": "ExperienceItem copy: experience.omnitracs.role_1.bullet_2",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
@@ -332,12 +332,12 @@
       "iOS",
       "Android"
     ],
-    "notes": "iOS and Android are platform names — do not translate."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.omnitracs.role_1.bullet_3": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "Third bullet for Omnitracs Strategic Initiatives role.",
+    "description": "ExperienceItem copy: experience.omnitracs.role_1.bullet_3",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
@@ -345,7 +345,7 @@
       "SQL",
       "Power BI"
     ],
-    "notes": "SQL and Power BI are product/technology names — do not translate."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.omnitracs.role_1.bullet_4": {
     "page": "resume",
@@ -385,32 +385,32 @@
   "experience.omnitracs.role_2.bullet_1": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "First bullet for Omnitracs Canadian Market role.",
+    "description": "ExperienceItem copy: experience.omnitracs.role_2.bullet_1",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Preserve '69%' exactly."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.omnitracs.role_2.bullet_2": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "Second bullet for Omnitracs Canadian Market role.",
+    "description": "ExperienceItem copy: experience.omnitracs.role_2.bullet_2",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Preserve '$30M' exactly. 'French-Canadian' refers to the Francophone Canadian market."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.omnitracs.role_2.bullet_3": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "Third bullet for Omnitracs Canadian Market role.",
+    "description": "ExperienceItem copy: experience.omnitracs.role_2.bullet_3",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Preserve '$8M' exactly."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.omnitracs.role_2.bullet_4": {
     "page": "resume",
@@ -448,34 +448,34 @@
   "experience.omnitracs.role_3.bullet_1": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "First bullet for Omnitracs Product Manager role.",
+    "description": "ExperienceItem copy: experience.omnitracs.role_3.bullet_1",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Refers to an in-cab camera IoT (Internet of Things) hardware solution."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.omnitracs.role_3.bullet_2": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "Second bullet for Omnitracs Product Manager role.",
+    "description": "ExperienceItem copy: experience.omnitracs.role_3.bullet_2",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": null
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.omnitracs.role_3.bullet_3": {
     "page": "resume",
     "component": "ExperienceItem",
-    "description": "Third bullet for Omnitracs Product Manager role.",
+    "description": "ExperienceItem copy: experience.omnitracs.role_3.bullet_3",
     "tone": "professional, past-tense achievement",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [
       "3PLs"
     ],
-    "notes": "3PLs (third-party logistics providers) is an industry acronym — do not translate."
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "experience.omnitracs.role_3.bullet_4": {
     "page": "resume",

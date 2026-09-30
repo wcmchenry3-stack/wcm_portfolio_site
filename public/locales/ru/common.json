@@ -4,17 +4,18 @@
   "navbar.brandAriaLabel": "Bill McHenry – на главную",
   "navbar.navAriaLabel": "Основная навигация",
   "navbar.home": "Главная",
+  "navbar.work": "Проекты",
   "navbar.resume": "Резюме",
   "navbar.openMenu": "Открыть меню навигации",
   "navbar.closeMenu": "Закрыть меню навигации",
   "navbar.mobileAriaLabel": "Мобильная навигация",
   "navbar.languageSwitcher": "Выбор языка",
+  "footer.copyright": "© {{year}} Bill McHenry — Чикаго, Иллинойс",
   "footer.linkedin": "LinkedIn",
   "footer.linkedinAriaLabel": "Bill McHenry на LinkedIn (откроется в новой вкладке)",
   "dates.present": "По настоящее время",
   "contact.sectionAriaLabel": "Контактная информация",
   "notfound.heading": "Страница не найдена",
   "notfound.description": "Запрашиваемая страница не существует.",
-  "notfound.homeLink": "Вернуться на главную",
-  "footer.copyright": "© {{year}} Bill McHenry — Чикаго, Иллинойс"
+  "notfound.homeLink": "Вернуться на главную"
 }
