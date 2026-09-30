@@ -45,16 +45,16 @@ export const featuredProjects = [
     ],
     images: [
       {
+        src: '/work/bc-arcade/star-swarm.jpg',
+        alt: "Star Swarm mid-wave: the player's ship firing on rows of alien invaders",
+      },
+      {
         src: '/work/bc-arcade/lobby.jpg',
-        alt: 'BC Arcade lobby with game cards for Yacht, 2048, Solitaire and FreeCell',
+        alt: "BC Arcade lobby with today's Daily Challenge and game cards",
       },
       {
-        src: '/work/bc-arcade/sudoku.jpg',
-        alt: 'A Sudoku puzzle in progress in BC Arcade',
-      },
-      {
-        src: '/work/bc-arcade/solitaire.jpg',
-        alt: 'A fresh Solitaire deal in BC Arcade',
+        src: '/work/bc-arcade/blackjack.jpg',
+        alt: 'A Blackjack hand in progress, with the table goal and hit, stand and double-down controls',
       },
     ],
   },
