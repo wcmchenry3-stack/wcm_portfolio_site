@@ -107,7 +107,7 @@ function SectionBody({ section, k, t }) {
                     {n < section.nodes && (
                       <span
                         aria-hidden="true"
-                        className="text-xl text-brand-muted rotate-90 lg:rotate-0 rtl:lg:rotate-180"
+                        className="inline-block text-xl text-brand-muted rotate-90 lg:rotate-0 rtl:lg:rotate-180"
                       >
                         →
                       </span>
@@ -396,7 +396,7 @@ export default function CaseStudy() {
           </span>
           <span
             aria-hidden="true"
-            className="text-3xl text-brand-teal-text rtl:rotate-180"
+            className="inline-block text-3xl text-brand-teal-text rtl:rotate-180"
           >
             →
           </span>

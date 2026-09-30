@@ -106,7 +106,9 @@ export function ProjectCard({ project, t, headingLevel = 3 }) {
         >
           {t('work.readCaseStudy')}
           <span className="sr-only">: {project.name}</span>
-          <span aria-hidden="true">→</span>
+          <span aria-hidden="true" className="inline-block rtl:rotate-180">
+            →
+          </span>
         </Link>
       </div>
     </article>
