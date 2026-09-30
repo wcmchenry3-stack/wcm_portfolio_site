@@ -23,7 +23,7 @@ export const experience = [
     startDate: { year: 2021, month: 3 },
     endDate: { year: 2024, month: 4 },
     bullets: [
-      "Established and directed Virbela's product team around customer needs, cutting time to market in half.",
+      "Established and directed Virbela's product team around customer needs.",
       'Refocused the product on critical markets, increasing adoption 28% in two years.',
       'Led GDPR compliance initiatives, opening entry into the European market.',
       'Launched a reseller channel in Japan and Korea, increasing revenue 15%.',
