@@ -1,5 +1,16 @@
 import { Link } from 'react-router-dom';
 
+/**
+ * Three overlapping phone frames: the middle screenshot is larger and in
+ * front, the outer two tuck behind it. Full frames (not cropped) so the
+ * screens read as real product, vertically centered in the panel.
+ */
+const PHONE_CLASSES = [
+  'relative w-24 sm:w-32 -me-5',
+  'relative z-10 w-28 sm:w-40',
+  'relative w-24 sm:w-32 -ms-5',
+];
+
 const PANEL_BG = new Map([
   ['bookshelfai', 'bg-brand-navy'],
   ['bc-arcade', 'bg-brand-deep-teal'],
@@ -14,7 +25,7 @@ const PANEL_BG = new Map([
 function ProjectVisual({ project, t }) {
   if (project.images.length > 0) {
     return (
-      <div className="flex justify-center items-end gap-3 h-full px-4 pt-8">
+      <div className="flex justify-center items-center h-full px-4 py-10">
         {project.images.map((image, i) => (
           <img
             key={image.src}
@@ -25,11 +36,9 @@ function ProjectVisual({ project, t }) {
             width="390"
             height="844"
             loading="lazy"
-            className={`object-cover object-top rounded-t-2xl border-4 border-b-0 border-brand-dark ${
-              i === 1
-                ? 'w-28 h-60 sm:w-32 sm:h-68'
-                : 'w-24 h-52 sm:w-28 sm:h-60'
-            } ${i === 2 ? 'hidden sm:block' : ''}`}
+            className={`h-auto aspect-[390/844] object-cover object-top rounded-3xl border-4 border-brand-dark shadow-2xl ${
+              PHONE_CLASSES[i] ?? PHONE_CLASSES[0]
+            }`}
           />
         ))}
       </div>
