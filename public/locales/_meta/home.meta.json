@@ -44,7 +44,7 @@
     "component": "HeroSection",
     "description": "HeroSection copy: hero.subhead",
     "tone": "professional, confident",
-    "characterLimit": 220,
+    "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
     "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
@@ -272,7 +272,7 @@
     "component": "SelectedWorkSection",
     "description": "SelectedWorkSection copy: work.intro",
     "tone": "professional, personable",
-    "characterLimit": 140,
+    "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
     "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
