@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 const BASE =
-  'inline-flex items-center justify-center min-h-touch font-semibold rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2';
+  'inline-flex items-center justify-center min-h-touch font-semibold whitespace-nowrap rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2';
 
 /**
  * Padding per size. `size="none"` (or any value not in this map) applies

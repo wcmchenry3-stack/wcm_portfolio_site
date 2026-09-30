@@ -1,29 +1,49 @@
+/**
+ * Featured projects get a full case study at `/work/<id>`; supporting
+ * projects link straight out to the live product or repo. Copy lives in
+ * the `home` namespace under `work.<id>.*`; the English here is the
+ * `defaultValue` fallback.
+ */
 export const featuredProjects = [
   {
     id: 'bookshelfai',
     name: 'BookshelfAI',
-    category: 'Product & AI',
+    category: 'AI product · iOS, Android & Web',
     tagline:
-      'An AI vision product that turns a camera into a personal librarian.',
+      'Photograph a shelf; get a library. Multimodal AI identifies every book in the frame, enriches it, and carries it from wishlist to read.',
     bullets: [
-      'Scan → identify → confirm → lifecycle UX design',
-      'OpenAI vision plus Google Books / Open Library enrichment',
-      'Shipped as one product across iOS, Android, and web',
+      'One scan flow for one book or a whole shelf — the model infers the count',
+      'Server-side AI orchestration and a tiered model-cost design',
+      'OAuth with rotating tokens, offline capture, Sentry, 10 languages',
     ],
-    href: 'https://github.com/wcmchenry3-stack/BookshelfAI',
+    images: [],
+    logo: '/work/bookshelfai/logo.jpg',
   },
   {
     id: 'bc-arcade',
     name: 'BC Arcade',
-    category: 'Product & Mobile',
+    category: 'Mobile platform · iOS, Android & Web',
     tagline:
-      'A 12-game mobile platform, specified and released like a real product.',
+      'Quick, genuinely fun games with no freemium pressure, no wagering and no artificial walls — and the engineering discipline to ship them.',
     bullets: [
-      'Free / premium tiering and monetization strategy across 12 games',
-      'App Store readiness and iOS / Android platform tradeoffs',
-      '200+ product-spec issues: user stories, acceptance criteria, scope calls',
+      'Playtest-driven redesigns, seeded simulations and measurable release criteria',
+      '~44 CI quality gates, Playwright end-to-end tests, performance instrumentation',
+      'An AI triage agent that merges only low-risk updates, behind deterministic guards',
     ],
-    href: 'https://github.com/wcmchenry3-stack/BC-Arcade',
+    images: [
+      {
+        src: '/work/bc-arcade/lobby.jpg',
+        alt: 'BC Arcade lobby with game cards for Yacht, 2048, Solitaire and FreeCell',
+      },
+      {
+        src: '/work/bc-arcade/sudoku.jpg',
+        alt: 'A Sudoku puzzle in progress in BC Arcade',
+      },
+      {
+        src: '/work/bc-arcade/solitaire.jpg',
+        alt: 'A fresh Solitaire deal in BC Arcade',
+      },
+    ],
   },
 ];
 
@@ -31,23 +51,15 @@ export const supportingProjects = [
   {
     id: 'rulersai',
     name: 'RulersAI',
-    category: 'Data Systems',
-    tagline: 'Turning messy public data into a structured, reliable dataset.',
-    bullets: [
-      'Configurable per-source ingestion and parsing',
-      'Scheduled jobs with monitoring and automated quality checks',
-    ],
+    tagline:
+      'Messy public data turned into a structured, monitored dataset with automated quality checks.',
     href: 'https://rulersai.buffingchi.com',
   },
   {
     id: 'powerplays',
     name: 'Power Plays History',
-    category: 'Research & Writing',
-    tagline: 'Long-form historical research with archival-grade sourcing.',
-    bullets: [
-      'Structured essays, dossiers, and citations',
-      'Deep-dive research and synthesis outside of product work',
-    ],
+    tagline:
+      'Long-form historical research — synthesis, sourcing and structured writing.',
     href: 'https://github.com/wcmchenry3-stack/powerplayshistory_site',
   },
 ];

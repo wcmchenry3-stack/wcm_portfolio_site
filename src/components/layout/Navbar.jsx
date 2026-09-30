@@ -11,6 +11,7 @@ import { Container } from '../ui/Container.jsx';
  */
 const NAV_ITEMS = [
   { to: '/', end: true, labelKey: 'navbar.home' },
+  { to: '/work', end: false, labelKey: 'navbar.work' },
   { to: '/resume', end: false, labelKey: 'navbar.resume' },
 ];
 

@@ -8,8 +8,18 @@
   --color-brand-border: #e2e8f0;
   --color-brand-light: #f8fafc;
   --color-brand-muted: #64748b;
+  /* Added for the #210 redesign — ratios verified, see .claude/accessibility.md */
+  --color-brand-subtle: #cbd5e1; /* body text on brand-dark / navy */
+  --color-brand-faint: #94a3b8; /* labels on brand-dark */
+  --color-brand-rule: #334155; /* hairlines on brand-dark */
+  --color-brand-accent: #2dd4bf; /* teal text on brand-dark */
+  --color-brand-teal-text: #0f766e; /* teal text on white / light */
+  --color-brand-ink: #475569; /* secondary text on white / light */
+  --color-brand-deep-teal: #134e4a; /* decorative panel behind screenshots */
+  --color-brand-panel: #1e293b; /* raised panel on brand-dark; faint text 5.7:1 */
 
-  --font-family-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Fraunces', Georgia, ui-serif, serif;
 
   --spacing-touch: 44px;
 }

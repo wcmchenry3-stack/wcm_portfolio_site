@@ -17,7 +17,7 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const LOCALES_DIR = join(__dirname, '../public/locales');
 const PLACEHOLDER = '__NEEDS_TRANSLATION__';
-const NAMESPACES = ['common', 'home', 'resume'];
+const NAMESPACES = ['common', 'home', 'resume', 'work'];
 const TARGET_LOCALES = ['fr-CA', 'es', 'hi', 'ar'];
 
 function loadJson(path) {

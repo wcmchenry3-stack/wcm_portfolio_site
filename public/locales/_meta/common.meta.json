@@ -16,7 +16,9 @@
     "tone": "neutral",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["Bill McHenry"],
+    "doNotTranslate": [
+      "Bill McHenry"
+    ],
     "notes": "This is a proper name — do not translate or transliterate."
   },
   "navbar.brandAriaLabel": {
@@ -26,7 +28,9 @@
     "tone": "functional",
     "characterLimit": 40,
     "placeholders": [],
-    "doNotTranslate": ["Bill McHenry"],
+    "doNotTranslate": [
+      "Bill McHenry"
+    ],
     "notes": "Conveys 'click to go to homepage'. The name must not be translated."
   },
   "navbar.navAriaLabel": {
@@ -48,6 +52,16 @@
     "placeholders": [],
     "doNotTranslate": [],
     "notes": null
+  },
+  "navbar.work": {
+    "page": "global",
+    "component": "Navbar",
+    "description": "Navbar copy: navbar.work",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
   "navbar.resume": {
     "page": "global",
@@ -105,8 +119,14 @@
     "description": "Copyright notice in the page footer. Includes the current year, owner name, and location.",
     "tone": "neutral, formal",
     "characterLimit": 60,
-    "placeholders": ["{{year}}"],
-    "doNotTranslate": ["Bill McHenry", "Chicago", "IL"],
+    "placeholders": [
+      "{{year}}"
+    ],
+    "doNotTranslate": [
+      "Bill McHenry",
+      "Chicago",
+      "IL"
+    ],
     "notes": "{{year}} is injected at runtime. The name and location must not be translated."
   },
   "footer.linkedin": {
@@ -116,7 +136,9 @@
     "tone": "neutral",
     "characterLimit": 20,
     "placeholders": [],
-    "doNotTranslate": ["LinkedIn"],
+    "doNotTranslate": [
+      "LinkedIn"
+    ],
     "notes": "Platform name — do not translate."
   },
   "footer.linkedinAriaLabel": {
@@ -126,7 +148,10 @@
     "tone": "functional",
     "characterLimit": 60,
     "placeholders": [],
-    "doNotTranslate": ["Bill McHenry", "LinkedIn"],
+    "doNotTranslate": [
+      "Bill McHenry",
+      "LinkedIn"
+    ],
     "notes": "Must indicate it opens in a new tab."
   },
   "dates.present": {
