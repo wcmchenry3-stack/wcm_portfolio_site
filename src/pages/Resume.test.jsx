@@ -97,6 +97,8 @@ describe('Resume page', () => {
 
   it('does not show a direct email address', () => {
     renderResume();
-    expect(document.body.textContent).not.toMatch(/@gmail\.com/);
+    expect(document.body.textContent).not.toMatch(
+      /[\w.+-]+@[\w-]+\.[a-z]{2,}/i
+    );
   });
 });

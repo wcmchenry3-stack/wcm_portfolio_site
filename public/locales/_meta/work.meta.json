@@ -421,26 +421,6 @@
     "doNotTranslate": [],
     "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
-  "bookshelfai.decisions.item_4.title": {
-    "page": "work",
-    "component": "CaseStudy page",
-    "description": "CaseStudy page copy: bookshelfai.decisions.item_4.title",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "bookshelfai.decisions.item_4.body": {
-    "page": "work",
-    "component": "CaseStudy page",
-    "description": "CaseStudy page copy: bookshelfai.decisions.item_4.body",
-    "tone": "professional, confident, specific",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
   "bookshelfai.system.heading": {
     "page": "work",
     "component": "CaseStudy page",

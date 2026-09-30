@@ -1026,18 +1026,6 @@
     ],
     "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
-  "contact.emailHref": {
-    "page": "home",
-    "component": "ContactBar",
-    "description": "mailto: link — not visible text. Never translate; must remain a valid mailto URL.",
-    "tone": "functional",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [
-      "mailto:wcmchenry3@gmail.com"
-    ],
-    "notes": "This is a URL, not display copy. The translation pipeline should pass it through unchanged."
-  },
   "contact.emailButton": {
     "page": "home",
     "component": "ContactBar",

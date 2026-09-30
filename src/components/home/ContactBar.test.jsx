@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
+import { MemoryRouter } from 'react-router-dom';
 import { I18nextProvider } from 'react-i18next';
 import i18n from '../../test/i18nTestInstance.js';
 import { ContactBar } from './ContactBar.jsx';
@@ -7,7 +8,9 @@ import { ContactBar } from './ContactBar.jsx';
 function renderContactBar() {
   return render(
     <I18nextProvider i18n={i18n}>
-      <ContactBar />
+      <MemoryRouter>
+        <ContactBar />
+      </MemoryRouter>
     </I18nextProvider>
   );
 }
@@ -35,11 +38,10 @@ describe('ContactBar', () => {
     expect(link).toHaveAttribute('rel', 'noopener noreferrer');
   });
 
-  it('email button links to a mailto address without target/rel', () => {
+  it('message button goes to the contact form, not a mailto link', () => {
     renderContactBar();
-    const link = screen.getByRole('link', { name: /^email$/i });
-    expect(link.getAttribute('href')).toMatch(/^mailto:/);
-    expect(link).not.toHaveAttribute('target');
-    expect(link).not.toHaveAttribute('rel');
+    const link = screen.getByRole('link', { name: /send a message/i });
+    expect(link).toHaveAttribute('href', '/contact');
+    expect(document.querySelector('a[href^="mailto:"]')).toBeNull();
   });
 });

@@ -54,7 +54,24 @@ See [~/.claude/standards/testing.md](~/.claude/standards/testing.md) for univers
 
 - Heading and CTA sentence render
 - LinkedIn button opens in a new tab with `noopener`
-- Email button links to a `mailto:` address without `target`/`rel`
+- "Send a message" links to `/contact`; there is no `mailto:` link anywhere
+
+### ContactForm / Contact page
+
+- Falls back to a LinkedIn link when `VITE_TURNSTILE_SITE_KEY` is unset
+- Every field is labelled; there is no file input
+- Invalid submit marks fields `aria-invalid` with visible messages and sends nothing
+- Valid submit POSTs name/email/message/honeypot/Turnstile token to `/api/contact` and shows a `status` message; a 429 shows an `alert` and resets Turnstile
+
+### Contact Worker (`workers/contact/src/lib.js`)
+
+- Validation, honeypot and token checks; CR/LF stripped from header fields
+- MIME is single-part `text/plain`, From our domain, visitor only in Reply-To
+- KV fixed-window rate limiting; IPs hashed
+
+### No personal email (`src/test/noPersonalEmail.test.js`)
+
+- No email address outside `example.com`/`example.org`/`billmchenry.org` in `src`, `public`, `workers`, `index.html` or `render.yaml`, and no `mailto:` in site source or locales
 
 ### LanguageSwitcher
 

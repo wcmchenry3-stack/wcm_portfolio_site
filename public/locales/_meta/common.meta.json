@@ -203,5 +203,214 @@
     "placeholders": [],
     "doNotTranslate": [],
     "notes": null
+  },
+  "contact.page.title": {
+    "page": "common",
+    "component": "ContactForm / Contact page",
+    "description": "Copy: contact.page.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
+  },
+  "contact.page.intro": {
+    "page": "common",
+    "component": "ContactForm / Contact page",
+    "description": "Copy: contact.page.intro",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
+  },
+  "contact.form.name": {
+    "page": "common",
+    "component": "ContactForm / Contact page",
+    "description": "Copy: contact.form.name",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
+  },
+  "contact.form.email": {
+    "page": "common",
+    "component": "ContactForm / Contact page",
+    "description": "Copy: contact.form.email",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
+  },
+  "contact.form.message": {
+    "page": "common",
+    "component": "ContactForm / Contact page",
+    "description": "Copy: contact.form.message",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
+  },
+  "contact.form.messageHint": {
+    "page": "common",
+    "component": "ContactForm / Contact page",
+    "description": "Copy: contact.form.messageHint",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
+  },
+  "contact.form.nameError": {
+    "page": "common",
+    "component": "ContactForm / Contact page",
+    "description": "Copy: contact.form.nameError",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
+  },
+  "contact.form.emailError": {
+    "page": "common",
+    "component": "ContactForm / Contact page",
+    "description": "Copy: contact.form.emailError",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
+  },
+  "contact.form.messageError": {
+    "page": "common",
+    "component": "ContactForm / Contact page",
+    "description": "Copy: contact.form.messageError",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
+  },
+  "contact.form.honeypot": {
+    "page": "common",
+    "component": "ContactForm / Contact page",
+    "description": "Copy: contact.form.honeypot",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
+  },
+  "contact.form.submit": {
+    "page": "common",
+    "component": "ContactForm / Contact page",
+    "description": "Copy: contact.form.submit",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
+  },
+  "contact.form.sending": {
+    "page": "common",
+    "component": "ContactForm / Contact page",
+    "description": "Copy: contact.form.sending",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
+  },
+  "contact.form.success": {
+    "page": "common",
+    "component": "ContactForm / Contact page",
+    "description": "Copy: contact.form.success",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
+  },
+  "contact.form.error": {
+    "page": "common",
+    "component": "ContactForm / Contact page",
+    "description": "Copy: contact.form.error",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "LinkedIn"
+    ],
+    "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
+  },
+  "contact.form.rateLimited": {
+    "page": "common",
+    "component": "ContactForm / Contact page",
+    "description": "Copy: contact.form.rateLimited",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
+  },
+  "contact.form.verify": {
+    "page": "common",
+    "component": "ContactForm / Contact page",
+    "description": "Copy: contact.form.verify",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
+  },
+  "contact.form.privacy": {
+    "page": "common",
+    "component": "ContactForm / Contact page",
+    "description": "Copy: contact.form.privacy",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "Cloudflare",
+      "Turnstile"
+    ],
+    "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
+  },
+  "contact.form.unavailable": {
+    "page": "common",
+    "component": "ContactForm / Contact page",
+    "description": "Copy: contact.form.unavailable",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "LinkedIn"
+    ],
+    "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
+  },
+  "contact.form.linkedin": {
+    "page": "common",
+    "component": "ContactForm / Contact page",
+    "description": "Copy: contact.form.linkedin",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "LinkedIn"
+    ],
+    "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
+  },
+  "navbar.contact": {
+    "page": "common",
+    "component": "common",
+    "description": "Copy: navbar.contact",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
   }
 }

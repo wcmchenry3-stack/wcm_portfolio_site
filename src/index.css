@@ -16,6 +16,7 @@
   --color-brand-teal-text: #0f766e; /* teal text on white / light */
   --color-brand-ink: #475569; /* secondary text on white / light */
   --color-brand-deep-teal: #134e4a; /* decorative panel behind screenshots */
+  --color-brand-error: #b91c1c; /* form errors on white / light; 6.5:1 */
   --color-brand-panel: #1e293b; /* raised panel on brand-dark; faint text 5.7:1 */
 
   --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
