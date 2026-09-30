@@ -26,32 +26,52 @@ See [~/.claude/standards/testing.md](~/.claude/standards/testing.md) for univers
 
 ### HeroSection
 
-- Renders main headline
-- Headshot `<img>` has non-empty `alt`
-- "View Resume" link navigates to `/resume`
-
-### ImpactSection
-
-- Heading and intro sentence resolve from the `home` namespace
-- One `<li>` per proof point (`src/data/impact.js`), each with its stat, headline, and description
-- Outro sentence renders
+- Headline renders ("Product leader. Team builder. Still ships.") and the eyebrow leads with "Product & People Leader", not a job title
+- Uses the standardized "13+ years" framing
+- One `<li>` per proof point (`src/data/impact.js`), each with label, stat, and description; no "engineers supported"
+- Credibility line names every employer from `experience.js`
+- Headshot `<img>` has non-empty `alt`; "See the work" → `#selected-work`; "View resume" → `/resume`; LinkedIn opens in a new tab with `noopener`
 
 ### SelectedWorkSection
 
 - Heading and intro resolve from the `home` namespace
-- Every featured and supporting project (`src/data/projects.js`) renders as a card with its name, category, and tagline
-- Project links open in a new tab with `rel="noopener noreferrer"`
+- Each featured project (`src/data/projects.js`) has a heading and a "Read the case study" link to `/work/<id>`
+- Featured screenshots carry descriptive `alt` text
+- Supporting projects open externally with `rel="noopener noreferrer"` and an sr-only "(opens in new tab)"; they get no case-study heading
+- `headingLevel={1}` (the `/work` page) promotes every heading by one level
 
-### CareerBridgeSection
+### LeadershipSection
 
-- Heading and body resolve from the `home` namespace
-- CTA link navigates to `/resume`
+- Section heading, the three habits (`h3`), the four coaching steps in order (`h4`), and the four track-record items render
+
+### CareerSnapshotSection
+
+- Heading uses "13+ years in product leadership"
+- One item per employer, newest first, with a year range (multi-role employers span earliest start to latest end; current role ends in "Present")
+- CTA links to `/resume`
 
 ### ContactBar
 
 - Heading and CTA sentence render
 - LinkedIn button opens in a new tab with `noopener`
-- Email button links to a `mailto:` address without `target`/`rel`
+- "Send a message" links to `/contact`; there is no `mailto:` link anywhere
+
+### ContactForm / Contact page
+
+- Falls back to a LinkedIn link when `VITE_TURNSTILE_SITE_KEY` is unset
+- Every field is labelled; there is no file input
+- Invalid submit marks fields `aria-invalid` with visible messages and sends nothing
+- Valid submit POSTs name/email/message/honeypot/Turnstile token to `/api/contact` and shows a `status` message; a 429 shows an `alert` and resets Turnstile
+
+### Contact Worker (`workers/contact/src/lib.js`)
+
+- Validation, honeypot and token checks; CR/LF stripped from header fields
+- MIME is single-part `text/plain`, From our domain, visitor only in Reply-To
+- KV fixed-window rate limiting; IPs hashed
+
+### No personal email (`src/test/noPersonalEmail.test.js`)
+
+- No email address outside `example.com`/`example.org`/`billmchenry.org` in `src`, `public`, `workers`, `index.html` or `render.yaml`, and no `mailto:` in site source or locales
 
 ### LanguageSwitcher
 
@@ -74,7 +94,13 @@ See [~/.claude/standards/testing.md](~/.claude/standards/testing.md) for univers
 - `PageMain` — `id="main-content"`, `tabIndex={-1}`, always includes `scroll-mt-20 flex-1`
 - `LinkedInIcon` — `aria-hidden="true"`; default and custom sizing
 
-### Home / Resume pages
+### CaseStudy page (`/work/:slug`)
+
+- For every entry in `src/data/caseStudies.js`: `<main id="main-content">`, product name as `h1`, every section renders a translated `h2` (no raw i18n keys), the on-page nav links to each section, the GitHub source link opens in a new tab, the breadcrumb links to `/work`, and "Next case study" links to the other study
+- Unknown slug renders the not-found page
+- BookshelfAI renders its architecture diagram (`figure`) and tradeoffs table; BC Arcade renders screenshots with `alt` text
+
+### Home / Resume / Work pages
 
 - Renders without crash
 - Contains `<main>` landmark with `id="main-content"`

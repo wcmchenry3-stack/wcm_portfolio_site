@@ -2,19 +2,19 @@
  * The `<h2>` (plus optional intro paragraph) pattern repeated across
  * every section. Three tones cover every current use:
  *
- * - `light` — on a dark/navy section background (ContactBar,
- *   CareerBridgeSection). Centers itself regardless of whether the
- *   parent container also sets `text-center`.
- * - `dark` — on a light/white section background (ImpactSection,
- *   SelectedWorkSection). Centers itself and constrains the intro to
- *   `max-w-2xl` since the rest of the section (a grid) is not centered.
+ * - `light` — on a dark/navy section background (ContactBar). Centers
+ *   itself regardless of whether the parent container also sets
+ *   `text-center`.
+ * - `dark` — on a light/white section background. Centers itself and
+ *   constrains the intro to `max-w-2xl`. No current caller since the
+ *   #210 home redesign moved sections to left-aligned display headings;
+ *   kept (and tested) for centered light sections.
  * - `resume` — the resume page's sub-heading style (underlined, no
  *   intro paragraph).
  *
  * No tone bakes in a margin-bottom on the heading itself — every caller
- * supplies it via `className`. Two different callers of `light` (`mb-3`
- * on ContactBar, `mb-4` on CareerBridgeSection) and two of `resume`
- * (`mb-3` vs `mb-6`) genuinely need different values, and Tailwind gives
+ * supplies it via `className`. Callers of `resume` genuinely need
+ * different values (`mb-3` vs `mb-6`), and Tailwind gives
  * `mb-3`/`mb-4` equal specificity, so an appended `className` override
  * on top of a hardcoded default isn't reliable — the caller must always
  * be the one source of truth for this value. The intro paragraph's own

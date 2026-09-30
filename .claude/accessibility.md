@@ -6,12 +6,19 @@ See [~/.claude/standards/accessibility.md](~/.claude/standards/accessibility.md)
 
 These combinations meet the minimum contrast ratios — use only these:
 
-| Foreground | Background | Ratio  | Use                                   |
-| ---------- | ---------- | ------ | ------------------------------------- |
-| `#F8FAFC`  | `#0F172A`  | ~15:1  | Primary text on dark                  |
-| `#F8FAFC`  | `#1E3A5F`  | ~10:1  | Text on brand navy                    |
-| `#0D9488`  | `#0F172A`  | ~5.2:1 | Large/bold text only — verify per use |
-| `#64748B`  | `#F8FAFC`  | ~4.6:1 | Muted text on light bg                |
+| Foreground | Background | Ratio  | Use                                                               |
+| ---------- | ---------- | ------ | ----------------------------------------------------------------- |
+| `#F8FAFC`  | `#0F172A`  | ~15:1  | Primary text on dark                                              |
+| `#F8FAFC`  | `#1E3A5F`  | ~10:1  | Text on brand navy                                                |
+| `#0D9488`  | `#0F172A`  | ~5.2:1 | Large/bold text only — verify per use                             |
+| `#64748B`  | `#F8FAFC`  | ~4.6:1 | Muted text on light bg                                            |
+| `#CBD5E1`  | `#0F172A`  | 12.0:1 | `brand-subtle` — body text on dark                                |
+| `#CBD5E1`  | `#1E3A5F`  | 7.8:1  | `brand-subtle` — body text on navy                                |
+| `#94A3B8`  | `#0F172A`  | 7.0:1  | `brand-faint` — labels on dark (not on navy: 4.49:1)              |
+| `#94A3B8`  | `#1E293B`  | 5.7:1  | `brand-faint` on `brand-panel`                                    |
+| `#2DD4BF`  | `#0F172A`  | 9.6:1  | `brand-accent` — teal text on dark                                |
+| `#0F766E`  | `#FFFFFF`  | 5.5:1  | `brand-teal-text` — teal text on white/light (5.2:1 on `#F8FAFC`) |
+| `#475569`  | `#FFFFFF`  | 7.6:1  | `brand-ink` — secondary text on white/light                       |
 
 Do not introduce new color combinations without verifying contrast with a tool.
 

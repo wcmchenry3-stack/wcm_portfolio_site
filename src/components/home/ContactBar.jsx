@@ -27,11 +27,7 @@ export function ContactBar() {
             <LinkedInIcon />
             {t('contact.button')}
           </Button>
-          <Button
-            href={t('contact.emailHref')}
-            variant="outline"
-            surface="navy"
-          >
+          <Button to="/contact" variant="outline" surface="navy">
             {t('contact.emailButton')}
           </Button>
         </div>

@@ -1,30 +1,31 @@
+/**
+ * The four hero proof points — one per dimension (growth, economics,
+ * people, AI). Copy lives in the `home` namespace under
+ * `impact.<id>.*`; the English here is the `defaultValue` fallback.
+ */
 export const proofPoints = [
   {
     id: 'growth',
+    label: 'Growth',
     stat: '+127%',
-    headline: '26K → 59K active users',
-    description:
-      'Expanded a niche platform into a global product used across roughly 20 countries.',
+    description: '26K → 59K monthly active users across ~20 countries',
   },
   {
-    id: 'consolidation',
+    id: 'economics',
+    label: 'Economics',
     stat: '$6M',
-    headline: '88K users migrated',
-    description:
-      'Consolidated fragmented workflows onto one platform, avoiding a three-year licensing renewal.',
+    description: 'licensing avoided by consolidating systems for 88K users',
   },
   {
-    id: 'org',
-    stat: '30',
-    headline: 'engineers supported',
-    description:
-      'Restructured product ownership and developed four analysts into autonomous product leaders.',
+    id: 'people',
+    label: 'People',
+    stat: '4 → PMs',
+    description: 'business analysts developed into product managers',
   },
   {
     id: 'ai',
-    stat: 'AI',
-    headline: 'copilot turnaround',
-    description:
-      'Rebuilt an underperforming AI copilot and coached product teams org-wide on AI-assisted delivery.',
+    label: 'AI',
+    stat: '~95%',
+    description: 'answer accuracy after an AI copilot turnaround',
   },
 ];

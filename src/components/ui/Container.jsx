@@ -7,7 +7,7 @@ const MAX_WIDTHS = new Map([
  * The centered, gutter-padded column every section and page body sits
  * in. `size` picks the max-width; `lg` (the site's standard column) is
  * the default, `md` is used for narrower single-column content like
- * CareerBridgeSection.
+ * a narrow text column.
  *
  * @param {{
  *   size?: 'lg' | 'md',

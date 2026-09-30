@@ -1,0 +1,1331 @@
+{
+  "page.title": {
+    "page": "work",
+    "component": "Work page",
+    "description": "Work page copy: page.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "page.intro": {
+    "page": "work",
+    "component": "Work page",
+    "description": "Work page copy: page.intro",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "caseStudy.eyebrow": {
+    "page": "work",
+    "component": "CaseStudy page (shared labels)",
+    "description": "CaseStudy page (shared labels) copy: caseStudy.eyebrow",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "caseStudy.breadcrumbLabel": {
+    "page": "work",
+    "component": "CaseStudy page (shared labels)",
+    "description": "CaseStudy page (shared labels) copy: caseStudy.breadcrumbLabel",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "caseStudy.onThisPage": {
+    "page": "work",
+    "component": "CaseStudy page (shared labels)",
+    "description": "CaseStudy page (shared labels) copy: caseStudy.onThisPage",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "caseStudy.nextLabel": {
+    "page": "work",
+    "component": "CaseStudy page (shared labels)",
+    "description": "CaseStudy page (shared labels) copy: caseStudy.nextLabel",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "caseStudy.viewSource": {
+    "page": "work",
+    "component": "CaseStudy page (shared labels)",
+    "description": "CaseStudy page (shared labels) copy: caseStudy.viewSource",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "GitHub"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "caseStudy.opensInNewTab": {
+    "page": "work",
+    "component": "CaseStudy page (shared labels)",
+    "description": "CaseStudy page (shared labels) copy: caseStudy.opensInNewTab",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "caseStudy.roleLabel": {
+    "page": "work",
+    "component": "CaseStudy page (shared labels)",
+    "description": "CaseStudy page (shared labels) copy: caseStudy.roleLabel",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "caseStudy.platformsLabel": {
+    "page": "work",
+    "component": "CaseStudy page (shared labels)",
+    "description": "CaseStudy page (shared labels) copy: caseStudy.platformsLabel",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "caseStudy.stackLabel": {
+    "page": "work",
+    "component": "CaseStudy page (shared labels)",
+    "description": "CaseStudy page (shared labels) copy: caseStudy.stackLabel",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "caseStudy.screensLabel": {
+    "page": "work",
+    "component": "CaseStudy page (shared labels)",
+    "description": "CaseStudy page (shared labels) copy: caseStudy.screensLabel",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "caseStudy.section.problem": {
+    "page": "work",
+    "component": "CaseStudy page (shared labels)",
+    "description": "CaseStudy page (shared labels) copy: caseStudy.section.problem",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "caseStudy.section.decisions": {
+    "page": "work",
+    "component": "CaseStudy page (shared labels)",
+    "description": "CaseStudy page (shared labels) copy: caseStudy.section.decisions",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "caseStudy.section.system": {
+    "page": "work",
+    "component": "CaseStudy page (shared labels)",
+    "description": "CaseStudy page (shared labels) copy: caseStudy.section.system",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "caseStudy.section.tradeoffs": {
+    "page": "work",
+    "component": "CaseStudy page (shared labels)",
+    "description": "CaseStudy page (shared labels) copy: caseStudy.section.tradeoffs",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "caseStudy.section.validation": {
+    "page": "work",
+    "component": "CaseStudy page (shared labels)",
+    "description": "CaseStudy page (shared labels) copy: caseStudy.section.validation",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "caseStudy.section.built": {
+    "page": "work",
+    "component": "CaseStudy page (shared labels)",
+    "description": "CaseStudy page (shared labels) copy: caseStudy.section.built",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "caseStudy.col.question": {
+    "page": "work",
+    "component": "CaseStudy page (shared labels)",
+    "description": "CaseStudy page (shared labels) copy: caseStudy.col.question",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "caseStudy.col.decision": {
+    "page": "work",
+    "component": "CaseStudy page (shared labels)",
+    "description": "CaseStudy page (shared labels) copy: caseStudy.col.decision",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "caseStudy.col.why": {
+    "page": "work",
+    "component": "CaseStudy page (shared labels)",
+    "description": "CaseStudy page (shared labels) copy: caseStudy.col.why",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "caseStudy.diagramLabel": {
+    "page": "work",
+    "component": "CaseStudy page (shared labels)",
+    "description": "CaseStudy page (shared labels) copy: caseStudy.diagramLabel",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.eyebrow": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.eyebrow",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.tagline": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.tagline",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.summary": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.summary",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.role": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.role",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.platforms": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.platforms",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.problem.heading": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.problem.heading",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.problem.intro": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.problem.intro",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.problem.item_1.title": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.problem.item_1.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.problem.item_1.body": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.problem.item_1.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.problem.item_2.title": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.problem.item_2.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.problem.item_2.body": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.problem.item_2.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.problem.item_3.title": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.problem.item_3.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.problem.item_3.body": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.problem.item_3.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.decisions.heading": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.decisions.heading",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.decisions.item_1.title": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.decisions.item_1.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.decisions.item_1.body": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.decisions.item_1.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.decisions.item_2.title": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.decisions.item_2.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.decisions.item_2.body": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.decisions.item_2.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.decisions.item_3.title": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.decisions.item_3.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.decisions.item_3.body": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.decisions.item_3.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.system.heading": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.system.heading",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.system.intro": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.system.intro",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.system.node_1.title": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.system.node_1.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.system.node_1.detail": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.system.node_1.detail",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.system.node_2.title": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.system.node_2.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.system.node_2.detail": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.system.node_2.detail",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "Cloudflare"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.system.node_3.title": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.system.node_3.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "API"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.system.node_3.detail": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.system.node_3.detail",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.system.node_4.title": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.system.node_4.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.system.node_4.detail": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.system.node_4.detail",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PostgreSQL",
+      "APIs"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.system.bullet_1": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.system.bullet_1",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "RS256"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.system.bullet_2": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.system.bullet_2",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.system.bullet_3": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.system.bullet_3",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.system.bullet_4": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.system.bullet_4",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.tradeoffs.heading": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.tradeoffs.heading",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.tradeoffs.row_1.question": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.tradeoffs.row_1.question",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.tradeoffs.row_1.decision": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.tradeoffs.row_1.decision",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.tradeoffs.row_1.why": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.tradeoffs.row_1.why",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.tradeoffs.row_2.question": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.tradeoffs.row_2.question",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.tradeoffs.row_2.decision": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.tradeoffs.row_2.decision",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.tradeoffs.row_2.why": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.tradeoffs.row_2.why",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.tradeoffs.row_3.question": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.tradeoffs.row_3.question",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.tradeoffs.row_3.decision": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.tradeoffs.row_3.decision",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.tradeoffs.row_3.why": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.tradeoffs.row_3.why",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.validation.heading": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.validation.heading",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "API"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.validation.para_1": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.validation.para_1",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.validation.para_2": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.validation.para_2",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "CI"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.built.heading": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.built.heading",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.built.item_1": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.built.item_1",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.built.item_2": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.built.item_2",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.built.item_3": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.built.item_3",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "API"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.built.item_4": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.built.item_4",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.built.item_5": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.built.item_5",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.built.item_6": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.built.item_6",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "CI"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.built.item_7": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.built.item_7",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.built.item_8": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.built.item_8",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bookshelfai.built.item_9": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bookshelfai.built.item_9",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.eyebrow": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.eyebrow",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.tagline": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.tagline",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.summary": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.summary",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.role": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.role",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.platforms": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.platforms",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.problem.heading": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.problem.heading",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.problem.intro": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.problem.intro",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.problem.item_1.title": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.problem.item_1.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.problem.item_1.body": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.problem.item_1.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.problem.item_2.title": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.problem.item_2.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.problem.item_2.body": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.problem.item_2.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.problem.item_3.title": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.problem.item_3.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.problem.item_3.body": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.problem.item_3.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.decisions.heading": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.decisions.heading",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.decisions.item_1.title": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.decisions.item_1.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.decisions.item_1.body": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.decisions.item_1.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.decisions.item_2.title": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.decisions.item_2.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.decisions.item_2.body": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.decisions.item_2.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.decisions.item_3.title": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.decisions.item_3.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.decisions.item_3.body": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.decisions.item_3.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.decisions.item_4.title": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.decisions.item_4.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.decisions.item_4.body": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.decisions.item_4.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.system.heading": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.system.heading",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.system.intro": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.system.intro",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "Playwright",
+      "CI"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.system.bullet_1": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.system.bullet_1",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "CI"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.system.bullet_2": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.system.bullet_2",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.system.bullet_3": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.system.bullet_3",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.system.bullet_4": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.system.bullet_4",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "Sentry"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.tradeoffs.heading": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.tradeoffs.heading",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.tradeoffs.row_1.question": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.tradeoffs.row_1.question",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.tradeoffs.row_1.decision": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.tradeoffs.row_1.decision",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.tradeoffs.row_1.why": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.tradeoffs.row_1.why",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.tradeoffs.row_2.question": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.tradeoffs.row_2.question",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.tradeoffs.row_2.decision": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.tradeoffs.row_2.decision",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.tradeoffs.row_2.why": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.tradeoffs.row_2.why",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.tradeoffs.row_3.question": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.tradeoffs.row_3.question",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.tradeoffs.row_3.decision": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.tradeoffs.row_3.decision",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.tradeoffs.row_3.why": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.tradeoffs.row_3.why",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.validation.heading": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.validation.heading",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.validation.para_1": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.validation.para_1",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.validation.para_2": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.validation.para_2",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.built.heading": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.built.heading",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.built.item_1": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.built.item_1",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.built.item_2": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.built.item_2",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.built.item_3": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.built.item_3",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.built.item_4": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.built.item_4",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.built.item_5": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.built.item_5",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "CI",
+      "E2E"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.built.item_6": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.built.item_6",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.built.item_7": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.built.item_7",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.built.item_8": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.built.item_8",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "bc-arcade.built.item_9": {
+    "page": "work",
+    "component": "CaseStudy page",
+    "description": "CaseStudy page copy: bc-arcade.built.item_9",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  }
+}

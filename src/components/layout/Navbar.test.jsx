@@ -103,11 +103,15 @@ describe('Navbar', () => {
     ).not.toBeInTheDocument();
   });
 
-  it('renders nav links for Home and Resume', () => {
+  it('renders nav links for Home, Work and Resume', () => {
     renderNavbar();
     expect(
       screen.getAllByRole('link', { name: /home/i })[0]
     ).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /^work$/i })).toHaveAttribute(
+      'href',
+      '/work'
+    );
     expect(
       screen.getAllByRole('link', { name: /resume/i })[0]
     ).toBeInTheDocument();
