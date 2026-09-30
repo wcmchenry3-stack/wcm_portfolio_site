@@ -10,8 +10,8 @@ export const LIMITS = {
   messageMax: 5000,
 };
 
-// Pragmatic address check: one @, a dot in the domain, no whitespace.
-const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+// Pragmatic address check: one @, a dot in the domain, no whitespace or angle brackets.
+const EMAIL_RE = /^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]+$/;
 
 // Control characters except tab, LF and CR (message bodies keep line breaks).
 // eslint-disable-next-line no-control-regex -- matching control chars is the point
