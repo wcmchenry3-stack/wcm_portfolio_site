@@ -378,6 +378,42 @@
     ],
     "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
+  "work.bookshelfai.image_1": {
+    "page": "home",
+    "component": "ProjectCard / CaseStudy",
+    "description": "Alt text for BookshelfAI screenshot 1",
+    "tone": "descriptive, plain",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "BookshelfAI"
+    ],
+    "notes": "Screen-reader alt text; describe what the screenshot shows."
+  },
+  "work.bookshelfai.image_2": {
+    "page": "home",
+    "component": "ProjectCard / CaseStudy",
+    "description": "Alt text for BookshelfAI screenshot 2",
+    "tone": "descriptive, plain",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "BookshelfAI"
+    ],
+    "notes": "Screen-reader alt text; describe what the screenshot shows."
+  },
+  "work.bookshelfai.image_3": {
+    "page": "home",
+    "component": "ProjectCard / CaseStudy",
+    "description": "Alt text for BookshelfAI screenshot 3",
+    "tone": "descriptive, plain",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "BookshelfAI"
+    ],
+    "notes": "Screen-reader alt text; describe what the screenshot shows."
+  },
   "work.bc-arcade.category": {
     "page": "home",
     "component": "ProjectCard",

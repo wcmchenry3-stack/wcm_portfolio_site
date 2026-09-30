@@ -4,17 +4,18 @@
   "navbar.brandAriaLabel": "الصفحة الرئيسية لـ Bill McHenry",
   "navbar.navAriaLabel": "التنقل الرئيسي",
   "navbar.home": "الرئيسية",
+  "navbar.work": "الأعمال",
   "navbar.resume": "السيرة الذاتية",
   "navbar.openMenu": "افتح قائمة التنقل",
   "navbar.closeMenu": "أغلق قائمة التنقل",
   "navbar.mobileAriaLabel": "تنقل الجوال",
   "navbar.languageSwitcher": "اختر اللغة",
+  "footer.copyright": "© {{year}} Bill McHenry — Chicago, IL",
   "footer.linkedin": "LinkedIn",
   "footer.linkedinAriaLabel": "Bill McHenry على LinkedIn (يفتح في تبويب جديد)",
   "dates.present": "الحالي",
   "contact.sectionAriaLabel": "معلومات التواصل",
   "notfound.heading": "الصفحة غير موجودة",
   "notfound.description": "الصفحة التي تبحث عنها غير موجودة.",
-  "notfound.homeLink": "العودة إلى الرئيسية",
-  "footer.copyright": "© {{year}} Bill McHenry — Chicago, IL"
+  "notfound.homeLink": "العودة إلى الرئيسية"
 }

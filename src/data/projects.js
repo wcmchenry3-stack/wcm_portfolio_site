@@ -16,7 +16,20 @@ export const featuredProjects = [
       'Server-side AI orchestration and a tiered model-cost design',
       'OAuth with rotating tokens, offline capture, Sentry, 10 languages',
     ],
-    images: [],
+    images: [
+      {
+        src: '/work/bookshelfai/wishlist.jpg',
+        alt: 'BookshelfAI wishlist with three books to buy',
+      },
+      {
+        src: '/work/bookshelfai/library.jpg',
+        alt: 'BookshelfAI library showing books by reading status',
+      },
+      {
+        src: '/work/bookshelfai/book-detail.jpg',
+        alt: 'BookshelfAI book detail with an enriched description and page count',
+      },
+    ],
     logo: '/work/bookshelfai/logo.jpg',
   },
   {

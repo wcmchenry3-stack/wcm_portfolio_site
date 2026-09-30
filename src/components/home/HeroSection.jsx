@@ -67,7 +67,10 @@ export function HeroSection() {
               <span className="text-xs font-semibold uppercase tracking-widest text-brand-faint">
                 {t(`impact.${point.id}.label`, { defaultValue: point.label })}
               </span>
-              <span className="font-display text-3xl sm:text-4xl font-semibold leading-none text-brand-light">
+              <span
+                dir="ltr"
+                className="self-start font-display text-3xl sm:text-4xl font-semibold leading-none text-brand-light"
+              >
                 {t(`impact.${point.id}.stat`, { defaultValue: point.stat })}
               </span>
               <span className="text-sm leading-snug text-brand-subtle">

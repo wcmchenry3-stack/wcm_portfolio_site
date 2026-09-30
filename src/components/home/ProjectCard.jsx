@@ -14,7 +14,7 @@ const PANEL_BG = new Map([
 function ProjectVisual({ project, t }) {
   if (project.images.length > 0) {
     return (
-      <div className="flex justify-center items-end gap-3 sm:gap-4 h-full px-6 pt-8">
+      <div className="flex justify-center items-end gap-3 h-full px-4 pt-8">
         {project.images.map((image, i) => (
           <img
             key={image.src}
@@ -27,8 +27,8 @@ function ProjectVisual({ project, t }) {
             loading="lazy"
             className={`object-cover object-top rounded-t-2xl border-4 border-b-0 border-brand-dark ${
               i === 1
-                ? 'w-28 h-60 sm:w-36 sm:h-76'
-                : 'w-24 h-52 sm:w-32 sm:h-68'
+                ? 'w-28 h-60 sm:w-32 sm:h-68'
+                : 'w-24 h-52 sm:w-28 sm:h-60'
             } ${i === 2 ? 'hidden sm:block' : ''}`}
           />
         ))}

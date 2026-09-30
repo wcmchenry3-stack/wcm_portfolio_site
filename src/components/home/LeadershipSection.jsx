@@ -88,7 +88,10 @@ export function LeadershipSection() {
               key={n}
               className="flex flex-col gap-1.5 p-6 bg-brand-light rounded-xl border border-brand-border"
             >
-              <span className="font-display text-3xl font-semibold leading-tight text-brand-teal-text">
+              <span
+                dir="ltr"
+                className="self-start font-display text-3xl font-semibold leading-tight text-brand-teal-text"
+              >
                 {t(`lead.record.record_${n}.stat`)}
               </span>
               <span className="font-semibold leading-snug text-brand-dark">
