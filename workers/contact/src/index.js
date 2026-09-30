@@ -5,11 +5,12 @@
  *
  * Checks, in order: same-site Origin, JSON body, field validation,
  * Cloudflare Turnstile, per-IP and site-wide rate limits. Then sends a
- * plain-text email to CONTACT_TO through Email Routing. No attachments
- * are accepted, and the recipient address lives only in a Worker secret.
+ * plain-text email to CONTACT_TO via Resend. No attachments are accepted,
+ * and the recipient address lives only in a Worker secret (CONTACT_TO).
  */
-import { EmailMessage } from 'cloudflare:email';
-import { validate, buildMime, hashIp, checkWindow } from './lib.js';
+import { validate, hashIp, checkWindow } from './lib.js';
+
+const RESEND_URL = 'https://api.resend.com/emails';
 
 const PER_IP = { max: 3, windowMs: 60 * 60 * 1000 }; // 3 per hour per visitor
 const SITE_WIDE = { max: 30, windowMs: 24 * 60 * 60 * 1000 }; // 30 per day total
@@ -83,21 +84,29 @@ async function handleContact(request, env) {
   }
 
   const { name, email, message } = result.value;
-  const mime = buildMime({
-    from: env.CONTACT_FROM,
-    to: env.CONTACT_TO,
-    name,
-    email,
-    message,
-    id: crypto.randomUUID(),
-    date: new Date(),
-  });
+  const text = `${message}\n\n—\n${name} <${email}>\nSent via the billmchenry.org contact form.`;
   try {
-    await env.CONTACT_EMAIL.send(
-      new EmailMessage(env.CONTACT_FROM, env.CONTACT_TO, mime)
-    );
+    const res = await fetch(RESEND_URL, {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${env.RESEND_API_KEY}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        from: `billmchenry.org <${env.CONTACT_FROM}>`,
+        to: [env.CONTACT_TO],
+        reply_to: `${name} <${email}>`,
+        subject: `[billmchenry.org] Message from ${name}`,
+        text,
+      }),
+    });
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      console.error('resend failed:', res.status, JSON.stringify(err));
+      return json({ error: 'send_failed' }, 502);
+    }
   } catch (err) {
-    console.error('send failed:', err.message);
+    console.error('resend error:', err.message);
     return json({ error: 'send_failed' }, 502);
   }
   return json({ ok: true }, 200);

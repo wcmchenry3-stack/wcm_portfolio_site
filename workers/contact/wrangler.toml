@@ -13,16 +13,11 @@ routes = [
 ALLOWED_ORIGINS = "https://billmchenry.org,https://www.billmchenry.org"
 CONTACT_FROM = "contact@billmchenry.org"
 
-# Email Routing "send email" binding. No destination is pinned here, so the
-# recipient never appears in the repo — it comes from the CONTACT_TO secret
-# and must be a verified Email Routing destination address.
-[[send_email]]
-name = "CONTACT_EMAIL"
-
 [[kv_namespaces]]
 binding = "RATE_LIMIT_KV"
 id = "f1b9172029584091b4b5bbaa08545660" # CONTACT_RATE_LIMIT_KV
 
 # Secrets (set with `npx wrangler secret put <NAME>`, never committed):
-#   CONTACT_TO        your verified destination address
+#   CONTACT_TO        recipient address (your inbox)
 #   TURNSTILE_SECRET  Turnstile widget secret key
+#   RESEND_API_KEY    Resend send-only API key (resend.com)
