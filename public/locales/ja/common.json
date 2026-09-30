@@ -4,17 +4,18 @@
   "navbar.brandAriaLabel": "Bill McHenry – ホーム",
   "navbar.navAriaLabel": "メインナビゲーション",
   "navbar.home": "ホーム",
+  "navbar.work": "実績",
   "navbar.resume": "履歴書",
   "navbar.openMenu": "ナビゲーションメニューを開く",
   "navbar.closeMenu": "ナビゲーションメニューを閉じる",
   "navbar.mobileAriaLabel": "モバイルナビゲーション",
   "navbar.languageSwitcher": "言語を選択",
+  "footer.copyright": "© {{year}} Bill McHenry — Chicago, IL",
   "footer.linkedin": "LinkedIn",
   "footer.linkedinAriaLabel": "Bill McHenryのLinkedIn（新しいタブで開く）",
   "dates.present": "現在",
   "contact.sectionAriaLabel": "お問い合わせ情報",
   "notfound.heading": "ページが見つかりません",
   "notfound.description": "お探しのページは存在しません。",
-  "notfound.homeLink": "ホームに戻る",
-  "footer.copyright": "© {{year}} Bill McHenry — Chicago, IL"
+  "notfound.homeLink": "ホームに戻る"
 }
