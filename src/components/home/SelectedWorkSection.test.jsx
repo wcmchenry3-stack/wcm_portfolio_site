@@ -25,7 +25,9 @@ describe('SelectedWorkSection', () => {
         name: /products i build on my own time/i,
       })
     ).toBeInTheDocument();
-    expect(screen.getByText(/build on my own time, because/i)).toBeInTheDocument();
+    expect(
+      screen.getByText(/build on my own time, because/i)
+    ).toBeInTheDocument();
   });
 
   it('links each featured project to its case study', () => {
