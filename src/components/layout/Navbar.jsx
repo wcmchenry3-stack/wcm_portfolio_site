@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { LanguageSwitcher } from './LanguageSwitcher.jsx';
+import { translationsEnabled } from '../../config/features.js';
 import { NAV_LINK_BASE } from './navLinkClass.js';
 import { Container } from '../ui/Container.jsx';
 
@@ -96,9 +97,11 @@ export function Navbar() {
               role="list"
             >
               <NavLinks navLinkClass={navLinkClass} t={t} />
-              <li>
-                <LanguageSwitcher />
-              </li>
+              {translationsEnabled() && (
+                <li>
+                  <LanguageSwitcher />
+                </li>
+              )}
             </ul>
 
             {/* Mobile hamburger */}
@@ -152,9 +155,11 @@ export function Navbar() {
                 onNavigate={() => setIsOpen(false)}
                 t={t}
               />
-              <li className="pt-1">
-                <LanguageSwitcher />
-              </li>
+              {translationsEnabled() && (
+                <li className="pt-1">
+                  <LanguageSwitcher />
+                </li>
+              )}
             </ul>
           </nav>
         )}
