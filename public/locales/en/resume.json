@@ -49,15 +49,16 @@
   "projects.heading": "Independent Products",
   "projects.caseStudyLink": "Read the case study",
   "projects.bookshelfai.subtitle": "Multimodal AI Application — iOS, Android & Web",
-  "projects.bookshelfai.bullet_1": "Created BookshelfAI around concrete user problems and built multimodal AI shelf scanning.",
-  "projects.bookshelfai.bullet_2": "Designed production-oriented AI orchestration with server-side model access, authentication, rate limiting, observability, external APIs, and resilient error handling.",
-  "projects.bookshelfai.bullet_3": "Independently owns product strategy, UX, architecture, APIs, AI model selection, testing, deployment, and quality.",
-  "projects.bc-arcade.subtitle": "Cross-Platform Arcade — iOS, Android & Web",
-  "projects.bc-arcade.bullet_1": "Independently owns product, UX, architecture, implementation, testing, deployment, and production quality using AI-assisted development.",
-  "projects.bc-arcade.bullet_2": "Maintains approximately 44 CI checks plus unit and Playwright tests, with Sentry production monitoring and automated quality gates.",
+  "projects.bookshelfai.bullet_1": "Built a multimodal AI app that catalogs several books from one photo and tracks them from wishlist to read.",
+  "projects.bookshelfai.bullet_2": "Designed tiered inference and credits so scan accuracy, convenience and cost are decided together.",
+  "projects.bookshelfai.bullet_3": "Kept AI, identity and spending controls server-side, with bounded offline capture for usability.",
+  "projects.bc-arcade.subtitle": "Casual Games — iOS, Android & Web",
+  "projects.bc-arcade.bullet_1": "Built casual games for short, satisfying sessions, with no freemium pressure or wagering.",
+  "projects.bc-arcade.bullet_2": "Redesigned Blackjack after playtesting and added Sort Puzzle and Daily Word from market research.",
   "capabilities.heading": "Capabilities",
   "capabilities.items": "Product Strategy & Roadmaps • Product Team Leadership & Coaching • Multi-Product Portfolio Strategy • Customer Discovery • AI Product Strategy • Enterprise SaaS • Product Analytics & KPIs • Reliability, Resiliency & Observability • Security & Authorization • APIs & Integrations • Mobile & IoT Products • Pricing & Packaging • Go-to-Market • Cross-Functional Leadership",
   "education.heading": "Education & Certifications",
   "education.degree": "B.A., Business Administration & Psychology, Alma College",
-  "education.certifications": "Pragmatic Marketing Level V · Certified Scrum Product Owner (CSPO)"
+  "education.certifications": "Pragmatic Marketing Level V · Certified Scrum Product Owner (CSPO)",
+  "projects.bc-arcade.bullet_3": "Ships through automated PR quality gates, E2E tests, seeded simulations and Sentry monitoring."
 }

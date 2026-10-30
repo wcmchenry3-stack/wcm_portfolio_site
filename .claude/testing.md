@@ -117,7 +117,10 @@ See [~/.claude/standards/testing.md](~/.claude/standards/testing.md) for univers
 
 - For every entry in `src/data/caseStudies.js`: `<main id="main-content">`, product name as `h1`, every section renders a translated `h2` (no raw i18n keys), the on-page nav links to each section, the GitHub source link opens in a new tab, the breadcrumb links to `/work`, and "Next case study" links to the other study
 - Unknown slug renders the not-found page
-- BookshelfAI renders its architecture diagram (`figure`) and tradeoffs table; BC Arcade renders screenshots with `alt` text
+- Every study has a "Where evidence overruled me" section (`#evidence`, linked from the on-page nav), and its Architecture section names the other product (the architecture contrast)
+- No stale or unsupported claims in either study: no "44" CI count, no "original games", no launch, founder, startup or revenue language
+- BookshelfAI renders its architecture diagram (`figure`) and tradeoffs table, whose first row is the price plan and which names the US and Canada as first markets
+- BC Arcade describes the games as independently built versions of familiar games, tells the Blackjack pivot in the evidence section, and renders screenshots with `alt` text
 
 ### Home / Resume / Work pages
 
