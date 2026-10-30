@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, afterEach, vi } from 'vitest';
 import { render, screen, within, fireEvent } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import { I18nextProvider } from 'react-i18next';
@@ -117,10 +117,24 @@ describe('Navbar', () => {
     ).toBeInTheDocument();
   });
 
-  it('renders the language switcher button', () => {
-    renderNavbar();
-    expect(
-      screen.getAllByRole('button', { name: /select language/i })[0]
-    ).toBeInTheDocument();
+  describe('translations feature flag', () => {
+    afterEach(() => {
+      vi.unstubAllEnvs();
+    });
+
+    it('hides the language switcher when translations are off (default)', () => {
+      renderNavbar();
+      expect(
+        screen.queryByRole('button', { name: /select language/i })
+      ).not.toBeInTheDocument();
+    });
+
+    it('renders the language switcher when VITE_ENABLE_TRANSLATIONS=true', () => {
+      vi.stubEnv('VITE_ENABLE_TRANSLATIONS', 'true');
+      renderNavbar();
+      expect(
+        screen.getAllByRole('button', { name: /select language/i })[0]
+      ).toBeInTheDocument();
+    });
   });
 });

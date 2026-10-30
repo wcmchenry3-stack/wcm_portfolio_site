@@ -20,6 +20,8 @@ See [~/.claude/standards/testing.md](~/.claude/standards/testing.md) for univers
 - Mobile menu is exposed as a `<nav>` landmark, not a `div` with `role="navigation"`
 - Clicking a mobile nav link closes the menu (`aria-expanded` returns to `false`)
 
+- Translations flag: with `VITE_ENABLE_TRANSLATIONS` unset the language switcher is hidden; with it `'true'` (via `vi.stubEnv`) the switcher renders
+
 ### Footer
 
 - LinkedIn link has `target="_blank"`, `rel="noopener noreferrer"`, descriptive `aria-label`
