@@ -6,7 +6,7 @@ import { SectionHeading } from '../ui/SectionHeading.jsx';
 /** Bullets per project, in the `resume` namespace under `projects.<id>`. */
 const BULLET_COUNTS = new Map([
   ['bookshelfai', 3],
-  ['bc-arcade', 2],
+  ['bc-arcade', 3],
 ]);
 
 /**

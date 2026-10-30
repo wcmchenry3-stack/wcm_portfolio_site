@@ -668,5 +668,19 @@
       "CSPO"
     ],
     "notes": "Pragmatic Marketing and CSPO (Certified Scrum Product Owner) are certification/program names — do not translate."
+  },
+  "projects.bc-arcade.bullet_3": {
+    "page": "resume",
+    "component": "ProjectsSection",
+    "description": "resume copy: projects.bc-arcade.bullet_3",
+    "tone": "plain, specific, confident; product judgment, never startup or founder language",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "Sentry",
+      "PR",
+      "E2E"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol exactly as in English. Never call the games original inventions, and never imply the apps have launched or earn revenue."
   }
 }

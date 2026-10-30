@@ -19,6 +19,28 @@ function renderAt(path) {
 }
 
 describe.each(caseStudies)('CaseStudy page — $name', (study) => {
+  it('includes a "Where evidence overruled me" section', () => {
+    renderAt(`/work/${study.id}`);
+    expect(document.getElementById('evidence')).toBeInTheDocument();
+    expect(
+      screen.getByRole('link', { name: /where evidence overruled me/i })
+    ).toHaveAttribute('href', '#evidence');
+  });
+
+  it('contrasts its architecture with the other product', () => {
+    renderAt(`/work/${study.id}`);
+    const other = caseStudies.find((s) => s.id !== study.id);
+    expect(document.getElementById('system')).toHaveTextContent(other.name);
+  });
+
+  it('makes no stale or unsupported claims', () => {
+    const { container } = renderAt(`/work/${study.id}`);
+    const text = container.textContent;
+    expect(text).not.toMatch(/\b44\b/);
+    expect(text).not.toMatch(/original games|original game implementations/i);
+    expect(text).not.toMatch(/\blaunched\b|founder|startup|revenue/i);
+  });
+
   it('has a main landmark and the product name as h1', () => {
     renderAt(`/work/${study.id}`);
     expect(screen.getByRole('main')).toHaveAttribute('id', 'main-content');
@@ -84,6 +106,13 @@ describe('CaseStudy page — unknown slug', () => {
 });
 
 describe('CaseStudy page — BookshelfAI specifics', () => {
+  it('leads the tradeoffs with the price plan, and names the first markets', () => {
+    renderAt('/work/bookshelfai');
+    const rows = screen.getAllByRole('rowheader').map((th) => th.textContent);
+    expect(rows[0]).toMatch(/price plan/i);
+    expect(screen.getByRole('table')).toHaveTextContent('US and Canada');
+  });
+
   it('renders the architecture diagram and the tradeoffs table', () => {
     renderAt('/work/bookshelfai');
     expect(screen.getByRole('figure')).toBeInTheDocument();
@@ -95,6 +124,20 @@ describe('CaseStudy page — BookshelfAI specifics', () => {
 });
 
 describe('CaseStudy page — BC Arcade specifics', () => {
+  it('describes the games as familiar, not invented', () => {
+    renderAt('/work/bc-arcade');
+    expect(document.getElementById('decisions')).toHaveTextContent(
+      /independently built versions of games people already know/i
+    );
+  });
+
+  it('tells the Blackjack pivot in the evidence section', () => {
+    renderAt('/work/bc-arcade');
+    expect(document.getElementById('evidence')).toHaveTextContent(
+      /blackjack had no tension/i
+    );
+  });
+
   it('shows product screenshots with alt text', () => {
     renderAt('/work/bc-arcade');
     expect(

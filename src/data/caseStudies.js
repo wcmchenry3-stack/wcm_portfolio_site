@@ -22,8 +22,9 @@ export const caseStudies = [
     sections: [
       { key: 'problem', type: 'cards', items: 3 },
       { key: 'decisions', type: 'rows', items: 3 },
+      { key: 'tradeoffs', type: 'table', rows: 5 },
+      { key: 'evidence', type: 'rows', items: 2 },
       { key: 'system', type: 'system', nodes: 4, bullets: 4 },
-      { key: 'tradeoffs', type: 'table', rows: 3 },
       { key: 'validation', type: 'prose', paragraphs: 2 },
       { key: 'built', type: 'checklist', items: 9 },
     ],
@@ -36,9 +37,10 @@ export const caseStudies = [
     repo: 'https://github.com/wcmchenry3-stack/BC-Arcade',
     sections: [
       { key: 'problem', type: 'cards', items: 3 },
-      { key: 'decisions', type: 'rows', items: 4 },
+      { key: 'decisions', type: 'rows', items: 3 },
+      { key: 'evidence', type: 'rows', items: 3 },
       { key: 'system', type: 'system', nodes: 0, bullets: 4 },
-      { key: 'tradeoffs', type: 'table', rows: 3 },
+      { key: 'tradeoffs', type: 'table', rows: 4 },
       { key: 'validation', type: 'prose', paragraphs: 2 },
       { key: 'built', type: 'checklist', items: 9 },
     ],

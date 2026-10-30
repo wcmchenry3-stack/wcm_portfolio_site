@@ -12,9 +12,9 @@ export const featuredProjects = [
     tagline:
       'Photograph a shelf, get a library. Built to be viable from day one: every AI scan has a real cost, so accuracy, convenience and price are decided together.',
     bullets: [
-      'One scan flow for one book or a whole shelf — the model infers the count',
-      'Server-side AI orchestration and a tiered model-cost design',
-      'OAuth with rotating tokens, offline capture, Sentry, 10 languages',
+      'Built for book lovers: capture several books from one photo, then track them from wishlist to read',
+      'Tiered models and credits keep accuracy, convenience and inference cost in balance',
+      'Server-authoritative AI, identity and spending controls, with bounded offline capture',
     ],
     images: [
       {
@@ -35,13 +35,13 @@ export const featuredProjects = [
   {
     id: 'bc-arcade',
     name: 'BC Arcade',
-    category: 'Mobile platform · iOS, Android & Web',
+    category: 'Casual games · iOS, Android & Web',
     tagline:
       'Short, satisfying games for people who want to play and then put the phone down. No freemium pressure and no wagering.',
     bullets: [
-      'Playtest-driven redesigns, seeded simulations and measurable release criteria',
-      'Automated pull-request quality gates, Playwright end-to-end tests and performance instrumentation',
-      'An AI triage agent that merges only low-risk updates, behind deterministic guards',
+      'Built for short sessions, with no freemium pressure and no wagering',
+      'Playtests and market research reshaped the lineup, from Blackjack to Daily Word',
+      'Offline-first play, server-guarded purchases, and automated release gates',
     ],
     images: [
       {
