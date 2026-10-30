@@ -20,17 +20,29 @@ function renderHero() {
 describe('HeroSection', () => {
   it('renders the main headline', () => {
     renderHero();
-    const h1 = screen.getByRole('heading', { level: 1 });
-    expect(h1).toHaveTextContent(/product leader\. team builder\./i);
-    expect(h1).toHaveTextContent(/still ships\./i);
+    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(
+      'I build product teams that own their outcomes.'
+    );
   });
 
   it('leads with the leadership positioning, not a job title', () => {
     renderHero();
-    expect(screen.getByText(/product & people leader/i)).toBeInTheDocument();
+    expect(screen.getByText('Product management leader')).toBeInTheDocument();
     expect(
-      screen.queryByText(/principal product manager/i)
+      screen.queryByText(/principal product manager|director/i)
     ).not.toBeInTheDocument();
+  });
+
+  it('states six years managing product managers in the subhead', () => {
+    renderHero();
+    expect(
+      screen.getByText(/^six years managing product managers/i)
+    ).toBeInTheDocument();
+  });
+
+  it('never shows the retired $6M figure', () => {
+    renderHero();
+    expect(screen.queryByText(/\$6M/)).not.toBeInTheDocument();
   });
 
   it('uses the standardized 13+ years framing', () => {
@@ -71,12 +83,11 @@ describe('HeroSection', () => {
     expect(img.getAttribute('alt').trim().length).toBeGreaterThan(0);
   });
 
-  it('See the work jumps to the selected work section', () => {
+  it('See how I lead jumps to the leadership section', () => {
     renderHero();
-    expect(screen.getByRole('link', { name: /see the work/i })).toHaveAttribute(
-      'href',
-      '#selected-work'
-    );
+    expect(
+      screen.getByRole('link', { name: /see how i lead/i })
+    ).toHaveAttribute('href', '#how-i-lead');
   });
 
   it('View resume link navigates to /resume', () => {

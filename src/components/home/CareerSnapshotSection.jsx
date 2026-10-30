@@ -18,7 +18,11 @@ function yearRange(job, present) {
   return `${start} – ${end}`;
 }
 
-/** One line per employer, newest first, linking to the full resume. */
+/**
+ * One line per employer, newest first, linking to the full resume. A
+ * management role adds a scope line (`career.scope.<i18nKey>`) so the
+ * team size isn't hidden behind the title; roles without one skip it.
+ */
 export function CareerSnapshotSection() {
   const { t } = useTranslation('home');
   const present = t('dates.present', { ns: 'common' });
@@ -54,6 +58,11 @@ export function CareerSnapshotSection() {
               <span className="text-lg font-semibold text-brand-light">
                 {job.company}
               </span>
+              {t(`career.scope.${job.i18nKey}`, { defaultValue: '' }) && (
+                <span className="text-sm font-semibold leading-snug text-brand-accent">
+                  {t(`career.scope.${job.i18nKey}`)}
+                </span>
+              )}
               <span className="text-sm leading-relaxed text-brand-subtle">
                 {t(`career.${job.i18nKey}`)}
               </span>

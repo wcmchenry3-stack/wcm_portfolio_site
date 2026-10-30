@@ -26,28 +26,45 @@ See [~/.claude/standards/testing.md](~/.claude/standards/testing.md) for univers
 
 ### HeroSection
 
-- Headline renders ("Product leader. Team builder. Still ships.") and the eyebrow leads with "Product & People Leader", not a job title
-- Uses the standardized "13+ years" framing
-- One `<li>` per proof point (`src/data/impact.js`), each with label, stat, and description; no "engineers supported"
+- Headline renders ("I build product teams that own their outcomes.") and the eyebrow is "Product management leader", with no job title (no "Principal Product Manager", no "Director")
+- Subhead opens with six years managing product managers; the "13+ years" framing appears in the focus line
+- One `<li>` per proof point (`src/data/impact.js`), each with label, stat, and description; no "engineers supported"; never the retired `$6M`
 - Credibility line names every employer from `experience.js`
-- Headshot `<img>` has non-empty `alt`; "See the work" → `#selected-work`; "View resume" → `/resume`; LinkedIn opens in a new tab with `noopener`
+- Headshot `<img>` has non-empty `alt`; "See how I lead" → `#how-i-lead`; "View resume" → `/resume`; LinkedIn opens in a new tab with `noopener`
+
+### ScopeSection
+
+- "What I own today" heading; five `dt`/`dd` pairs in order (Portfolio, Team, Engineering, Cadence, Executives); Team states hiring and review ownership
+
+### PrinciplesSection
+
+- Section heading; six `h3` principles, the first three in order ("My opinion is interesting, but irrelevant.", "Teams own outcomes, not tickets.", "Technical health is product work."); each followed by a proof paragraph
+
+### LeadershipSection
+
+- Section is the `#how-i-lead` anchor; heading "…accountable for all of it"
+- Four pillar `h3`s in order: Hire, Manage, Develop, Organize; no mentoring language
+- The four development steps in order (`h4`), and four track-record items (6 yrs first)
+
+### StoriesSection
+
+- Section heading; four teaser cards, each with an `h3` title and a stated outcome
+- Exactly one link (the CTA), to `/contact`
+- No proprietary specifics ($6M, influencers, Chairman/CEO)
 
 ### SelectedWorkSection
 
-- Heading and intro resolve from the `home` namespace
+- Heading ("Products I build on my own time") and intro resolve from the `home` namespace
 - Each featured project (`src/data/projects.js`) has a heading and a "Read the case study" link to `/work/<id>`
 - Featured screenshots carry descriptive `alt` text
 - Supporting projects open externally with `rel="noopener noreferrer"` and an sr-only "(opens in new tab)"; they get no case-study heading
 - `headingLevel={1}` (the `/work` page) promotes every heading by one level
 
-### LeadershipSection
-
-- Section heading, the three habits (`h3`), the four coaching steps in order (`h4`), and the four track-record items render
-
 ### CareerSnapshotSection
 
-- Heading uses "13+ years in product leadership"
+- Heading uses "13+ years in product, 6 managing product managers"
 - One item per employer, newest first, with a year range (multi-role employers span earliest start to latest end; current role ends in "Present")
+- Management roles show a scope line (`career.scope.<i18nKey>`); roles without one (project44) show none
 - CTA links to `/resume`
 
 ### ContactBar
@@ -104,6 +121,7 @@ See [~/.claude/standards/testing.md](~/.claude/standards/testing.md) for univers
 
 - Renders without crash
 - Contains `<main>` landmark with `id="main-content"`
+- Home: leadership sections (scope, principles, how I lead, stories) come before the independent products, then career; no `$6M` anywhere
 - Resume page renders the Professional Summary, Experience, Capabilities, and Education & Certifications sections
 
 ## Data File Tests

@@ -10,7 +10,7 @@ export const featuredProjects = [
     name: 'BookshelfAI',
     category: 'AI product · iOS, Android & Web',
     tagline:
-      'Photograph a shelf; get a library. Multimodal AI identifies every book in the frame, enriches it, and carries it from wishlist to read.',
+      'Photograph a shelf, get a library. Built to be viable from day one: every AI scan has a real cost, so accuracy, convenience and price are decided together.',
     bullets: [
       'One scan flow for one book or a whole shelf — the model infers the count',
       'Server-side AI orchestration and a tiered model-cost design',
@@ -37,10 +37,10 @@ export const featuredProjects = [
     name: 'BC Arcade',
     category: 'Mobile platform · iOS, Android & Web',
     tagline:
-      'Quick, genuinely fun games with no freemium pressure, no wagering and no artificial walls — and the engineering discipline to ship them.',
+      'Short, satisfying games for people who want to play and then put the phone down. No freemium pressure and no wagering.',
     bullets: [
       'Playtest-driven redesigns, seeded simulations and measurable release criteria',
-      '~44 CI quality gates, Playwright end-to-end tests, performance instrumentation',
+      'Automated pull-request quality gates, Playwright end-to-end tests and performance instrumentation',
       'An AI triage agent that merges only low-risk updates, behind deterministic guards',
     ],
     images: [

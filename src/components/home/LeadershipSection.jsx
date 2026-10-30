@@ -1,22 +1,25 @@
 import { useTranslation } from 'react-i18next';
 import { Container } from '../ui/Container.jsx';
 
-const HABITS = [1, 2, 3];
+const PILLARS = [1, 2, 3, 4];
 const COACHING_STEPS = [1, 2, 3, 4];
 const RECORDS = [1, 2, 3, 4];
 
 /**
- * "How I lead": three leadership habits, the four-step path used to grow
- * product managers, and the people-development track record behind it.
- * Every claim here traces to the resume master — keep it that way.
+ * "How I lead": the four parts of the manager's job (hire, manage,
+ * develop, organize), the path used to turn analysts into product
+ * managers, and the track record behind it. Authority verbs, not
+ * mentoring language. Every claim here traces to the resume master —
+ * keep it that way.
  */
 export function LeadershipSection() {
   const { t } = useTranslation('home');
 
   return (
     <section
+      id="how-i-lead"
       aria-labelledby="lead-heading"
-      className="bg-white py-16 sm:py-24 border-y border-brand-border"
+      className="bg-brand-light py-16 sm:py-24 scroll-mt-20"
     >
       <Container>
         <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-brand-teal-text">
@@ -32,24 +35,24 @@ export function LeadershipSection() {
           {t('lead.intro')}
         </p>
 
-        <ol className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-16 sm:mb-20">
-          {HABITS.map((n) => (
-            <li key={n} className="flex flex-col gap-3">
-              <span
-                aria-hidden="true"
-                className="font-display text-2xl font-semibold text-brand-teal-text"
-              >
-                {String(n).padStart(2, '0')}
-              </span>
-              <h3 className="text-lg font-semibold text-brand-dark">
-                {t(`lead.habit_${n}.title`)}
+        <ul
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-16 sm:mb-20"
+          role="list"
+        >
+          {PILLARS.map((n) => (
+            <li
+              key={n}
+              className="flex flex-col gap-3 pt-5 border-t-2 border-brand-dark"
+            >
+              <h3 className="font-display text-2xl font-semibold text-brand-dark">
+                {t(`lead.pillar_${n}.title`)}
               </h3>
               <p className="leading-relaxed text-brand-ink">
-                {t(`lead.habit_${n}.body`)}
+                {t(`lead.pillar_${n}.body`)}
               </p>
             </li>
           ))}
-        </ol>
+        </ul>
 
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4 mb-8">
           <h3 className="font-display text-2xl sm:text-3xl font-semibold tracking-tight text-brand-dark">
@@ -86,7 +89,7 @@ export function LeadershipSection() {
           {RECORDS.map((n) => (
             <li
               key={n}
-              className="flex flex-col gap-1.5 p-6 bg-brand-light rounded-xl border border-brand-border"
+              className="flex flex-col gap-1.5 p-6 bg-white rounded-xl border border-brand-border"
             >
               <span
                 dir="ltr"

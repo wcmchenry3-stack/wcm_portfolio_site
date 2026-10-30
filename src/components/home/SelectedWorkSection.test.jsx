@@ -20,9 +20,12 @@ describe('SelectedWorkSection', () => {
   it('renders the section heading and intro from the home namespace', () => {
     renderSelectedWork();
     expect(
-      screen.getByRole('heading', { level: 2, name: /products i own/i })
+      screen.getByRole('heading', {
+        level: 2,
+        name: /products i build on my own time/i,
+      })
     ).toBeInTheDocument();
-    expect(screen.getByText(/run like real products/i)).toBeInTheDocument();
+    expect(screen.getByText(/build on my own time, because/i)).toBeInTheDocument();
   });
 
   it('links each featured project to its case study', () => {
@@ -77,7 +80,10 @@ describe('SelectedWorkSection', () => {
   it('promotes headings by one level when used as the page heading', () => {
     renderSelectedWork({ headingLevel: 1 });
     expect(
-      screen.getByRole('heading', { level: 1, name: /products i own/i })
+      screen.getByRole('heading', {
+        level: 1,
+        name: /products i build on my own time/i,
+      })
     ).toBeInTheDocument();
     expect(
       screen.getByRole('heading', { level: 2, name: featuredProjects[0].name })
