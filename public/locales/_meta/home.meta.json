@@ -9,52 +9,12 @@
     "doNotTranslate": [],
     "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
-  "hero.focus": {
-    "page": "home",
-    "component": "HeroSection",
-    "description": "HeroSection copy: hero.focus",
-    "tone": "professional, confident, specific",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "hero.headlineLead": {
-    "page": "home",
-    "component": "HeroSection",
-    "description": "HeroSection copy: hero.headlineLead",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "hero.headlineAccent": {
-    "page": "home",
-    "component": "HeroSection",
-    "description": "HeroSection copy: hero.headlineAccent",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
   "hero.subhead": {
     "page": "home",
     "component": "HeroSection",
     "description": "HeroSection copy: hero.subhead",
     "tone": "professional, confident",
     "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "hero.viewWork": {
-    "page": "home",
-    "component": "HeroSection",
-    "description": "HeroSection copy: hero.viewWork",
-    "tone": "imperative, professional",
-    "characterLimit": 25,
     "placeholders": [],
     "doNotTranslate": [],
     "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
@@ -125,65 +85,35 @@
     "doNotTranslate": [],
     "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
-  "impact.growth.label": {
+  "hero.focusLine": {
     "page": "home",
     "component": "HeroSection",
-    "description": "HeroSection copy: impact.growth.label",
+    "description": "HeroSection copy: hero.focusLine",
     "tone": "punchy, confident",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
   },
-  "impact.growth.stat": {
+  "hero.headline": {
     "page": "home",
     "component": "HeroSection",
-    "description": "HeroSection copy: impact.growth.stat",
+    "description": "HeroSection copy: hero.headline",
     "tone": "punchy, confident",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
   },
-  "impact.growth.description": {
-    "page": "home",
-    "component": "ImpactSection",
-    "description": "ImpactSection copy: impact.growth.description",
-    "tone": "professional, concise",
-    "characterLimit": 140,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "impact.economics.label": {
+  "hero.seeHowILead": {
     "page": "home",
     "component": "HeroSection",
-    "description": "HeroSection copy: impact.economics.label",
+    "description": "HeroSection copy: hero.seeHowILead",
     "tone": "punchy, confident",
     "characterLimit": null,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "impact.economics.stat": {
-    "page": "home",
-    "component": "HeroSection",
-    "description": "HeroSection copy: impact.economics.stat",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "impact.economics.description": {
-    "page": "home",
-    "component": "HeroSection",
-    "description": "HeroSection copy: impact.economics.description",
-    "tone": "professional, confident, specific",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
   },
   "impact.people.label": {
     "page": "home",
@@ -217,6 +147,36 @@
     "doNotTranslate": [],
     "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
+  "impact.growth.label": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: impact.growth.label",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "impact.growth.stat": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: impact.growth.stat",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "impact.growth.description": {
+    "page": "home",
+    "component": "ImpactSection",
+    "description": "ImpactSection copy: impact.growth.description",
+    "tone": "professional, concise",
+    "characterLimit": 140,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
   "impact.ai.label": {
     "page": "home",
     "component": "HeroSection",
@@ -246,6 +206,925 @@
     "placeholders": [],
     "doNotTranslate": [],
     "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "impact.change.label": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: impact.change.label",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "impact.change.stat": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: impact.change.stat",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "impact.change.description": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "HeroSection copy: impact.change.description",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "scope.eyebrow": {
+    "page": "home",
+    "component": "ScopeSection",
+    "description": "ScopeSection copy: scope.eyebrow",
+    "tone": "plain, factual, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "scope.heading": {
+    "page": "home",
+    "component": "ScopeSection",
+    "description": "ScopeSection copy: scope.heading",
+    "tone": "plain, factual, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "scope.intro": {
+    "page": "home",
+    "component": "ScopeSection",
+    "description": "ScopeSection copy: scope.intro",
+    "tone": "plain, factual, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "My eXp",
+      "eXp Realty"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "scope.portfolio.label": {
+    "page": "home",
+    "component": "ScopeSection",
+    "description": "ScopeSection copy: scope.portfolio.label",
+    "tone": "plain, factual, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "scope.portfolio.body": {
+    "page": "home",
+    "component": "ScopeSection",
+    "description": "ScopeSection copy: scope.portfolio.body",
+    "tone": "plain, factual, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "Mira"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "scope.team.label": {
+    "page": "home",
+    "component": "ScopeSection",
+    "description": "ScopeSection copy: scope.team.label",
+    "tone": "plain, factual, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "scope.team.body": {
+    "page": "home",
+    "component": "ScopeSection",
+    "description": "ScopeSection copy: scope.team.body",
+    "tone": "plain, factual, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PM"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "scope.engineering.label": {
+    "page": "home",
+    "component": "ScopeSection",
+    "description": "ScopeSection copy: scope.engineering.label",
+    "tone": "plain, factual, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "scope.engineering.body": {
+    "page": "home",
+    "component": "ScopeSection",
+    "description": "ScopeSection copy: scope.engineering.body",
+    "tone": "plain, factual, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "scope.cadence.label": {
+    "page": "home",
+    "component": "ScopeSection",
+    "description": "ScopeSection copy: scope.cadence.label",
+    "tone": "plain, factual, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "scope.cadence.body": {
+    "page": "home",
+    "component": "ScopeSection",
+    "description": "ScopeSection copy: scope.cadence.body",
+    "tone": "plain, factual, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "scope.executives.label": {
+    "page": "home",
+    "component": "ScopeSection",
+    "description": "ScopeSection copy: scope.executives.label",
+    "tone": "plain, factual, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "scope.executives.body": {
+    "page": "home",
+    "component": "ScopeSection",
+    "description": "ScopeSection copy: scope.executives.body",
+    "tone": "plain, factual, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "C-suite"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "principles.eyebrow": {
+    "page": "home",
+    "component": "PrinciplesSection",
+    "description": "PrinciplesSection copy: principles.eyebrow",
+    "tone": "plain-spoken, thoughtful, confident; never preachy",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "principles.heading": {
+    "page": "home",
+    "component": "PrinciplesSection",
+    "description": "PrinciplesSection copy: principles.heading",
+    "tone": "plain-spoken, thoughtful, confident; never preachy",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "principles.principle_1.title": {
+    "page": "home",
+    "component": "PrinciplesSection",
+    "description": "PrinciplesSection copy: principles.principle_1.title",
+    "tone": "plain-spoken, thoughtful, confident; never preachy",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "principles.principle_1.body": {
+    "page": "home",
+    "component": "PrinciplesSection",
+    "description": "PrinciplesSection copy: principles.principle_1.body",
+    "tone": "plain-spoken, thoughtful, confident; never preachy",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "Virbela"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "principles.principle_2.title": {
+    "page": "home",
+    "component": "PrinciplesSection",
+    "description": "PrinciplesSection copy: principles.principle_2.title",
+    "tone": "plain-spoken, thoughtful, confident; never preachy",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "principles.principle_2.body": {
+    "page": "home",
+    "component": "PrinciplesSection",
+    "description": "PrinciplesSection copy: principles.principle_2.body",
+    "tone": "plain-spoken, thoughtful, confident; never preachy",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PM"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "principles.principle_3.title": {
+    "page": "home",
+    "component": "PrinciplesSection",
+    "description": "PrinciplesSection copy: principles.principle_3.title",
+    "tone": "plain-spoken, thoughtful, confident; never preachy",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "principles.principle_3.body": {
+    "page": "home",
+    "component": "PrinciplesSection",
+    "description": "PrinciplesSection copy: principles.principle_3.body",
+    "tone": "plain-spoken, thoughtful, confident; never preachy",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "principles.principle_4.title": {
+    "page": "home",
+    "component": "PrinciplesSection",
+    "description": "PrinciplesSection copy: principles.principle_4.title",
+    "tone": "plain-spoken, thoughtful, confident; never preachy",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "principles.principle_4.body": {
+    "page": "home",
+    "component": "PrinciplesSection",
+    "description": "PrinciplesSection copy: principles.principle_4.body",
+    "tone": "plain-spoken, thoughtful, confident; never preachy",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "principles.principle_5.title": {
+    "page": "home",
+    "component": "PrinciplesSection",
+    "description": "PrinciplesSection copy: principles.principle_5.title",
+    "tone": "plain-spoken, thoughtful, confident; never preachy",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "principles.principle_5.body": {
+    "page": "home",
+    "component": "PrinciplesSection",
+    "description": "PrinciplesSection copy: principles.principle_5.body",
+    "tone": "plain-spoken, thoughtful, confident; never preachy",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "principles.principle_6.title": {
+    "page": "home",
+    "component": "PrinciplesSection",
+    "description": "PrinciplesSection copy: principles.principle_6.title",
+    "tone": "plain-spoken, thoughtful, confident; never preachy",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "principles.principle_6.body": {
+    "page": "home",
+    "component": "PrinciplesSection",
+    "description": "PrinciplesSection copy: principles.principle_6.body",
+    "tone": "plain-spoken, thoughtful, confident; never preachy",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PM",
+      "PMs"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "lead.eyebrow": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.eyebrow",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.heading": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.heading",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.intro": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.intro",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.coaching.heading": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.heading",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.coaching.intro": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.intro",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PM",
+      "PMs",
+      "Senior PM"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.coaching.stepLabel": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.stepLabel",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [
+      "{{n}}"
+    ],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. Keep the {{placeholder}} unchanged."
+  },
+  "lead.coaching.step_1.title": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.step_1.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.coaching.step_1.body": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.step_1.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.coaching.step_2.title": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.step_2.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.coaching.step_2.body": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.step_2.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.coaching.step_3.title": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.step_3.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.coaching.step_3.body": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.step_3.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PMs"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.coaching.step_4.title": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.step_4.title",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.coaching.step_4.body": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.coaching.step_4.body",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.pillar_1.title": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.pillar_1.title",
+    "tone": "direct, accountable, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "lead.pillar_1.body": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.pillar_1.body",
+    "tone": "direct, accountable, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "lead.pillar_2.title": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.pillar_2.title",
+    "tone": "direct, accountable, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "lead.pillar_2.body": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.pillar_2.body",
+    "tone": "direct, accountable, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "lead.pillar_3.title": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.pillar_3.title",
+    "tone": "direct, accountable, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "lead.pillar_3.body": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.pillar_3.body",
+    "tone": "direct, accountable, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "lead.pillar_4.title": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.pillar_4.title",
+    "tone": "direct, accountable, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "lead.pillar_4.body": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.pillar_4.body",
+    "tone": "direct, accountable, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "lead.record.heading": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.heading",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_1.stat": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_1.stat",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PMs"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_1.label": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_1.label",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_1.where": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_1.where",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "eXp Realty"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_2.stat": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_2.stat",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PMs"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_2.label": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_2.label",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PM",
+      "Senior PM"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_2.where": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_2.where",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "Virbela"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_3.stat": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_3.stat",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_3.label": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_3.label",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PMs"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_3.where": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_3.where",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "eXp Realty"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_4.stat": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_4.stat",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PM"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_4.label": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_4.label",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "lead.record.record_4.where": {
+    "page": "home",
+    "component": "LeadershipSection",
+    "description": "LeadershipSection copy: lead.record.record_4.where",
+    "tone": "punchy, confident",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "Omnitracs",
+      "Sylectus",
+      "TMS"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "stories.eyebrow": {
+    "page": "home",
+    "component": "StoriesSection",
+    "description": "StoriesSection copy: stories.eyebrow",
+    "tone": "plain, specific, understated",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "stories.heading": {
+    "page": "home",
+    "component": "StoriesSection",
+    "description": "StoriesSection copy: stories.heading",
+    "tone": "plain, specific, understated",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "stories.intro": {
+    "page": "home",
+    "component": "StoriesSection",
+    "description": "StoriesSection copy: stories.intro",
+    "tone": "plain, specific, understated",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "stories.story_1.title": {
+    "page": "home",
+    "component": "StoriesSection",
+    "description": "StoriesSection copy: stories.story_1.title",
+    "tone": "plain, specific, understated",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "stories.story_1.where": {
+    "page": "home",
+    "component": "StoriesSection",
+    "description": "StoriesSection copy: stories.story_1.where",
+    "tone": "plain, specific, understated",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "eXp Realty",
+      "Virbela"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "stories.story_1.body": {
+    "page": "home",
+    "component": "StoriesSection",
+    "description": "StoriesSection copy: stories.story_1.body",
+    "tone": "plain, specific, understated",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "Virbela",
+      "PM",
+      "QA"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "stories.story_1.outcome": {
+    "page": "home",
+    "component": "StoriesSection",
+    "description": "StoriesSection copy: stories.story_1.outcome",
+    "tone": "plain, specific, understated",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "My eXp"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "stories.story_2.title": {
+    "page": "home",
+    "component": "StoriesSection",
+    "description": "StoriesSection copy: stories.story_2.title",
+    "tone": "plain, specific, understated",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "stories.story_2.where": {
+    "page": "home",
+    "component": "StoriesSection",
+    "description": "StoriesSection copy: stories.story_2.where",
+    "tone": "plain, specific, understated",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "eXp Realty"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "stories.story_2.body": {
+    "page": "home",
+    "component": "StoriesSection",
+    "description": "StoriesSection copy: stories.story_2.body",
+    "tone": "plain, specific, understated",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "My eXp",
+      "Mira",
+      "PM",
+      "PMs"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "stories.story_2.outcome": {
+    "page": "home",
+    "component": "StoriesSection",
+    "description": "StoriesSection copy: stories.story_2.outcome",
+    "tone": "plain, specific, understated",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "Mira"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "stories.story_3.title": {
+    "page": "home",
+    "component": "StoriesSection",
+    "description": "StoriesSection copy: stories.story_3.title",
+    "tone": "plain, specific, understated",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "stories.story_3.where": {
+    "page": "home",
+    "component": "StoriesSection",
+    "description": "StoriesSection copy: stories.story_3.where",
+    "tone": "plain, specific, understated",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "eXp Realty"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "stories.story_3.body": {
+    "page": "home",
+    "component": "StoriesSection",
+    "description": "StoriesSection copy: stories.story_3.body",
+    "tone": "plain, specific, understated",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "My eXp"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "stories.story_3.outcome": {
+    "page": "home",
+    "component": "StoriesSection",
+    "description": "StoriesSection copy: stories.story_3.outcome",
+    "tone": "plain, specific, understated",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "stories.story_4.title": {
+    "page": "home",
+    "component": "StoriesSection",
+    "description": "StoriesSection copy: stories.story_4.title",
+    "tone": "plain, specific, understated",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "stories.story_4.where": {
+    "page": "home",
+    "component": "StoriesSection",
+    "description": "StoriesSection copy: stories.story_4.where",
+    "tone": "plain, specific, understated",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "eXp Realty"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "stories.story_4.body": {
+    "page": "home",
+    "component": "StoriesSection",
+    "description": "StoriesSection copy: stories.story_4.body",
+    "tone": "plain, specific, understated",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "stories.story_4.outcome": {
+    "page": "home",
+    "component": "StoriesSection",
+    "description": "StoriesSection copy: stories.story_4.outcome",
+    "tone": "plain, specific, understated",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "stories.story_4.cta": {
+    "page": "home",
+    "component": "StoriesSection",
+    "description": "StoriesSection copy: stories.story_4.cta",
+    "tone": "plain, specific, understated",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
   },
   "work.eyebrow": {
     "page": "home",
@@ -530,372 +1409,6 @@
     ],
     "notes": "Marketing-first adaptation of the current English; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
   },
-  "lead.eyebrow": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.eyebrow",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.heading": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.heading",
-    "tone": "professional, confident, specific",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.intro": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.intro",
-    "tone": "professional, confident, specific",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.habit_1.title": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.habit_1.title",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.habit_1.body": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.habit_1.body",
-    "tone": "professional, confident, specific",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [
-      "Virbela"
-    ],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.habit_2.title": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.habit_2.title",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.habit_2.body": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.habit_2.body",
-    "tone": "professional, confident, specific",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [
-      "PMs"
-    ],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.habit_3.title": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.habit_3.title",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.habit_3.body": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.habit_3.body",
-    "tone": "professional, confident, specific",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [
-      "SQL",
-      "APIs"
-    ],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.coaching.heading": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.coaching.heading",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.coaching.intro": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.coaching.intro",
-    "tone": "professional, confident, specific",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [
-      "PM",
-      "PMs",
-      "Senior PM"
-    ],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.coaching.stepLabel": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.coaching.stepLabel",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [
-      "{{n}}"
-    ],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. Keep the {{placeholder}} unchanged."
-  },
-  "lead.coaching.step_1.title": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.coaching.step_1.title",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.coaching.step_1.body": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.coaching.step_1.body",
-    "tone": "professional, confident, specific",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.coaching.step_2.title": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.coaching.step_2.title",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.coaching.step_2.body": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.coaching.step_2.body",
-    "tone": "professional, confident, specific",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.coaching.step_3.title": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.coaching.step_3.title",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.coaching.step_3.body": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.coaching.step_3.body",
-    "tone": "professional, confident, specific",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [
-      "PMs"
-    ],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.coaching.step_4.title": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.coaching.step_4.title",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.coaching.step_4.body": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.coaching.step_4.body",
-    "tone": "professional, confident, specific",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.record.heading": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.record.heading",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.record.record_1.stat": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.record.record_1.stat",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [
-      "PMs"
-    ],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.record.record_1.label": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.record.record_1.label",
-    "tone": "professional, confident, specific",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.record.record_1.where": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.record.record_1.where",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [
-      "eXp Realty"
-    ],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.record.record_2.stat": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.record.record_2.stat",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [
-      "PMs"
-    ],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.record.record_2.label": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.record.record_2.label",
-    "tone": "professional, confident, specific",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [
-      "PM",
-      "Senior PM"
-    ],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.record.record_2.where": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.record.record_2.where",
-    "tone": "professional, confident, specific",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [
-      "Virbela"
-    ],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.record.record_3.stat": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.record.record_3.stat",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.record.record_3.label": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.record.record_3.label",
-    "tone": "professional, confident, specific",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [
-      "PMs"
-    ],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.record.record_3.where": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.record.record_3.where",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [
-      "eXp Realty"
-    ],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.record.record_4.stat": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.record.record_4.stat",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [
-      "PM"
-    ],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.record.record_4.label": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.record.record_4.label",
-    "tone": "professional, confident, specific",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
-  "lead.record.record_4.where": {
-    "page": "home",
-    "component": "LeadershipSection",
-    "description": "LeadershipSection copy: lead.record.record_4.where",
-    "tone": "punchy, confident",
-    "characterLimit": null,
-    "placeholders": [],
-    "doNotTranslate": [
-      "Omnitracs",
-      "Sylectus",
-      "TMS"
-    ],
-    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
-  },
   "career.eyebrow": {
     "page": "home",
     "component": "CareerSnapshotSection",
@@ -981,6 +1494,54 @@
     "placeholders": [],
     "doNotTranslate": [],
     "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English."
+  },
+  "career.scope.exprealty": {
+    "page": "home",
+    "component": "CareerSnapshotSection",
+    "description": "CareerSnapshotSection copy: career.scope.exprealty",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PM",
+      "PMs"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "career.scope.virbela": {
+    "page": "home",
+    "component": "CareerSnapshotSection",
+    "description": "CareerSnapshotSection copy: career.scope.virbela",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PM",
+      "PMs"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "career.scope.omnitracs": {
+    "page": "home",
+    "component": "CareerSnapshotSection",
+    "description": "CareerSnapshotSection copy: career.scope.omnitracs",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [
+      "PM"
+    ],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
+  },
+  "career.scope.crossmark": {
+    "page": "home",
+    "component": "CareerSnapshotSection",
+    "description": "CareerSnapshotSection copy: career.scope.crossmark",
+    "tone": "professional, confident, specific",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Marketing-first adaptation; keep every number, metric and symbol (→, ~, +, %, $) exactly as in English. The writer manages people: keep management verbs (hire, manage, review) strong, never soften to mentor or coach."
   },
   "contact.heading": {
     "page": "home",

@@ -18,22 +18,28 @@ describe('LeadershipSection', () => {
     expect(
       screen.getByRole('heading', {
         level: 2,
-        name: /what my team can do without me/i,
+        name: /accountable for all of it/i,
       })
     ).toBeInTheDocument();
   });
 
-  it('renders the three leadership habits', () => {
+  it('is the #how-i-lead anchor target', () => {
+    const { container } = renderLeadership();
+    expect(container.querySelector('section#how-i-lead')).toBeInTheDocument();
+  });
+
+  it('renders the four parts of the manager job in order', () => {
     renderLeadership();
-    for (const name of [
-      /customer evidence over internal opinion/i,
-      /teams that own outcomes/i,
-      /technical enough to be useful/i,
-    ]) {
-      expect(
-        screen.getByRole('heading', { level: 3, name })
-      ).toBeInTheDocument();
-    }
+    const pillars = screen
+      .getAllByRole('heading', { level: 3 })
+      .slice(0, 4)
+      .map((h) => h.textContent);
+    expect(pillars).toEqual(['Hire', 'Manage', 'Develop', 'Organize']);
+  });
+
+  it('uses authority language, not mentoring language, for the pillars', () => {
+    renderLeadership();
+    expect(screen.queryByText(/mentor/i)).not.toBeInTheDocument();
   });
 
   it('renders the four coaching steps in order', () => {
@@ -55,7 +61,9 @@ describe('LeadershipSection', () => {
     const list = heading.nextElementSibling;
     const items = within(list).getAllByRole('listitem');
     expect(items).toHaveLength(4);
-    expect(items[0]).toHaveTextContent(/4 → PMs/);
-    expect(items[1]).toHaveTextContent(/through Senior PM/);
+    expect(items[0]).toHaveTextContent(/6 yrs/);
+    expect(items[0]).toHaveTextContent(/managing product managers/i);
+    expect(items[1]).toHaveTextContent(/4 → PMs/);
+    expect(items[2]).toHaveTextContent(/up to Senior PM/);
   });
 });

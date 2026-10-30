@@ -17,6 +17,7 @@ These combinations meet the minimum contrast ratios — use only these:
 | `#94A3B8`  | `#0F172A`  | 7.0:1  | `brand-faint` — labels on dark (not on navy: 4.49:1)              |
 | `#94A3B8`  | `#1E293B`  | 5.7:1  | `brand-faint` on `brand-panel`                                    |
 | `#2DD4BF`  | `#0F172A`  | 9.6:1  | `brand-accent` — teal text on dark                                |
+| `#2DD4BF`  | `#1E3A5F`  | 6.2:1  | `brand-accent` — scope labels on navy (`ScopeSection`)            |
 | `#0F766E`  | `#FFFFFF`  | 5.5:1  | `brand-teal-text` — teal text on white/light (5.2:1 on `#F8FAFC`) |
 | `#475569`  | `#FFFFFF`  | 7.6:1  | `brand-ink` — secondary text on white/light                       |
 

@@ -7,8 +7,9 @@ import { Container } from '../ui/Container.jsx';
 
 /**
  * Evidence-first hero: positioning line, headline, and the four proof
- * points (growth, economics, people, AI) as a stat row, so a recruiter
- * gets the whole story above the fold.
+ * points (people, growth, AI, change) as a stat row, so a recruiter
+ * gets the whole story above the fold. Leads with management scope, not
+ * a job title.
  */
 export function HeroSection() {
   const { t } = useTranslation('home');
@@ -36,18 +37,15 @@ export function HeroSection() {
               {t('hero.eyebrow')}
             </span>
             <br />
-            {t('hero.focus')}
+            {t('hero.focusLine')}
           </p>
         </div>
 
         <h1
           id="hero-heading"
-          className="font-display text-4xl sm:text-6xl lg:text-7xl font-semibold leading-[1.05] tracking-tight text-brand-light"
+          className="max-w-4xl font-display text-4xl sm:text-5xl lg:text-6xl font-semibold leading-[1.08] tracking-tight text-brand-light"
         >
-          {t('hero.headlineLead')}{' '}
-          <span className="block text-brand-accent">
-            {t('hero.headlineAccent')}
-          </span>
+          {t('hero.headline')}
         </h1>
 
         <p className="max-w-2xl text-lg leading-relaxed text-brand-subtle">
@@ -84,7 +82,7 @@ export function HeroSection() {
 
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
           <div className="flex flex-col sm:flex-row gap-3">
-            <Button href="#selected-work">{t('hero.viewWork')}</Button>
+            <Button href="#how-i-lead">{t('hero.seeHowILead')}</Button>
             <Button to="/resume" variant="outline">
               {t('hero.viewResume')}
             </Button>

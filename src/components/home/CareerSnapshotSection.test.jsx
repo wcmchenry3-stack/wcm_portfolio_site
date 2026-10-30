@@ -22,7 +22,7 @@ describe('CareerSnapshotSection', () => {
     expect(
       screen.getByRole('heading', {
         level: 2,
-        name: /13\+ years in product leadership/i,
+        name: /13\+ years in product, 6 managing product managers/i,
       })
     ).toBeInTheDocument();
   });
@@ -36,6 +36,18 @@ describe('CareerSnapshotSection', () => {
     // Multi-role employers span their earliest start to latest end.
     const omnitracs = items.find((li) => li.textContent.includes('Omnitracs'));
     expect(omnitracs).toHaveTextContent('2015 – 2020');
+  });
+
+  it('adds a scope line to management roles only', () => {
+    renderCareer();
+    const items = within(screen.getByRole('list')).getAllByRole('listitem');
+    expect(items[0]).toHaveTextContent('Manage 4 PMs');
+    expect(
+      items.find((li) => li.textContent.includes('Virbela'))
+    ).toHaveTextContent('Managed 3 PMs');
+    expect(
+      items.find((li) => li.textContent.includes('project44'))
+    ).not.toHaveTextContent(/PMs ·/);
   });
 
   it('CTA links to the full resume', () => {
