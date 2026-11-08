@@ -20,6 +20,7 @@ function DateRange({ startDate, endDate }) {
  *
  * @param {{
  *   title: string,
+ *   scope?: string,
  *   startDate?: { year: number, month: number },
  *   endDate?: { year: number, month: number } | null,
  *   promotion?: string,
@@ -30,6 +31,7 @@ function DateRange({ startDate, endDate }) {
  */
 function RoleBlock({
   title,
+  scope,
   startDate,
   endDate,
   promotion,
@@ -45,6 +47,11 @@ function RoleBlock({
         </h4>
         <DateRange startDate={startDate} endDate={endDate} />
       </div>
+      {scope && (
+        <p className="-mt-2 mb-3 text-sm font-semibold text-brand-teal-text">
+          {t(`${keyPrefix}.scope`, { defaultValue: scope })}
+        </p>
+      )}
       {promotion && (
         <p className="-mt-2 mb-3 text-sm italic text-brand-ink">
           {t(`${keyPrefix}.promotion`, { defaultValue: promotion })}
@@ -89,6 +96,7 @@ export function ExperienceItem({
   i18nKey,
   location,
   title,
+  scope,
   startDate,
   endDate,
   promotion,
@@ -106,7 +114,8 @@ export function ExperienceItem({
   // translations under `experience.<i18nKey>` (single-role) or
   // `experience.<i18nKey>.role_<n>` (multi-role).
   const roleList =
-    roles ?? (title ? [{ title, startDate, endDate, promotion, bullets }] : []);
+    roles ??
+    (title ? [{ title, scope, startDate, endDate, promotion, bullets }] : []);
 
   return (
     <article className="mb-8 last:mb-0">

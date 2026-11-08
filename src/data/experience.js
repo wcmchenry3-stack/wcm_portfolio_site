@@ -1,8 +1,9 @@
 /**
  * Resume experience, newest first. English here is the `defaultValue`
  * fallback; translations live in the `resume` namespace under
- * `experience.<i18nKey>.*` (title, location, promotion, description,
- * bullet_<n>). A company may instead list `roles` (each resolved under
+ * `experience.<i18nKey>.*` (title, scope, location, promotion,
+ * description, bullet_<n>). `scope` is a short line under a management
+ * role (team and org size) so the title doesn't hide the management. A company may instead list `roles` (each resolved under
  * `experience.<i18nKey>.role_<n>`), but the resume currently collapses
  * promotions into one entry with a `promotion` line.
  */
@@ -12,6 +13,8 @@ export const experience = [
     i18nKey: 'exprealty',
     location: 'Remote',
     title: 'Principal Product Manager',
+    scope:
+      'Manage 4 product managers · 4 product domains · ~30-person engineering group',
     startDate: { year: 2024, month: 4 },
     endDate: null,
     promotion:
@@ -19,9 +22,10 @@ export const experience = [
     description:
       'My eXp — the web and mobile app built to be the one-stop shop for everything an agent needs to run their business.',
     bullets: [
-      'Consolidated legacy experiences for 88K agents into My eXp, avoiding ~$6M in three-year licensing costs.',
+      'Consolidated legacy experiences for 88K agents into My eXp through a phased retirement, with a rollback plan that was never needed.',
       'Expanded My eXp globally across ~20 countries, increasing monthly active users from 26K to 59K (+127%).',
       'Led strategy across a multi-product portfolio spanning performance insights, transactions, revenue share, team management, accounting and payments, mentoring, and other core workflows.',
+      'Own hiring, performance reviews and promotion cases for the PM team, writing the role descriptions and making final hiring decisions.',
       'Developed four business analysts into independent product managers and restructured ownership around accountable domains, shifting the team toward customer problems, measurable outcomes, and stronger engineering partnerships.',
       'Introduced direct user discovery to an organization historically reliant on internal stakeholders, personally conducting 50+ user conversations and making customer evidence a routine roadmap input.',
       'Turned around an unreliable AI copilot, reshaping data, authorization, and response behavior to achieve approximately 95% measured answer accuracy.',
@@ -34,12 +38,13 @@ export const experience = [
     i18nKey: 'virbela',
     location: 'Remote',
     title: 'Lead Product Manager',
+    scope: 'Managed 3 product managers · server, client and web/data domains',
     startDate: { year: 2021, month: 3 },
     endDate: { year: 2024, month: 4 },
     description:
       'A 3D virtual office where enterprise teams meet, host clients, and work together. (An eXp World Holdings company.)',
     bullets: [
-      'Promoted within eight months to lead Virbela’s product organization, directly managing and coaching three product managers across server, desktop/client, and web/data product domains.',
+      'Promoted within eight months to lead Virbela’s product organization, with hiring, performance reviews and development for the PM team.',
       'Set strategy and OKRs across three product domains, refocusing investment on priority customer problems and contributing to 28% adoption growth over two years.',
       'Led product strategy across interconnected client, server, web, and data systems, partnering with engineering on scalability, performance, and platform evolution.',
       'Developed API products and commercial models spanning provisioning, usage, attendance, and customer data.',
