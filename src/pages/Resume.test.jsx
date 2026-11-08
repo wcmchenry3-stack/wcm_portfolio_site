@@ -82,6 +82,28 @@ describe('Resume page', () => {
     ).toBeInTheDocument();
   });
 
+  it('leads the summary with six years managing product managers', () => {
+    renderResume();
+    expect(
+      screen.getByText(/six years directly managing product managers/i)
+    ).toBeInTheDocument();
+  });
+
+  it('shows a scope line under each management role', () => {
+    renderResume();
+    expect(
+      screen.getByText(/^manage 4 product managers · 4 product domains/i)
+    ).toBeInTheDocument();
+    expect(
+      screen.getByText(/^managed 3 product managers/i)
+    ).toBeInTheDocument();
+  });
+
+  it('never shows the retired $6M figure', () => {
+    renderResume();
+    expect(document.body.textContent).not.toContain('$6M');
+  });
+
   it('renders Independent Products with links to each case study', () => {
     renderResume();
     expect(

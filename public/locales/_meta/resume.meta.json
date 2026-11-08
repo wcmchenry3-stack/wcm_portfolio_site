@@ -73,6 +73,16 @@
     "doNotTranslate": [],
     "notes": null
   },
+  "experience.exprealty.scope": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "resume copy: experience.exprealty.scope",
+    "tone": "professional, precise, resume register",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Keep every number, metric and symbol (·, ~, +, %) exactly as in English. Keep management verbs (manage, hire, review) strong; never soften to mentor or coach."
+  },
   "experience.exprealty.location": {
     "page": "resume",
     "component": "ExperienceItem",
@@ -193,6 +203,16 @@
     ],
     "notes": "Marketing-first adaptation; keep numbers, metrics and symbols exactly as in English."
   },
+  "experience.exprealty.bullet_9": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "resume copy: experience.exprealty.bullet_9",
+    "tone": "professional, precise, resume register",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Keep every number, metric and symbol (·, ~, +, %) exactly as in English. Keep management verbs (manage, hire, review) strong; never soften to mentor or coach."
+  },
   "experience.virbela.title": {
     "page": "resume",
     "component": "ExperienceItem",
@@ -204,6 +224,16 @@
       "Virbela"
     ],
     "notes": "Translate the title; the company name Virbela must not be translated."
+  },
+  "experience.virbela.scope": {
+    "page": "resume",
+    "component": "ExperienceItem",
+    "description": "resume copy: experience.virbela.scope",
+    "tone": "professional, precise, resume register",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Keep every number, metric and symbol (·, ~, +, %) exactly as in English. Keep management verbs (manage, hire, review) strong; never soften to mentor or coach."
   },
   "experience.virbela.location": {
     "page": "resume",

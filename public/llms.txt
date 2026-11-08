@@ -1,0 +1,37 @@
+# Bill McHenry
+
+> Product management leader based in Chicago. Bill has directly managed product managers for six years, at Omnitracs, Virbela and eXp Realty, with responsibility for hiring decisions, performance reviews and developing people into independent product owners. He has 13+ years in enterprise SaaS product management across AI, data, APIs and platforms.
+
+## Current role
+
+- eXp Realty, Principal Product Manager (April 2024 to present). Leads product for My eXp, the web and mobile platform eXp Realty agents use to run their business: a four-domain portfolio (revenue share, agent and team productivity, mentor programs, and the Mira AI copilot) with a ~30-person engineering group.
+- Manages four product managers. Writes the role descriptions, makes the final hiring decisions, runs performance reviews and builds promotion cases. Developed all four from business analysts into independent product managers.
+- Designed the team's operating model: accountable product domains with dedicated developers and QA, quarterly planning and a two-week release cycle. Presents and defends the roadmap to the C-suite.
+- Outcomes: monthly active users grew from 26K to 59K (+127%) across ~20 countries. Retired legacy systems for 88K agents through a phased migration. Turned around the Mira AI copilot to ~95% measured answer accuracy, shipped on its September 30, 2026 launch date.
+
+## People management history
+
+- Virbela, Lead Product Manager (2021 to 2024): managed three product managers, up to Senior PM, across server, client and web/data domains for about 2.5 years, with hiring and performance review responsibility.
+- Omnitracs, Senior Product Manager (2015 to 2020): managed one product manager on the Sylectus SaaS portfolio.
+- Earlier: CROSSMARK (2011 to 2015), business analyst and product owner leading Agile teams of six to eight.
+
+## How he works
+
+- Customer evidence over internal opinion: introduced direct user discovery at eXp (50+ conversations). At Virbela, 200+ customer interviews and structured discovery sprints cut wasted engineering effort by 25% in the first year.
+- Teams own outcomes, not tickets. One roadmap that includes technical health. Features released early behind flags.
+- Hires for curiosity and judgment, requiring only true deal-breakers.
+
+## Independent products
+
+Built on his own time and not yet launched. They show his product method in work that isn't proprietary to an employer.
+
+- [BookshelfAI](https://billmchenry.org/work/bookshelfai): multimodal AI app that catalogs several books from one photo. Shows pricing designed alongside inference cost and a server-authoritative architecture.
+- [BC Arcade](https://billmchenry.org/work/bc-arcade): casual games for short sessions, with no freemium pressure. Shows playtest-driven redesigns and an offline-first architecture.
+
+## Pages
+
+- [Home](https://billmchenry.org/): leadership scope, principles and stories
+- [Resume](https://billmchenry.org/resume): full work history
+- [Work](https://billmchenry.org/work): case studies
+- [Contact](https://billmchenry.org/contact)
+- [LinkedIn](https://www.linkedin.com/in/bill-mchenry/)

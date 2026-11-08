@@ -128,6 +128,15 @@ See [~/.claude/standards/testing.md](~/.claude/standards/testing.md) for univers
 - Contains `<main>` landmark with `id="main-content"`
 - Home: leadership sections (scope, principles, how I lead, stories) come before the independent products, then career; no `$6M` anywhere
 - Resume page renders the Professional Summary, Experience, Capabilities, and Education & Certifications sections
+- Resume summary leads with six years directly managing product managers; eXp and Virbela show a scope line (`experience.<key>.scope`); no `$6M`
+
+### Positioning and metadata (`src/test/positioning.test.js`)
+
+- JSON-LD parses, keeps the factual `jobTitle`, and its `description` states six years directly managing product managers
+- The JSON-LD block's sha256 hash appears in every CSP declaration (`index.html`, `public/_headers`, `render.yaml`). Re-hash after editing the block, and update the Render dashboard header too
+- `<title>` is "Bill McHenry | Product Management Leader"; the meta description states six years managing product managers
+- `public/llms.txt` states the management tenure and links the main pages
+- No `$6M` or sensitive specifics (influencers, chairman, separations) in `index.html`, `llms.txt`, English locales or `src/data`
 
 ## Data File Tests
 
